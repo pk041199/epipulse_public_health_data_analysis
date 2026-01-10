@@ -3,7 +3,7 @@ project:
   output-dir: docs 
 
 website:
-  title: "Epi pulse public health data analysis workflow"
+  title: "Epipulse public health data analysis"
   navbar:
     left:
       - href: index.qmd
