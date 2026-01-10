@@ -1,6 +1,6 @@
 # Epipulse Public Health Data Analysis
 
-**Public Health Data Analysis** is an open educational resource developed as part of **Epipulse NGO initiatives**.
+**Public Health Data Analysis** is an open educational resource developed as part of **Epipulse initiatives**.
 
 ## 📘 Overview
 The project provides **reproducible, ethics-aware workflows** for:
@@ -26,7 +26,7 @@ The materials are designed for:
 This project is licensed under the  
 **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-© Epipulse NGO
+© Epipulse
 
 
 ---

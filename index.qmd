@@ -27,7 +27,7 @@ This site documents a **reproducible, AI-assisted workflow** for public health d
 
 ## Licence
 
-© Epipulse NGO
+© Epipulse
 
 This work is licensed under a\
 **Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.
