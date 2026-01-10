@@ -8,10 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: human_cleaning_validation.qmd
-        text: Human cleaning and validation
-      - href: ai_cleaning_validation.qmd
-        text: AI Cleaning and Validation
+      - href: cleaning_validation.qmd
+        text: Cleaning and validation
       - href: export.qmd
         text: Export Formats
 

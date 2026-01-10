@@ -15,10 +15,11 @@ This site documents a **reproducible, AI-assisted workflow** for public health d
 
 ### What this site covers
 
--   Data cleaning and validation
--   AI-assisted code generation
--   Variable labelling and reference categories
--   Exporting data for R, SPSS, and Stata
+1.  AI-assisted code generation
+
+2.  Data cleaning and validation, Variable labeling and reference categories
+
+3.  Exporting data for R, SPSS, and Stata
 
 > ⚠️ This is a **template document**.\
 > No code is executed.
