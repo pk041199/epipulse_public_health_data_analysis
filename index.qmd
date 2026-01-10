@@ -1,0 +1,37 @@
+---
+title: "Epipulse Public Health Data Analysis"
+execute:
+  eval: false
+format:
+  html:
+    toc: true
+    number-sections: true
+editor: visual
+---
+
+## Welcome
+
+This site documents a **reproducible, AI-assisted workflow** for public health data analysis.
+
+### What this site covers
+
+-   Data cleaning and validation
+-   AI-assisted code generation
+-   Variable labelling and reference categories
+-   Exporting data for R, SPSS, and Stata
+
+> ⚠️ This is a **template document**.\
+> No code is executed.
+
+------------------------------------------------------------------------
+
+## Licence
+
+© Epipulse NGO
+
+This work is licensed under a\
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** licence.
+
+You are free to share and adapt this material with appropriate attribution.
+
+[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Epi pulse public health data analysis workflow"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: human_cleaning_validation.qmd
+        text: Human cleaning and validation
+      - href: ai_cleaning_validation.qmd
+        text: AI Cleaning and Validation
+      - href: export.qmd
+        text: Export Formats
+
+format:
+  html:
+    toc: true
+    number-sections: true

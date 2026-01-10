@@ -1,0 +1,104 @@
+---
+title: "Human-assisted Data Cleaning Workflow"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+editor: visual
+execute:
+  eval: false
+  echo: true
+  warning: false
+  message: false
+---
+
+# Human - Data cleaning and validation
+
+## Data inspection
+
+#### Load
+
+```{r}
+df <- read.csv("data.csv", stringsAsFactors = FALSE)
+```
+
+#### Inspect
+
+```{r}
+dim(df); names(df); str(df); summary(df)
+```
+
+#### Clean names
+
+```{r}
+df <- clean_names(df)
+```
+
+#### Explore
+
+```{r}
+skim(df)
+```
+
+#### Unique values
+
+```{r}
+df |> select(where(is.character)) |> lapply(unique)
+```
+
+#### Missingness
+
+```{r}
+colMeans(is.na(df)) * 100
+```
+
+#### Validate
+
+```{r}
+
+table(df$sex)
+range(df$age, na.rm = TRUE)
+```
+
+## Data typing + labels + reference categories (Sample)
+
+```{r}
+
+# Ensure age is numeric
+df <- df |>
+  mutate(age = as.numeric(age))
+
+# Convert sex to factor and set reference category
+# Reference = Male (standard epidemiologic practice)
+df <- df |>
+  mutate(
+    sex = factor(sex, levels = c("Male", "Female")),
+    sex = relevel(sex, ref = "Male")
+  )
+
+# Convert smoking status to factor
+# Reference = No (unexposed group)
+df <- df |>
+  mutate(
+    smoking = factor(smoking, levels = c("No", "Yes")),
+    smoking = relevel(smoking, ref = "No")
+  )
+
+# Education level (reference = lowest education)
+df <- df |>
+  mutate(
+    education = factor(
+      education,
+      levels = c("No formal education", "Primary", "Secondary", "Higher")
+    ),
+    education = relevel(education, ref = "No formal education")
+  )
+
+# Add variable labels (for tables and reports)
+attr(df$age, "label") <- "Age in completed years"
+attr(df$sex, "label") <- "Sex of the participant"
+attr(df$smoking, "label") <- "Current smoking status"
+attr(df$education, "label") <- "Highest educational attainment"
+
+```
