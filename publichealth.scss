@@ -1,0 +1,45 @@
+/* ---- Public Health NGO Theme ---- */
+/* Brand colors */
+$primary: #0b6e6b;
+$secondary: #083c5d;
+$success: #6bbf59;
+$info: #5bc0de;
+
+/* Typography */
+$font-family-sans-serif: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+/* Body */
+body {
+  background-color: #f8f9fa;
+  line-height: 1.7;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: $secondary;
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+  font-weight: 500;
+}
+
+/* Links */
+a {
+  color: $primary;
+}
+a:hover {
+  color: darken($primary, 10%);
+}
+
+/* Callouts (Quarto boxes) */
+.callout-note {
+  border-left-color: $primary;
+}
+.callout-warning {
+  border-left-color: #d9534f;
+}
+.callout-tip {
+  border-left-color: $success;
+}

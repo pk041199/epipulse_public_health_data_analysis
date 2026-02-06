@@ -1,0 +1,41 @@
+---
+title: "Community"
+---
+
+# EpiPulse Community
+
+This space supports discussion on public health research,
+data analysis, and capacity building.
+
+---
+
+## Start Here (Featured Topics)
+
+- 📌 Welcome & community guidelines  
+- 📊 Public health data analysis discussions  
+- 🤖 AI-assisted epidemiology workflows  
+- 🎓 Student & early-career questions  
+
+Scroll below to participate in ongoing discussions.
+
+---
+
+## Discussion Board
+
+```{html}
+<script src="https://giscus.app/client.js"
+        data-repo="YOUR-ORG/YOUR-REPO"
+        data-repo-id="YOUR_REPO_ID"
+        data-category="General"
+        data-category-id="YOUR_CATEGORY_ID"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-theme="light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+```
+
+[Join EpiPulse Community Discussions →](https://github.com/YOUR-ORG/YOUR-REPO/discussions)

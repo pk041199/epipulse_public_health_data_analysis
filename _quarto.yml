@@ -3,16 +3,21 @@ project:
   output-dir: docs 
 
 website:
-  title: "Epipulse public health data analysis"
+  title: "EpiPulse"
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
-      - href: cleaning_validation.qmd
-        text: Cleaning and validation
-
+      - href: public_health_data_analaysis.qmd
+        text: Public Health Data Analysis
+      - href: community.qmd
+        text: Community
 
 format:
   html:
+    theme:
+      light: [flatly, publichealth.scss]
     toc: true
     number-sections: true
+
