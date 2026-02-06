@@ -22,20 +22,20 @@ Scroll below to participate in ongoing discussions.
 
 ## Discussion Board
 
-```{html}
 <script src="https://giscus.app/client.js"
-        data-repo="YOUR-ORG/YOUR-REPO"
-        data-repo-id="YOUR_REPO_ID"
+        data-repo="pk041199/epipulse_public_health_data_analysis"
+        data-repo-id="R_kgDOQ3IJkg"
         data-category="General"
-        data-category-id="YOUR_CATEGORY_ID"
-        data-mapping="pathname"
+        data-category-id="DIC_kwDOQ3IJks4C19EI"
+        data-mapping="title"
+        data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
-        data-theme="light"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
         crossorigin="anonymous"
         async>
 </script>
-
-```
 
 [Join EpiPulse Community Discussions →](https://github.com/YOUR-ORG/YOUR-REPO/discussions)

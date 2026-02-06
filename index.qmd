@@ -5,6 +5,8 @@ execute:
 format:
   html:
     toc: true
+    toc-depth: 3       
+    toc-location: left
     number-sections: true
 editor: visual
 ---
@@ -17,87 +19,78 @@ editor: visual
 
 Rooted in the principles of equity, prevention, and scientific rigor, Epi-Pulse aims to respond to emerging and persistent public health challenges with speed, integrity, and impact.
 
----
+------------------------------------------------------------------------
 
 ## **Vision**
 
 To build healthier, resilient, and equitable communities by transforming epidemiological evidence into sustainable public health action.
 
----
+------------------------------------------------------------------------
 
 ## **Mission**
 
-* To generate and translate high-quality public health evidence for informed decision-making
-* To strengthen community-based prevention and health promotion initiatives
-* To support public health systems through research, training, and technical assistance
-* To promote equity, ethics, and One Health approaches in public health practice
+-   To generate and translate high-quality public health evidence for informed decision-making
+-   To strengthen community-based prevention and health promotion initiatives
+-   To support public health systems through research, training, and technical assistance
+-   To promote equity, ethics, and One Health approaches in public health practice
 
----
+------------------------------------------------------------------------
 
 ## **Aims & Objectives**
 
 Epi-Pulse aims to:
 
-1. Conduct epidemiological and public health research addressing priority health issues
-2. Support disease surveillance, outbreak investigation, and health systems strengthening
-3. Promote preventive, promotive, and primary health care interventions
-4. Build capacity among students, health professionals, and community stakeholders
-5. Advocate for evidence-based public health policies and ethical research practices
-6. Integrate One Health, environmental, and occupational health perspectives into public health action
+1.  Conduct epidemiological and public health research addressing priority health issues
+2.  Support disease surveillance, outbreak investigation, and health systems strengthening
+3.  Promote preventive, promotive, and primary health care interventions
+4.  Build capacity among students, health professionals, and community stakeholders
+5.  Advocate for evidence-based public health policies and ethical research practices
+6.  Integrate One Health, environmental, and occupational health perspectives into public health action
 
----
+------------------------------------------------------------------------
 
 ## **Scope of Work**
 
 Our work spans multiple domains of public health, including:
 
-* **Health Education & Capacity Building**
-  Training programs, workshops, student mentorship, and public health advocacy
+-   **Health Education & Capacity Building** Training programs, workshops, student mentorship, and public health advocacy
 
-* **Non-Communicable Diseases (NCDs)**
-  Research and interventions related to diabetes, hypertension, nutrition, and lifestyle diseases
+-   **Non-Communicable Diseases (NCDs)** Research and interventions related to diabetes, hypertension, nutrition, and lifestyle diseases
 
-* **Maternal, Child & Adolescent Health**
-  Community-based programs, nutrition assessments, and school health initiatives
+-   **Maternal, Child & Adolescent Health** Community-based programs, nutrition assessments, and school health initiatives
 
-* **Environmental & Occupational Health**
-  Impact of air quality, workplace exposures, and climate factors on health
+-   **Environmental & Occupational Health** Impact of air quality, workplace exposures, and climate factors on health
 
-* **One Health & Emerging Infections**
-  Integrated approaches linking human, animal, and environmental health
+-   **One Health & Emerging Infections** Integrated approaches linking human, animal, and environmental health
 
-* **Epidemiology & Surveillance**
-  Disease surveillance, outbreak investigations, and data-driven risk assessments
+-   **Epidemiology & Surveillance** Disease surveillance, outbreak investigations, and data-driven risk assessments
 
-
----
+------------------------------------------------------------------------
 
 ## **When We Started**
 
-Epi-Pulse was conceptualized in **[Year]** and formally established in **[Month, Year]** in response to the growing need for agile, evidence-driven public health organizations in India.
+Epi-Pulse was conceptualized in **\[Year\]** and formally established in **\[Month, Year\]** in response to the growing need for agile, evidence-driven public health organizations in India.
 
----
+------------------------------------------------------------------------
 
 ## **Registration Details**
 
-* **Legal Status:** Registered Non-Governmental Organization
-* **Registration Act:** [Section 8 Company]
-* **Registration Number:** [To be updated]
-* **Place of Registration:** [City, State, Country]
+-   **Legal Status:** Registered Non-Governmental Organization
+-   **Registration Act:** \[Section 8 Company\]
+-   **Registration Number:** \[To be updated\]
+-   **Place of Registration:** \[City, State, Country\]
 
----
+------------------------------------------------------------------------
 
 ## **Leadership & Governance**
 
 ### **Director**
 
-**Dr. [Name]**
-Qualifications: [MBBS / MD / MPH / PhD – as applicable]
-Expertise: Public Health, Epidemiology, [Key areas]
+**Dr. \[Name\]** Qualifications: \[MBBS / MD / MPH / PhD – as applicable\] Expertise: Public Health, Epidemiology, \[Key areas\]
 
 The Director provides strategic leadership, oversees research and programs, and represents Epi-Pulse in academic, governmental, and community platforms.
 
----
+------------------------------------------------------------------------
 
 ### **Core Members**
 
@@ -105,32 +98,28 @@ Epi-Pulse is supported by a multidisciplinary team of public health professional
 
 **Core Team Includes:**
 
-* Epidemiologists
-* Public Health Researchers
-* Medical Professionals
-* Data Analysts & GIS Specialists
-* Field Coordinators & Program Officers
+-   Epidemiologists
+-   Public Health Researchers
+-   Medical Professionals
+-   Data Analysts & GIS Specialists
+-   Field Coordinators & Program Officers
 
 *(Individual member profiles can be added as separate pages if needed.)*
 
----
+------------------------------------------------------------------------
 
 ## **Our Values**
 
-* **Scientific Integrity** – Evidence before opinion
-* **Equity & Ethics** – Health for all, without discrimination
-* **Collaboration** – Partnerships across sectors and disciplines
-* **Community Engagement** – People-centered public health
-* **Impact Orientation** – Research that leads to action
+-   **Scientific Integrity** – Evidence before opinion
+-   **Equity & Ethics** – Health for all, without discrimination
+-   **Collaboration** – Partnerships across sectors and disciplines
+-   **Community Engagement** – People-centered public health
+-   **Impact Orientation** – Research that leads to action
 
----
+------------------------------------------------------------------------
 
 ## **Our Commitment**
 
 At Epi-Pulse, we believe that timely data, ethical research, and community-driven solutions are the heartbeat of effective public health. We are committed to strengthening health systems, empowering communities, and shaping healthier futures.
 
----
-
-
-
-
+------------------------------------------------------------------------

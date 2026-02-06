@@ -3,7 +3,7 @@ title: "AI-assisted Data Cleaning Workflow"
 format:
   html:
     toc: true
-    toc-depth: 1        # ONLY H1 in left index
+    toc-depth: 3        
     toc-location: left
     number-sections: true
     grid:

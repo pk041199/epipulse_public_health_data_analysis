@@ -1,4 +1,6 @@
+/*-- scss:defaults --*/
 /* ---- Public Health NGO Theme ---- */
+
 /* Brand colors */
 $primary: #0b6e6b;
 $secondary: #083c5d;
@@ -7,6 +9,9 @@ $info: #5bc0de;
 
 /* Typography */
 $font-family-sans-serif: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+
+/*-- scss:rules --*/
 
 /* Body */
 body {
@@ -24,11 +29,24 @@ h1, h2, h3 {
 .navbar {
   font-weight: 500;
 }
+/* Active navbar link */
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  background-color: $primary;
+  border-radius: 0.4rem;
+}
+
+/* Hover effect for navbar links */
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 0.4rem;
+}
 
 /* Links */
 a {
   color: $primary;
 }
+
 a:hover {
   color: darken($primary, 10%);
 }
@@ -37,9 +55,11 @@ a:hover {
 .callout-note {
   border-left-color: $primary;
 }
+
 .callout-warning {
   border-left-color: #d9534f;
 }
+
 .callout-tip {
   border-left-color: $success;
 }

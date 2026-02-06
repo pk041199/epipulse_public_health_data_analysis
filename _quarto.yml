@@ -11,11 +11,11 @@ website:
         text: Home
       - href: public_health_data_analaysis.qmd
         text: Public Health Data Analysis
-      
+      - href: community.qmd
+        text: community
 format:
   html:
-    theme:
-      light: [flatly, publichealth.scss]
+    theme: litera 
     toc: true
     number-sections: true
 
