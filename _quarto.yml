@@ -11,9 +11,7 @@ website:
         text: Home
       - href: public_health_data_analaysis.qmd
         text: Public Health Data Analysis
-      - href: community.qmd
-        text: Community
-
+      
 format:
   html:
     theme:
