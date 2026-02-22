@@ -1,0 +1,44 @@
+---
+title: "CareGrid App"
+format:
+  html:
+    toc: true
+---
+
+## About CareGrid
+
+CareGrid is an upcoming EpiPulse digital platform being developed to support public health workflows, coordination, and implementation efficiency.
+
+## Development Status
+
+CareGrid is currently under development. Public release links will be activated once testing, compliance, and deployment are complete.
+
+## Future User Manual
+
+The user manual will be published here after release:
+
+- Web Manual: [Coming soon]
+- PDF Manual: [Coming soon]
+- Quick Start Guide: [Coming soon]
+
+## Future Download Links
+
+### Mobile
+
+- Google Play Store: [Coming soon]
+- Apple App Store: [Coming soon]
+
+### Desktop
+
+- Windows Installer: [Coming soon]
+
+## Planned Support
+
+- Release notes and version history
+- Onboarding tutorials
+- FAQ and troubleshooting
+- Helpdesk contact pathway
+
+## Contact
+
+For pilot collaboration or early technical discussions, use [Contact](contact.qmd#partner).

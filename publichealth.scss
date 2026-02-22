@@ -67,8 +67,37 @@ a:hover {
   box-shadow: 0 12px 28px rgba(10, 41, 48, 0.22);
 }
 
+.hero-mission {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-mission::after {
+  content: "";
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  right: -90px;
+  top: -90px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+}
+
+.hero-kicker {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.16);
+}
+
 .hero h1 {
   color: #ffffff;
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
 }
 
 .hero .btn {
@@ -83,6 +112,14 @@ a:hover {
   margin: 1rem 0 2rem;
 }
 
+.mvo-grid,
+.objective-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
 .metric-card,
 .info-card {
   background: var(--ep-surface);
@@ -90,6 +127,34 @@ a:hover {
   border-radius: 0.85rem;
   padding: 1rem 1rem 0.9rem;
   box-shadow: 0 8px 18px rgba(16, 52, 61, 0.08);
+}
+
+.mvo-card,
+.objective-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbfc 100%);
+  border: 1px solid #d2e3e7;
+  border-radius: 0.9rem;
+  padding: 1.05rem 1rem;
+  box-shadow: 0 8px 18px rgba(16, 52, 61, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: rise-in 0.45s ease both;
+}
+
+.mvo-card:hover,
+.objective-card:hover,
+.info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(16, 52, 61, 0.14);
+}
+
+.mvo-card h3,
+.objective-card h3 {
+  color: $primary;
+  margin-bottom: 0.5rem;
+}
+
+.objective-card h3 {
+  font-size: 1.05rem;
 }
 
 .team-grid {
@@ -166,6 +231,17 @@ a:hover {
 
 .page-footer {
   border-top: 1px solid var(--ep-border);
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 768px) {

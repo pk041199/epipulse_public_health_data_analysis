@@ -5,47 +5,64 @@ format:
     toc: true
 ---
 
-## Program Areas
+## Program Philosophy
+
+EpiPulse programs are designed to convert mission into measurable public health action through rigorous methods, field implementation, and system collaboration.
+
+## Mission-to-Program Domains
 
 :::{.card-grid}
 ::: {.info-card}
 ### Epidemiology and Surveillance
-Disease surveillance design, outbreak support, risk assessment, and rapid analytics for action.
+Disease intelligence, risk analysis, and evidence pathways for informed decisions.
 :::
 
 ::: {.info-card}
 ### Non-Communicable Disease Prevention
-Research and interventions on hypertension, diabetes, nutrition, and lifestyle-risk reduction.
+Community-focused interventions on hypertension, diabetes, nutrition, and lifestyle risks.
 :::
 
 ::: {.info-card}
 ### Maternal, Child, and Adolescent Health
-Community programs, nutrition assessment, school health, and implementation support.
+Life-course and school-community interventions with implementation support.
 :::
 
 ::: {.info-card}
 ### Environmental and Occupational Health
-Assessment of climate, workplace exposure, and environmental determinants of health.
+Public health responses to environmental exposures and workplace determinants.
 :::
 
 ::: {.info-card}
 ### One Health and Emerging Infections
-Integrated human-animal-environment public health approaches for emerging threats.
+Integrated human-animal-environment approaches to future health threats.
 :::
 
 ::: {.info-card}
 ### Education and Capacity Building
-Training, mentorship, and workforce support for students and public health professionals.
+Workforce development through training, mentorship, and practical implementation tools.
 :::
 :::
 
-## How We Work
+## Program Objectives
 
-1. Assess local context and public health priorities
-2. Co-design interventions with community and institutional partners
-3. Implement with clear monitoring indicators
-4. Measure outcomes and continuously improve
+- Build intervention models that are evidence-based and field-feasible
+- Strengthen local capacity to implement and monitor public health actions
+- Improve transparency and reproducibility in program documentation
+- Align implementation with ethics, equity, and accountability
 
-## Partner With Us
+## Division Alignment for Delivery
+
+- Research and Evidence: Protocols, methods, and evidence generation
+- Public Health Implementation: Field execution and community operations
+- Collaboration and Partnerships: Institutional and CSR coordination
+- Accounts and Legal Compliance: Governance and statutory compliance
+- Software and Systems: Data systems and digital workflows
+- Education and Fellowship: Training and workforce development
+- Monitoring, Evaluation, Impact, and Ethics: Quality assurance and responsible measurement
+- Grants, Funding, and Resource Mobilization: Resource planning and sustainability
+
+For division-wise templates and materials, use the [Resource Hub](public_health_data_analysis.qmd).
+
+## Collaboration
 
 For collaborations, grants, and institutional partnerships, visit [Contact](contact.qmd#partner).

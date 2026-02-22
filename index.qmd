@@ -8,79 +8,79 @@ format:
 editor: visual
 ---
 
-:::{.hero}
-# EpiPulse: Advancing Public Health Through Evidence and Action
+::: {.hero .hero-mission}
+<p class="hero-kicker">Section 8 Public Health Organization</p>
 
-EpiPulse is a public health NGO working at the intersection of epidemiology, community engagement, and implementation science. We turn health data into practical action for stronger and more equitable communities.
+# Evidence. Equity. Action.
 
-<a class="btn btn-primary btn-lg me-2" href="transparency.qmd#donation-and-payment-status">Support Us</a>
-<a class="btn btn-outline-light btn-lg" href="contact.qmd#volunteer">Get Involved</a>
+EpiPulse is building a mission-driven public health platform that links epidemiology, implementation science, and community partnerships to create measurable social benefit.
+
+<a class="btn btn-primary btn-lg me-2" href="about.qmd">Mission and Vision</a>
+<a class="btn btn-outline-light btn-lg" href="contact.qmd#volunteer">Volunteer With Us</a>
 :::
 
-## At a Glance
+## Mission, Vision, and Objectives
 
-:::{.metric-grid}
-::: {.metric-card}
-### Baseline
-Current-year validated metrics will be published after our first reporting cycle.
+::: {.mvo-grid}
+::: {.mvo-card}
+### Mission
+Generate and translate high-quality public health evidence into practical decisions, responsible implementation, and community benefit.
 :::
 
-::: {.metric-card}
-### Ongoing
-Program and training updates are published in rolling quarterly summaries.
+::: {.mvo-card}
+### Vision
+Build healthier, resilient, and equitable communities by connecting science, systems, and people-centered action.
 :::
 
-::: {.metric-card}
-### Transparent
-Only audited and verified numbers are shown on this website.
-:::
-
-::: {.metric-card}
-### Reported
-See detailed indicators on the Impact and Transparency pages.
+::: {.mvo-card}
+### Strategic Objective
+Create an institution that is scientifically rigorous, ethically grounded, operationally transparent, and collaborative by design.
 :::
 :::
 
-## What We Do
+## Core Objectives
 
-:::{.card-grid}
-::: {.info-card}
-### Epidemiology and Surveillance
-Data-driven surveillance support, outbreak analytics, and actionable dashboards for local decision-makers.
+::: {.objective-grid}
+::: {.objective-card}
+### Objective 01
+Advance epidemiology and implementation research focused on real public health priorities.
 :::
 
-::: {.info-card}
-### Non-Communicable Disease Prevention
-Community interventions for diabetes, hypertension, nutrition, and behavior-risk reduction.
+::: {.objective-card}
+### Objective 02
+Strengthen prevention and health-promotion programs in community settings.
 :::
 
-::: {.info-card}
-### Maternal, Child, and Adolescent Health
-Field research and implementation support for life-course health and school/community prevention.
+::: {.objective-card}
+### Objective 03
+Support institutions with training, methods, and technical public health systems inputs.
 :::
 
-::: {.info-card}
-### Capacity Building
-Workshops, mentoring, and reproducible data workflows for students, researchers, and frontline teams.
+::: {.objective-card}
+### Objective 04
+Embed ethics, equity, One Health thinking, and data responsibility across all workflows.
 :::
 :::
 
-## Why Partners Work With EpiPulse
+## How the Mission Gets Delivered
 
-We combine rigorous methods with practical implementation. Our model supports governments, institutions, and communities with:
+Our mission is executed through eight internal divisions:
 
-- Fast evidence synthesis for decision-making
-- Ethical and equity-centered public health practice
-- Cross-disciplinary teams (epidemiology, clinical, analytics, field operations)
-- Transparent documentation and reproducible methods
+1. Research and Evidence
+2. Public Health Implementation
+3. Collaboration and Partnerships
+4. Accounts and Legal Compliance
+5. Software and Systems
+6. Education and Fellowship
+7. Monitoring, Evaluation, Impact, and Ethics
+8. Grants, Funding, and Resource Mobilization
 
-## Field Updates
+Explore division-aligned materials in the [Resource Hub](public_health_data_analysis.qmd).
 
-Case stories and partner testimonials will be published after programs are operational and consented narratives are available.
+## Current Stage
 
-## Work With Us
+EpiPulse is in its setup phase. Programs, reports, and donation channels will be activated and published in line with compliance and verification standards.
 
-- [Partner on a Program](contact.qmd#partner)
-- [Volunteer as a Student or Professional](contact.qmd#volunteer)
-- [Support and Donation Status](transparency.qmd#donation-and-payment-status)
-- [Read Our Transparency Commitments](transparency.qmd)
+- [Transparency and Legal Framework](transparency.qmd)
+- [Programs Roadmap](programs.qmd)
+- [Community and Collaboration](community.qmd)

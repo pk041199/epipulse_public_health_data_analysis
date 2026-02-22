@@ -1,47 +1,102 @@
 ---
-title: "Public Health Data Analysis Resources"
+title: "Resource Hub"
 format:
   html:
     toc: true
 ---
 
-## Resource Hub
+## Purpose
 
-This page curates learning resources for reproducible and ethics-aware public health data workflows.
+This page is the central academic and technical resource index for EpiPulse. It is designed to support research quality, reproducibility, ethics, and implementation readiness across all internal divisions.
 
-## Current Featured Resources
+## Academic Objective
 
-- [AI-assisted Data Cleaning Workflow](ai_with_r.qmd)
-  End-to-end R workflow for AI-assisted cleaning, labeling, and export.
+EpiPulse resources are developed to:
 
-- [Community](community.qmd)
-  Discussion space for implementation questions and peer support.
+- Strengthen protocol-to-publication research workflows
+- Improve evidence quality in public health decision-making
+- Build practical skills in epidemiology, analytics, and implementation
+- Standardize documentation, data governance, and reproducibility
+- Support collaborative work across research, program, and systems teams
 
-- [Transparency](transparency.qmd)
-  Legal framework and current operational status.
+## Core Resource Collection
 
-## Upcoming Resource Tracks
+- [AI-assisted Data Cleaning Workflow](ai_with_r.qmd)  
+  Practical R workflow for de-identified AI-assisted data cleaning, typing, labeling, and export.
 
-- Research protocol templates
-- Data governance and ethics templates
-- Monitoring and evaluation toolkits
-- Grant and CSR collaboration documentation
+- [Community](community.qmd)  
+  Discussion space for technical questions, peer support, and method exchange.
 
-## Recommended Use Path
+- [Transparency](transparency.qmd)  
+  Legal structure, governance framework, and pre-launch operational status.
 
-1. Prepare de-identified datasets
-2. Use structured templates for cleaning and validation
-3. Review all AI-assisted code before execution
-4. Document assumptions and decisions
-5. Export reproducible outputs with data dictionaries
+## Resource Architecture by Internal Division
 
-## Technical Draft Archive
+### 1) Research and Evidence Division
 
-The earlier long-form draft is available at:
+- Protocol templates
+- Study design and methods notes
+- Evidence synthesis and review workflows
+- Manuscript and reporting guides
+
+### 2) Public Health Implementation Division
+
+- Program design templates
+- Field implementation SOPs
+- Community intervention documentation tools
+- Operational learning notes
+
+### 3) Collaboration and Partnerships Division
+
+- Collaboration framework notes
+- Partner onboarding documents
+- CSR-alignment concept notes
+- Joint implementation documentation standards
+
+### 4) Accounts and Legal Compliance Division
+
+- Compliance checklist templates
+- Statutory reporting tracker formats
+- Donation policy and governance documentation
+- Basic audit-preparedness templates
+
+### 5) Software and Systems Division
+
+- Data pipeline setup guides
+- Reproducible coding conventions
+- Version control and release notes templates
+- Data interoperability and export standards
+
+### 6) Education and Fellowship Division
+
+- Learning modules for students and professionals
+- Workshop and mentorship materials
+- Fellowship and internship learning pathways
+- Competency tracking templates
+
+### 7) Monitoring, Evaluation, Impact, and Ethics Division
+
+- Indicator frameworks
+- M&E toolkits
+- Ethics and data responsibility checklists
+- Impact reporting templates (to be activated post-launch)
+
+### 8) Grants, Funding, and Resource Mobilization Division
+
+- Concept note templates
+- Grant narrative and budget drafting guides
+- Funding opportunity tracker formats
+- Donor communication structure templates
+
+## Recommended Path for New Users
+
+1. Start with the [AI-assisted Data Cleaning Workflow](ai_with_r.qmd)
+2. Review legal and operational status on [Transparency](transparency.qmd)
+3. Use division-specific templates relevant to your workstream
+4. Discuss practical challenges in [Community](community.qmd)
+5. Archive outputs with clear versioning and data dictionaries
+
+## Archive
+
+The earlier long-form draft remains available:
 [Legacy technical page](public_health_data_analaysis.qmd)
-
-## Community Support
-
-You can ask implementation questions in [Community](community.qmd).
-
-For the complete implementation workflow, use [AI-assisted Data Cleaning Workflow](ai_with_r.qmd).

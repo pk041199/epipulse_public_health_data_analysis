@@ -7,34 +7,55 @@ format:
 
 ## Who We Are
 
-EpiPulse is a public health non-governmental organization focused on translating evidence into action. We support communities and institutions through epidemiological intelligence, program implementation, and applied training.
+EpiPulse is a Section 8 public health organization being developed to connect research quality, implementation strength, and social accountability.
 
-## Vision
+## Mission, Vision, and Institutional Objective
 
-To build healthier, resilient, and equitable communities by transforming public health evidence into sustainable action.
+:::{.mvo-grid}
+::: {.mvo-card}
+### Mission
+Generate and apply high-quality public health evidence for better community outcomes and stronger systems.
+:::
 
-## Mission
+::: {.mvo-card}
+### Vision
+Create healthier and more equitable communities through evidence-led, ethically grounded public health action.
+:::
 
-- Generate and translate high-quality public health evidence for informed decisions
-- Strengthen community-based prevention and health promotion
-- Support health systems through research, training, and technical assistance
-- Promote equity, ethics, and One Health approaches in practice
+::: {.mvo-card}
+### Institutional Objective
+Develop a sustainable public health institution that combines scientific rigor, implementation capacity, and transparent governance.
+:::
+:::
 
 ## Values
 
 - Scientific integrity
-- Equity and ethics
-- Collaboration
-- Community engagement
-- Impact orientation
+- Equity and inclusion
+- Ethics and accountability
+- Collaboration and interdisciplinary work
+- Community-centered implementation
+
+## Internal Divisions (Operational Framework)
+
+EpiPulse is organized into the following internal divisions:
+
+1. Research and Evidence Division
+2. Public Health Implementation Division
+3. Collaboration and Partnerships Division
+4. Accounts and Legal Compliance Division
+5. Software and Systems Division
+6. Education and Fellowship Division
+7. Monitoring, Evaluation, Impact, and Ethics Division
+8. Grants, Funding, and Resource Mobilization Division
 
 ## Governance Note
 
-Member and director details are currently maintained in official filings and project documentation, and are not listed on this page for now.
+Member and director details are maintained in official filings and project documentation, and are not publicly listed at this stage.
 
-## Organizational Background
+## Organizational Stage
 
 - Legal and operational milestones will be published after incorporation and commencement are formally completed.
 - Country Focus: India
 
-For legal and reporting details, visit [Transparency](transparency.qmd).
+For legal framework and status, visit [Transparency](transparency.qmd).

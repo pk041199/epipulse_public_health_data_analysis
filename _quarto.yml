@@ -14,12 +14,18 @@ website:
         text: About
       - href: programs.qmd
         text: Programs
+      - href: caregrid.qmd
+        text: CareGrid App
       - href: impact.qmd
         text: Impact
-      - href: public_health_data_analysis.qmd
-        text: Resources
-      - href: ai_with_r.qmd
-        text: AI With R
+      - text: Resources
+        menu:
+          - href: public_health_data_analysis.qmd
+            text: Resource Hub
+          - href: ai_with_r.qmd
+            text: AI-assisted Data Cleaning Workflow
+          - href: public_health_data_analaysis.qmd
+            text: Legacy Technical Draft
       - href: community.qmd
         text: Community
       - href: contact.qmd

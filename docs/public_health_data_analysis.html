@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Public Health Data Analysis Resources – EpiPulse</title>
+<title>Resource Hub – EpiPulse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-34506e7894cf698910d0a594b0c673b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d873eaa0364290031e20d2fc285699e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,17 +103,32 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Programs</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./caregrid.html"> 
+<span class="menu-text">CareGrid App</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./impact.html"> 
 <span class="menu-text">Impact</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./public_health_data_analysis.html" aria-current="page"> 
-<span class="menu-text">Resources</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="./public_health_data_analysis.html">
+ <span class="dropdown-text">Resource Hub</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./ai_with_r.html"> 
-<span class="menu-text">AI With R</span></a>
+        <li>
+    <a class="dropdown-item" href="./ai_with_r.html">
+ <span class="dropdown-text">AI-assisted Data Cleaning Workflow</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./public_health_data_analaysis.html">
+ <span class="dropdown-text">Legacy Technical Draft</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./community.html"> 
 <span class="menu-text">Community</span></a>
@@ -144,12 +159,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#resource-hub" id="toc-resource-hub" class="nav-link active" data-scroll-target="#resource-hub">Resource Hub</a></li>
-  <li><a href="#current-featured-resources" id="toc-current-featured-resources" class="nav-link" data-scroll-target="#current-featured-resources">Current Featured Resources</a></li>
-  <li><a href="#upcoming-resource-tracks" id="toc-upcoming-resource-tracks" class="nav-link" data-scroll-target="#upcoming-resource-tracks">Upcoming Resource Tracks</a></li>
-  <li><a href="#recommended-use-path" id="toc-recommended-use-path" class="nav-link" data-scroll-target="#recommended-use-path">Recommended Use Path</a></li>
-  <li><a href="#technical-draft-archive" id="toc-technical-draft-archive" class="nav-link" data-scroll-target="#technical-draft-archive">Technical Draft Archive</a></li>
-  <li><a href="#community-support" id="toc-community-support" class="nav-link" data-scroll-target="#community-support">Community Support</a></li>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#academic-objective" id="toc-academic-objective" class="nav-link" data-scroll-target="#academic-objective">Academic Objective</a></li>
+  <li><a href="#core-resource-collection" id="toc-core-resource-collection" class="nav-link" data-scroll-target="#core-resource-collection">Core Resource Collection</a></li>
+  <li><a href="#resource-architecture-by-internal-division" id="toc-resource-architecture-by-internal-division" class="nav-link" data-scroll-target="#resource-architecture-by-internal-division">Resource Architecture by Internal Division</a>
+  <ul class="collapse">
+  <li><a href="#research-and-evidence-division" id="toc-research-and-evidence-division" class="nav-link" data-scroll-target="#research-and-evidence-division">1) Research and Evidence Division</a></li>
+  <li><a href="#public-health-implementation-division" id="toc-public-health-implementation-division" class="nav-link" data-scroll-target="#public-health-implementation-division">2) Public Health Implementation Division</a></li>
+  <li><a href="#collaboration-and-partnerships-division" id="toc-collaboration-and-partnerships-division" class="nav-link" data-scroll-target="#collaboration-and-partnerships-division">3) Collaboration and Partnerships Division</a></li>
+  <li><a href="#accounts-and-legal-compliance-division" id="toc-accounts-and-legal-compliance-division" class="nav-link" data-scroll-target="#accounts-and-legal-compliance-division">4) Accounts and Legal Compliance Division</a></li>
+  <li><a href="#software-and-systems-division" id="toc-software-and-systems-division" class="nav-link" data-scroll-target="#software-and-systems-division">5) Software and Systems Division</a></li>
+  <li><a href="#education-and-fellowship-division" id="toc-education-and-fellowship-division" class="nav-link" data-scroll-target="#education-and-fellowship-division">6) Education and Fellowship Division</a></li>
+  <li><a href="#monitoring-evaluation-impact-and-ethics-division" id="toc-monitoring-evaluation-impact-and-ethics-division" class="nav-link" data-scroll-target="#monitoring-evaluation-impact-and-ethics-division">7) Monitoring, Evaluation, Impact, and Ethics Division</a></li>
+  <li><a href="#grants-funding-and-resource-mobilization-division" id="toc-grants-funding-and-resource-mobilization-division" class="nav-link" data-scroll-target="#grants-funding-and-resource-mobilization-division">8) Grants, Funding, and Resource Mobilization Division</a></li>
+  </ul></li>
+  <li><a href="#recommended-path-for-new-users" id="toc-recommended-path-for-new-users" class="nav-link" data-scroll-target="#recommended-path-for-new-users">Recommended Path for New Users</a></li>
+  <li><a href="#archive" id="toc-archive" class="nav-link" data-scroll-target="#archive">Archive</a></li>
   </ul>
 </nav>
     </div>
@@ -158,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Public Health Data Analysis Resources</h1>
+<h1 class="title">Resource Hub</h1>
 </div>
 
 
@@ -175,45 +200,120 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="resource-hub" class="level2">
-<h2 class="anchored" data-anchor-id="resource-hub">Resource Hub</h2>
-<p>This page curates learning resources for reproducible and ethics-aware public health data workflows.</p>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>This page is the central academic and technical resource index for EpiPulse. It is designed to support research quality, reproducibility, ethics, and implementation readiness across all internal divisions.</p>
 </section>
-<section id="current-featured-resources" class="level2">
-<h2 class="anchored" data-anchor-id="current-featured-resources">Current Featured Resources</h2>
+<section id="academic-objective" class="level2">
+<h2 class="anchored" data-anchor-id="academic-objective">Academic Objective</h2>
+<p>EpiPulse resources are developed to:</p>
 <ul>
-<li><p><a href="./ai_with_r.html">AI-assisted Data Cleaning Workflow</a> End-to-end R workflow for AI-assisted cleaning, labeling, and export.</p></li>
-<li><p><a href="./community.html">Community</a> Discussion space for implementation questions and peer support.</p></li>
-<li><p><a href="./transparency.html">Transparency</a> Legal framework and current operational status.</p></li>
+<li>Strengthen protocol-to-publication research workflows</li>
+<li>Improve evidence quality in public health decision-making</li>
+<li>Build practical skills in epidemiology, analytics, and implementation</li>
+<li>Standardize documentation, data governance, and reproducibility</li>
+<li>Support collaborative work across research, program, and systems teams</li>
 </ul>
 </section>
-<section id="upcoming-resource-tracks" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-resource-tracks">Upcoming Resource Tracks</h2>
+<section id="core-resource-collection" class="level2">
+<h2 class="anchored" data-anchor-id="core-resource-collection">Core Resource Collection</h2>
 <ul>
-<li>Research protocol templates</li>
-<li>Data governance and ethics templates</li>
-<li>Monitoring and evaluation toolkits</li>
-<li>Grant and CSR collaboration documentation</li>
+<li><p><a href="./ai_with_r.html">AI-assisted Data Cleaning Workflow</a><br>
+Practical R workflow for de-identified AI-assisted data cleaning, typing, labeling, and export.</p></li>
+<li><p><a href="./community.html">Community</a><br>
+Discussion space for technical questions, peer support, and method exchange.</p></li>
+<li><p><a href="./transparency.html">Transparency</a><br>
+Legal structure, governance framework, and pre-launch operational status.</p></li>
 </ul>
 </section>
-<section id="recommended-use-path" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-use-path">Recommended Use Path</h2>
+<section id="resource-architecture-by-internal-division" class="level2">
+<h2 class="anchored" data-anchor-id="resource-architecture-by-internal-division">Resource Architecture by Internal Division</h2>
+<section id="research-and-evidence-division" class="level3">
+<h3 class="anchored" data-anchor-id="research-and-evidence-division">1) Research and Evidence Division</h3>
+<ul>
+<li>Protocol templates</li>
+<li>Study design and methods notes</li>
+<li>Evidence synthesis and review workflows</li>
+<li>Manuscript and reporting guides</li>
+</ul>
+</section>
+<section id="public-health-implementation-division" class="level3">
+<h3 class="anchored" data-anchor-id="public-health-implementation-division">2) Public Health Implementation Division</h3>
+<ul>
+<li>Program design templates</li>
+<li>Field implementation SOPs</li>
+<li>Community intervention documentation tools</li>
+<li>Operational learning notes</li>
+</ul>
+</section>
+<section id="collaboration-and-partnerships-division" class="level3">
+<h3 class="anchored" data-anchor-id="collaboration-and-partnerships-division">3) Collaboration and Partnerships Division</h3>
+<ul>
+<li>Collaboration framework notes</li>
+<li>Partner onboarding documents</li>
+<li>CSR-alignment concept notes</li>
+<li>Joint implementation documentation standards</li>
+</ul>
+</section>
+<section id="accounts-and-legal-compliance-division" class="level3">
+<h3 class="anchored" data-anchor-id="accounts-and-legal-compliance-division">4) Accounts and Legal Compliance Division</h3>
+<ul>
+<li>Compliance checklist templates</li>
+<li>Statutory reporting tracker formats</li>
+<li>Donation policy and governance documentation</li>
+<li>Basic audit-preparedness templates</li>
+</ul>
+</section>
+<section id="software-and-systems-division" class="level3">
+<h3 class="anchored" data-anchor-id="software-and-systems-division">5) Software and Systems Division</h3>
+<ul>
+<li>Data pipeline setup guides</li>
+<li>Reproducible coding conventions</li>
+<li>Version control and release notes templates</li>
+<li>Data interoperability and export standards</li>
+</ul>
+</section>
+<section id="education-and-fellowship-division" class="level3">
+<h3 class="anchored" data-anchor-id="education-and-fellowship-division">6) Education and Fellowship Division</h3>
+<ul>
+<li>Learning modules for students and professionals</li>
+<li>Workshop and mentorship materials</li>
+<li>Fellowship and internship learning pathways</li>
+<li>Competency tracking templates</li>
+</ul>
+</section>
+<section id="monitoring-evaluation-impact-and-ethics-division" class="level3">
+<h3 class="anchored" data-anchor-id="monitoring-evaluation-impact-and-ethics-division">7) Monitoring, Evaluation, Impact, and Ethics Division</h3>
+<ul>
+<li>Indicator frameworks</li>
+<li>M&amp;E toolkits</li>
+<li>Ethics and data responsibility checklists</li>
+<li>Impact reporting templates (to be activated post-launch)</li>
+</ul>
+</section>
+<section id="grants-funding-and-resource-mobilization-division" class="level3">
+<h3 class="anchored" data-anchor-id="grants-funding-and-resource-mobilization-division">8) Grants, Funding, and Resource Mobilization Division</h3>
+<ul>
+<li>Concept note templates</li>
+<li>Grant narrative and budget drafting guides</li>
+<li>Funding opportunity tracker formats</li>
+<li>Donor communication structure templates</li>
+</ul>
+</section>
+</section>
+<section id="recommended-path-for-new-users" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-path-for-new-users">Recommended Path for New Users</h2>
 <ol type="1">
-<li>Prepare de-identified datasets</li>
-<li>Use structured templates for cleaning and validation</li>
-<li>Review all AI-assisted code before execution</li>
-<li>Document assumptions and decisions</li>
-<li>Export reproducible outputs with data dictionaries</li>
+<li>Start with the <a href="./ai_with_r.html">AI-assisted Data Cleaning Workflow</a></li>
+<li>Review legal and operational status on <a href="./transparency.html">Transparency</a></li>
+<li>Use division-specific templates relevant to your workstream</li>
+<li>Discuss practical challenges in <a href="./community.html">Community</a></li>
+<li>Archive outputs with clear versioning and data dictionaries</li>
 </ol>
 </section>
-<section id="technical-draft-archive" class="level2">
-<h2 class="anchored" data-anchor-id="technical-draft-archive">Technical Draft Archive</h2>
-<p>The earlier long-form draft is available at: <a href="./public_health_data_analaysis.html">Legacy technical page</a></p>
-</section>
-<section id="community-support" class="level2">
-<h2 class="anchored" data-anchor-id="community-support">Community Support</h2>
-<p>You can ask implementation questions in <a href="./community.html">Community</a>.</p>
-<p>For the complete implementation workflow, use <a href="./ai_with_r.html">AI-assisted Data Cleaning Workflow</a>.</p>
+<section id="archive" class="level2">
+<h2 class="anchored" data-anchor-id="archive">Archive</h2>
+<p>The earlier long-form draft remains available: <a href="./public_health_data_analaysis.html">Legacy technical page</a></p>
 
 
 </section>

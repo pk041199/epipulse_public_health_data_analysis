@@ -154,55 +154,6 @@
     "text": "Join EpiPulse Community Discussions"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About EpiPulse",
-    "section": "",
-    "text": "EpiPulse is a public health non-governmental organization focused on translating evidence into action. We support communities and institutions through epidemiological intelligence, program implementation, and applied training."
-  },
-  {
-    "objectID": "about.html#who-we-are",
-    "href": "about.html#who-we-are",
-    "title": "About EpiPulse",
-    "section": "",
-    "text": "EpiPulse is a public health non-governmental organization focused on translating evidence into action. We support communities and institutions through epidemiological intelligence, program implementation, and applied training."
-  },
-  {
-    "objectID": "about.html#vision",
-    "href": "about.html#vision",
-    "title": "About EpiPulse",
-    "section": "Vision",
-    "text": "Vision\nTo build healthier, resilient, and equitable communities by transforming public health evidence into sustainable action."
-  },
-  {
-    "objectID": "about.html#mission",
-    "href": "about.html#mission",
-    "title": "About EpiPulse",
-    "section": "Mission",
-    "text": "Mission\n\nGenerate and translate high-quality public health evidence for informed decisions\nStrengthen community-based prevention and health promotion\nSupport health systems through research, training, and technical assistance\nPromote equity, ethics, and One Health approaches in practice"
-  },
-  {
-    "objectID": "about.html#values",
-    "href": "about.html#values",
-    "title": "About EpiPulse",
-    "section": "Values",
-    "text": "Values\n\nScientific integrity\nEquity and ethics\nCollaboration\nCommunity engagement\nImpact orientation"
-  },
-  {
-    "objectID": "about.html#governance-note",
-    "href": "about.html#governance-note",
-    "title": "About EpiPulse",
-    "section": "Governance Note",
-    "text": "Governance Note\nMember and director details are currently maintained in official filings and project documentation, and are not listed on this page for now."
-  },
-  {
-    "objectID": "about.html#organizational-background",
-    "href": "about.html#organizational-background",
-    "title": "About EpiPulse",
-    "section": "Organizational Background",
-    "text": "Organizational Background\n\nLegal and operational milestones will be published after incorporation and commencement are formally completed.\nCountry Focus: India\n\nFor legal and reporting details, visit Transparency."
-  },
-  {
     "objectID": "ai_with_r.html",
     "href": "ai_with_r.html",
     "title": "AI-assisted Data Cleaning Workflow",
@@ -266,6 +217,104 @@
     "text": "3.2 Data typing + labels + reference categories (sample)\n\n# Ensure age is numeric\ndf &lt;- df |&gt;\n  mutate(age = as.numeric(age))\n\n# Convert sex to factor and set reference category\n# Reference = Male (standard epidemiologic practice)\ndf &lt;- df |&gt;\n  mutate(\n    sex = factor(sex, levels = c(\"Male\", \"Female\")),\n    sex = relevel(sex, ref = \"Male\")\n  )\n\n# Convert smoking status to factor\n# Reference = No (unexposed group)\ndf &lt;- df |&gt;\n  mutate(\n    smoking = factor(smoking, levels = c(\"No\", \"Yes\")),\n    smoking = relevel(smoking, ref = \"No\")\n  )\n\n# Education level (reference = lowest education)\ndf &lt;- df |&gt;\n  mutate(\n    education = factor(\n      education,\n      levels = c(\"No formal education\", \"Primary\", \"Secondary\", \"Higher\")\n    ),\n    education = relevel(education, ref = \"No formal education\")\n  )\n\n# Add variable labels (for tables and reports)\nattr(df$age, \"label\") &lt;- \"Age in completed years\"\nattr(df$sex, \"label\") &lt;- \"Sex of the participant\"\nattr(df$smoking, \"label\") &lt;- \"Current smoking status\"\nattr(df$education, \"label\") &lt;- \"Highest educational attainment\""
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About EpiPulse",
+    "section": "",
+    "text": "EpiPulse is a Section 8 public health organization being developed to connect research quality, implementation strength, and social accountability."
+  },
+  {
+    "objectID": "about.html#who-we-are",
+    "href": "about.html#who-we-are",
+    "title": "About EpiPulse",
+    "section": "",
+    "text": "EpiPulse is a Section 8 public health organization being developed to connect research quality, implementation strength, and social accountability."
+  },
+  {
+    "objectID": "about.html#mission-vision-and-institutional-objective",
+    "href": "about.html#mission-vision-and-institutional-objective",
+    "title": "About EpiPulse",
+    "section": "Mission, Vision, and Institutional Objective",
+    "text": "Mission, Vision, and Institutional Objective\n\n\nMission\nGenerate and apply high-quality public health evidence for better community outcomes and stronger systems.\n\n\nVision\nCreate healthier and more equitable communities through evidence-led, ethically grounded public health action.\n\n\nInstitutional Objective\nDevelop a sustainable public health institution that combines scientific rigor, implementation capacity, and transparent governance."
+  },
+  {
+    "objectID": "about.html#values",
+    "href": "about.html#values",
+    "title": "About EpiPulse",
+    "section": "Values",
+    "text": "Values\n\nScientific integrity\nEquity and inclusion\nEthics and accountability\nCollaboration and interdisciplinary work\nCommunity-centered implementation"
+  },
+  {
+    "objectID": "about.html#internal-divisions-operational-framework",
+    "href": "about.html#internal-divisions-operational-framework",
+    "title": "About EpiPulse",
+    "section": "Internal Divisions (Operational Framework)",
+    "text": "Internal Divisions (Operational Framework)\nEpiPulse is organized into the following internal divisions:\n\nResearch and Evidence Division\nPublic Health Implementation Division\nCollaboration and Partnerships Division\nAccounts and Legal Compliance Division\nSoftware and Systems Division\nEducation and Fellowship Division\nMonitoring, Evaluation, Impact, and Ethics Division\nGrants, Funding, and Resource Mobilization Division"
+  },
+  {
+    "objectID": "about.html#governance-note",
+    "href": "about.html#governance-note",
+    "title": "About EpiPulse",
+    "section": "Governance Note",
+    "text": "Governance Note\nMember and director details are maintained in official filings and project documentation, and are not publicly listed at this stage."
+  },
+  {
+    "objectID": "about.html#organizational-stage",
+    "href": "about.html#organizational-stage",
+    "title": "About EpiPulse",
+    "section": "Organizational Stage",
+    "text": "Organizational Stage\n\nLegal and operational milestones will be published after incorporation and commencement are formally completed.\nCountry Focus: India\n\nFor legal framework and status, visit Transparency."
+  },
+  {
+    "objectID": "caregrid.html",
+    "href": "caregrid.html",
+    "title": "CareGrid App",
+    "section": "",
+    "text": "CareGrid is an upcoming EpiPulse digital platform being developed to support public health workflows, coordination, and implementation efficiency."
+  },
+  {
+    "objectID": "caregrid.html#about-caregrid",
+    "href": "caregrid.html#about-caregrid",
+    "title": "CareGrid App",
+    "section": "",
+    "text": "CareGrid is an upcoming EpiPulse digital platform being developed to support public health workflows, coordination, and implementation efficiency."
+  },
+  {
+    "objectID": "caregrid.html#development-status",
+    "href": "caregrid.html#development-status",
+    "title": "CareGrid App",
+    "section": "Development Status",
+    "text": "Development Status\nCareGrid is currently under development. Public release links will be activated once testing, compliance, and deployment are complete."
+  },
+  {
+    "objectID": "caregrid.html#future-user-manual",
+    "href": "caregrid.html#future-user-manual",
+    "title": "CareGrid App",
+    "section": "Future User Manual",
+    "text": "Future User Manual\nThe user manual will be published here after release:\n\nWeb Manual: [Coming soon]\nPDF Manual: [Coming soon]\nQuick Start Guide: [Coming soon]"
+  },
+  {
+    "objectID": "caregrid.html#future-download-links",
+    "href": "caregrid.html#future-download-links",
+    "title": "CareGrid App",
+    "section": "Future Download Links",
+    "text": "Future Download Links\n\nMobile\n\nGoogle Play Store: [Coming soon]\nApple App Store: [Coming soon]\n\n\n\nDesktop\n\nWindows Installer: [Coming soon]"
+  },
+  {
+    "objectID": "caregrid.html#planned-support",
+    "href": "caregrid.html#planned-support",
+    "title": "CareGrid App",
+    "section": "Planned Support",
+    "text": "Planned Support\n\nRelease notes and version history\nOnboarding tutorials\nFAQ and troubleshooting\nHelpdesk contact pathway"
+  },
+  {
+    "objectID": "caregrid.html#contact",
+    "href": "caregrid.html#contact",
+    "title": "CareGrid App",
+    "section": "Contact",
+    "text": "Contact\nFor pilot collaboration or early technical discussions, use Contact."
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact and Get Involved",
@@ -312,118 +361,125 @@
     "href": "index.html",
     "title": "EpiPulse",
     "section": "",
-    "text": "EpiPulse is a public health NGO working at the intersection of epidemiology, community engagement, and implementation science. We turn health data into practical action for stronger and more equitable communities.\nSupport Us Get Involved"
+    "text": "Section 8 Public Health Organization\n\n\n\nEpiPulse is building a mission-driven public health platform that links epidemiology, implementation science, and community partnerships to create measurable social benefit.\nMission and Vision Volunteer With Us"
   },
   {
-    "objectID": "index.html#at-a-glance",
-    "href": "index.html#at-a-glance",
+    "objectID": "index.html#mission-vision-and-objectives",
+    "href": "index.html#mission-vision-and-objectives",
     "title": "EpiPulse",
-    "section": "At a Glance",
-    "text": "At a Glance\n\n\nBaseline\nCurrent-year validated metrics will be published after our first reporting cycle.\n\n\nOngoing\nProgram and training updates are published in rolling quarterly summaries.\n\n\nTransparent\nOnly audited and verified numbers are shown on this website.\n\n\nReported\nSee detailed indicators on the Impact and Transparency pages."
+    "section": "Mission, Vision, and Objectives",
+    "text": "Mission, Vision, and Objectives\n\n\nMission\nGenerate and translate high-quality public health evidence into practical decisions, responsible implementation, and community benefit.\n\n\nVision\nBuild healthier, resilient, and equitable communities by connecting science, systems, and people-centered action.\n\n\nStrategic Objective\nCreate an institution that is scientifically rigorous, ethically grounded, operationally transparent, and collaborative by design."
   },
   {
-    "objectID": "index.html#what-we-do",
-    "href": "index.html#what-we-do",
+    "objectID": "index.html#core-objectives",
+    "href": "index.html#core-objectives",
     "title": "EpiPulse",
-    "section": "What We Do",
-    "text": "What We Do\n\n\nEpidemiology and Surveillance\nData-driven surveillance support, outbreak analytics, and actionable dashboards for local decision-makers.\n\n\nNon-Communicable Disease Prevention\nCommunity interventions for diabetes, hypertension, nutrition, and behavior-risk reduction.\n\n\nMaternal, Child, and Adolescent Health\nField research and implementation support for life-course health and school/community prevention.\n\n\nCapacity Building\nWorkshops, mentoring, and reproducible data workflows for students, researchers, and frontline teams."
+    "section": "Core Objectives",
+    "text": "Core Objectives\n\n\nObjective 01\nAdvance epidemiology and implementation research focused on real public health priorities.\n\n\nObjective 02\nStrengthen prevention and health-promotion programs in community settings.\n\n\nObjective 03\nSupport institutions with training, methods, and technical public health systems inputs.\n\n\nObjective 04\nEmbed ethics, equity, One Health thinking, and data responsibility across all workflows."
   },
   {
-    "objectID": "index.html#why-partners-work-with-epipulse",
-    "href": "index.html#why-partners-work-with-epipulse",
+    "objectID": "index.html#how-the-mission-gets-delivered",
+    "href": "index.html#how-the-mission-gets-delivered",
     "title": "EpiPulse",
-    "section": "Why Partners Work With EpiPulse",
-    "text": "Why Partners Work With EpiPulse\nWe combine rigorous methods with practical implementation. Our model supports governments, institutions, and communities with:\n\nFast evidence synthesis for decision-making\nEthical and equity-centered public health practice\nCross-disciplinary teams (epidemiology, clinical, analytics, field operations)\nTransparent documentation and reproducible methods"
+    "section": "How the Mission Gets Delivered",
+    "text": "How the Mission Gets Delivered\nOur mission is executed through eight internal divisions:\n\nResearch and Evidence\nPublic Health Implementation\nCollaboration and Partnerships\nAccounts and Legal Compliance\nSoftware and Systems\nEducation and Fellowship\nMonitoring, Evaluation, Impact, and Ethics\nGrants, Funding, and Resource Mobilization\n\nExplore division-aligned materials in the Resource Hub."
   },
   {
-    "objectID": "index.html#field-updates",
-    "href": "index.html#field-updates",
+    "objectID": "index.html#current-stage",
+    "href": "index.html#current-stage",
     "title": "EpiPulse",
-    "section": "Field Updates",
-    "text": "Field Updates\nCase stories and partner testimonials will be published after programs are operational and consented narratives are available."
-  },
-  {
-    "objectID": "index.html#work-with-us",
-    "href": "index.html#work-with-us",
-    "title": "EpiPulse",
-    "section": "Work With Us",
-    "text": "Work With Us\n\nPartner on a Program\nVolunteer as a Student or Professional\nSupport and Donation Status\nRead Our Transparency Commitments"
+    "section": "Current Stage",
+    "text": "Current Stage\nEpiPulse is in its setup phase. Programs, reports, and donation channels will be activated and published in line with compliance and verification standards.\n\nTransparency and Legal Framework\nPrograms Roadmap\nCommunity and Collaboration"
   },
   {
     "objectID": "programs.html",
     "href": "programs.html",
     "title": "Programs",
     "section": "",
-    "text": "Disease surveillance design, outbreak support, risk assessment, and rapid analytics for action.\n\n\n\nResearch and interventions on hypertension, diabetes, nutrition, and lifestyle-risk reduction.\n\n\n\nCommunity programs, nutrition assessment, school health, and implementation support.\n\n\n\nAssessment of climate, workplace exposure, and environmental determinants of health.\n\n\n\nIntegrated human-animal-environment public health approaches for emerging threats.\n\n\n\nTraining, mentorship, and workforce support for students and public health professionals."
+    "text": "EpiPulse programs are designed to convert mission into measurable public health action through rigorous methods, field implementation, and system collaboration."
   },
   {
-    "objectID": "programs.html#program-areas",
-    "href": "programs.html#program-areas",
+    "objectID": "programs.html#program-philosophy",
+    "href": "programs.html#program-philosophy",
     "title": "Programs",
     "section": "",
-    "text": "Disease surveillance design, outbreak support, risk assessment, and rapid analytics for action.\n\n\n\nResearch and interventions on hypertension, diabetes, nutrition, and lifestyle-risk reduction.\n\n\n\nCommunity programs, nutrition assessment, school health, and implementation support.\n\n\n\nAssessment of climate, workplace exposure, and environmental determinants of health.\n\n\n\nIntegrated human-animal-environment public health approaches for emerging threats.\n\n\n\nTraining, mentorship, and workforce support for students and public health professionals."
+    "text": "EpiPulse programs are designed to convert mission into measurable public health action through rigorous methods, field implementation, and system collaboration."
   },
   {
-    "objectID": "programs.html#how-we-work",
-    "href": "programs.html#how-we-work",
+    "objectID": "programs.html#mission-to-program-domains",
+    "href": "programs.html#mission-to-program-domains",
     "title": "Programs",
-    "section": "How We Work",
-    "text": "How We Work\n\nAssess local context and public health priorities\nCo-design interventions with community and institutional partners\nImplement with clear monitoring indicators\nMeasure outcomes and continuously improve"
+    "section": "Mission-to-Program Domains",
+    "text": "Mission-to-Program Domains\n\n\nEpidemiology and Surveillance\nDisease intelligence, risk analysis, and evidence pathways for informed decisions.\n\n\nNon-Communicable Disease Prevention\nCommunity-focused interventions on hypertension, diabetes, nutrition, and lifestyle risks.\n\n\nMaternal, Child, and Adolescent Health\nLife-course and school-community interventions with implementation support.\n\n\nEnvironmental and Occupational Health\nPublic health responses to environmental exposures and workplace determinants.\n\n\nOne Health and Emerging Infections\nIntegrated human-animal-environment approaches to future health threats.\n\n\nEducation and Capacity Building\nWorkforce development through training, mentorship, and practical implementation tools."
   },
   {
-    "objectID": "programs.html#partner-with-us",
-    "href": "programs.html#partner-with-us",
+    "objectID": "programs.html#program-objectives",
+    "href": "programs.html#program-objectives",
     "title": "Programs",
-    "section": "Partner With Us",
-    "text": "Partner With Us\nFor collaborations, grants, and institutional partnerships, visit Contact."
+    "section": "Program Objectives",
+    "text": "Program Objectives\n\nBuild intervention models that are evidence-based and field-feasible\nStrengthen local capacity to implement and monitor public health actions\nImprove transparency and reproducibility in program documentation\nAlign implementation with ethics, equity, and accountability"
+  },
+  {
+    "objectID": "programs.html#division-alignment-for-delivery",
+    "href": "programs.html#division-alignment-for-delivery",
+    "title": "Programs",
+    "section": "Division Alignment for Delivery",
+    "text": "Division Alignment for Delivery\n\nResearch and Evidence: Protocols, methods, and evidence generation\nPublic Health Implementation: Field execution and community operations\nCollaboration and Partnerships: Institutional and CSR coordination\nAccounts and Legal Compliance: Governance and statutory compliance\nSoftware and Systems: Data systems and digital workflows\nEducation and Fellowship: Training and workforce development\nMonitoring, Evaluation, Impact, and Ethics: Quality assurance and responsible measurement\nGrants, Funding, and Resource Mobilization: Resource planning and sustainability\n\nFor division-wise templates and materials, use the Resource Hub."
+  },
+  {
+    "objectID": "programs.html#collaboration",
+    "href": "programs.html#collaboration",
+    "title": "Programs",
+    "section": "Collaboration",
+    "text": "Collaboration\nFor collaborations, grants, and institutional partnerships, visit Contact."
   },
   {
     "objectID": "public_health_data_analysis.html",
     "href": "public_health_data_analysis.html",
-    "title": "Public Health Data Analysis Resources",
+    "title": "Resource Hub",
     "section": "",
-    "text": "This page curates learning resources for reproducible and ethics-aware public health data workflows."
+    "text": "This page is the central academic and technical resource index for EpiPulse. It is designed to support research quality, reproducibility, ethics, and implementation readiness across all internal divisions."
   },
   {
-    "objectID": "public_health_data_analysis.html#resource-hub",
-    "href": "public_health_data_analysis.html#resource-hub",
-    "title": "Public Health Data Analysis Resources",
+    "objectID": "public_health_data_analysis.html#purpose",
+    "href": "public_health_data_analysis.html#purpose",
+    "title": "Resource Hub",
     "section": "",
-    "text": "This page curates learning resources for reproducible and ethics-aware public health data workflows."
+    "text": "This page is the central academic and technical resource index for EpiPulse. It is designed to support research quality, reproducibility, ethics, and implementation readiness across all internal divisions."
   },
   {
-    "objectID": "public_health_data_analysis.html#current-featured-resources",
-    "href": "public_health_data_analysis.html#current-featured-resources",
-    "title": "Public Health Data Analysis Resources",
-    "section": "Current Featured Resources",
-    "text": "Current Featured Resources\n\nAI-assisted Data Cleaning Workflow End-to-end R workflow for AI-assisted cleaning, labeling, and export.\nCommunity Discussion space for implementation questions and peer support.\nTransparency Legal framework and current operational status."
+    "objectID": "public_health_data_analysis.html#academic-objective",
+    "href": "public_health_data_analysis.html#academic-objective",
+    "title": "Resource Hub",
+    "section": "Academic Objective",
+    "text": "Academic Objective\nEpiPulse resources are developed to:\n\nStrengthen protocol-to-publication research workflows\nImprove evidence quality in public health decision-making\nBuild practical skills in epidemiology, analytics, and implementation\nStandardize documentation, data governance, and reproducibility\nSupport collaborative work across research, program, and systems teams"
   },
   {
-    "objectID": "public_health_data_analysis.html#upcoming-resource-tracks",
-    "href": "public_health_data_analysis.html#upcoming-resource-tracks",
-    "title": "Public Health Data Analysis Resources",
-    "section": "Upcoming Resource Tracks",
-    "text": "Upcoming Resource Tracks\n\nResearch protocol templates\nData governance and ethics templates\nMonitoring and evaluation toolkits\nGrant and CSR collaboration documentation"
+    "objectID": "public_health_data_analysis.html#core-resource-collection",
+    "href": "public_health_data_analysis.html#core-resource-collection",
+    "title": "Resource Hub",
+    "section": "Core Resource Collection",
+    "text": "Core Resource Collection\n\nAI-assisted Data Cleaning Workflow\nPractical R workflow for de-identified AI-assisted data cleaning, typing, labeling, and export.\nCommunity\nDiscussion space for technical questions, peer support, and method exchange.\nTransparency\nLegal structure, governance framework, and pre-launch operational status."
   },
   {
-    "objectID": "public_health_data_analysis.html#recommended-use-path",
-    "href": "public_health_data_analysis.html#recommended-use-path",
-    "title": "Public Health Data Analysis Resources",
-    "section": "Recommended Use Path",
-    "text": "Recommended Use Path\n\nPrepare de-identified datasets\nUse structured templates for cleaning and validation\nReview all AI-assisted code before execution\nDocument assumptions and decisions\nExport reproducible outputs with data dictionaries"
+    "objectID": "public_health_data_analysis.html#resource-architecture-by-internal-division",
+    "href": "public_health_data_analysis.html#resource-architecture-by-internal-division",
+    "title": "Resource Hub",
+    "section": "Resource Architecture by Internal Division",
+    "text": "Resource Architecture by Internal Division\n\n1) Research and Evidence Division\n\nProtocol templates\nStudy design and methods notes\nEvidence synthesis and review workflows\nManuscript and reporting guides\n\n\n\n2) Public Health Implementation Division\n\nProgram design templates\nField implementation SOPs\nCommunity intervention documentation tools\nOperational learning notes\n\n\n\n3) Collaboration and Partnerships Division\n\nCollaboration framework notes\nPartner onboarding documents\nCSR-alignment concept notes\nJoint implementation documentation standards\n\n\n\n4) Accounts and Legal Compliance Division\n\nCompliance checklist templates\nStatutory reporting tracker formats\nDonation policy and governance documentation\nBasic audit-preparedness templates\n\n\n\n5) Software and Systems Division\n\nData pipeline setup guides\nReproducible coding conventions\nVersion control and release notes templates\nData interoperability and export standards\n\n\n\n6) Education and Fellowship Division\n\nLearning modules for students and professionals\nWorkshop and mentorship materials\nFellowship and internship learning pathways\nCompetency tracking templates\n\n\n\n7) Monitoring, Evaluation, Impact, and Ethics Division\n\nIndicator frameworks\nM&E toolkits\nEthics and data responsibility checklists\nImpact reporting templates (to be activated post-launch)\n\n\n\n8) Grants, Funding, and Resource Mobilization Division\n\nConcept note templates\nGrant narrative and budget drafting guides\nFunding opportunity tracker formats\nDonor communication structure templates"
   },
   {
-    "objectID": "public_health_data_analysis.html#technical-draft-archive",
-    "href": "public_health_data_analysis.html#technical-draft-archive",
-    "title": "Public Health Data Analysis Resources",
-    "section": "Technical Draft Archive",
-    "text": "Technical Draft Archive\nThe earlier long-form draft is available at: Legacy technical page"
+    "objectID": "public_health_data_analysis.html#recommended-path-for-new-users",
+    "href": "public_health_data_analysis.html#recommended-path-for-new-users",
+    "title": "Resource Hub",
+    "section": "Recommended Path for New Users",
+    "text": "Recommended Path for New Users\n\nStart with the AI-assisted Data Cleaning Workflow\nReview legal and operational status on Transparency\nUse division-specific templates relevant to your workstream\nDiscuss practical challenges in Community\nArchive outputs with clear versioning and data dictionaries"
   },
   {
-    "objectID": "public_health_data_analysis.html#community-support",
-    "href": "public_health_data_analysis.html#community-support",
-    "title": "Public Health Data Analysis Resources",
-    "section": "Community Support",
-    "text": "Community Support\nYou can ask implementation questions in Community.\nFor the complete implementation workflow, use AI-assisted Data Cleaning Workflow."
+    "objectID": "public_health_data_analysis.html#archive",
+    "href": "public_health_data_analysis.html#archive",
+    "title": "Resource Hub",
+    "section": "Archive",
+    "text": "Archive\nThe earlier long-form draft remains available: Legacy technical page"
   }
 ]
