@@ -4,21 +4,21 @@ title: "Community"
 
 # EpiPulse Community
 
-This space supports discussion on public health research,
-data analysis, and capacity building.
+This space supports discussion on public health research, data analysis, and capacity building.
 
----
+## Start Here
 
-## Start Here (Featured Topics)
+- Welcome and community guidelines
+- Public health data analysis discussions
+- AI-assisted epidemiology workflows
+- Student and early-career questions
 
-- 📌 Welcome & community guidelines  
-- 📊 Public health data analysis discussions  
-- 🤖 AI-assisted epidemiology workflows  
-- 🎓 Student & early-career questions  
+## Community Norms
 
-Scroll below to participate in ongoing discussions.
-
----
+- Be respectful and evidence-focused
+- Avoid sharing identifiable or sensitive data
+- Cite sources where possible
+- Keep discussions practical and reproducible
 
 ## Discussion Board
 
@@ -38,4 +38,4 @@ Scroll below to participate in ongoing discussions.
         async>
 </script>
 
-[Join EpiPulse Community Discussions →](https://github.com/YOUR-ORG/YOUR-REPO/discussions)
+[Join EpiPulse Community Discussions](https://github.com/pk041199/epipulse_public_health_data_analysis/discussions)

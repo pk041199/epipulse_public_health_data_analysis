@@ -1,21 +1,46 @@
 project:
   type: website
-  output-dir: docs 
+  output-dir: docs
 
 website:
   title: "EpiPulse"
+  page-navigation: true
   navbar:
     background: primary
     left:
       - href: index.qmd
         text: Home
-      - href: public_health_data_analaysis.qmd
-        text: Public Health Data Analysis
+      - href: about.qmd
+        text: About
+      - href: programs.qmd
+        text: Programs
+      - href: impact.qmd
+        text: Impact
+      - href: public_health_data_analysis.qmd
+        text: Resources
       - href: community.qmd
-        text: community
+        text: Community
+      - href: contact.qmd
+        text: Contact
+    right:
+      - href: contact.qmd#donate
+        text: Donate
+  page-footer:
+    left: "EpiPulse | Evidence to Action in Public Health"
+    right:
+      - href: transparency.qmd
+        text: Transparency
+      - href: community.qmd
+        text: Community
+      - href: contact.qmd
+        text: Contact
+
 format:
   html:
-    theme: litera 
+    theme:
+      - litera
+      - publichealth.scss
     toc: true
-    number-sections: true
+    number-sections: false
+    smooth-scroll: true
 

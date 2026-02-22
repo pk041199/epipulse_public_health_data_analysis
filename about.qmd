@@ -1,0 +1,49 @@
+---
+title: "About EpiPulse"
+format:
+  html:
+    toc: true
+---
+
+## Who We Are
+
+EpiPulse is a public health non-governmental organization focused on translating evidence into action. We support communities and institutions through epidemiological intelligence, program implementation, and applied training.
+
+## Vision
+
+To build healthier, resilient, and equitable communities by transforming public health evidence into sustainable action.
+
+## Mission
+
+- Generate and translate high-quality public health evidence for informed decisions
+- Strengthen community-based prevention and health promotion
+- Support health systems through research, training, and technical assistance
+- Promote equity, ethics, and One Health approaches in practice
+
+## Values
+
+- Scientific integrity
+- Equity and ethics
+- Collaboration
+- Community engagement
+- Impact orientation
+
+## Leadership and Governance
+
+### Director
+
+Dr. [Name]  
+Qualifications: [MBBS/MD/MPH/PhD]  
+Expertise: Public Health, Epidemiology, [Key areas]
+
+### Core Team
+
+Epidemiologists, public health researchers, medical professionals, data analysts, GIS specialists, and field coordinators.
+
+## Organizational Background
+
+- Conceptualized: [Year]
+- Established: [Month, Year]
+- Country Focus: India
+
+For legal and reporting details, visit [Transparency](transparency.qmd).

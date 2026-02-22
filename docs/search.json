@@ -1,191 +1,345 @@
 [
   {
+    "objectID": "transparency.html",
+    "href": "transparency.html",
+    "title": "Transparency",
+    "section": "",
+    "text": "Legal Status: Registered Non-Governmental Organization\nRegistration Act: [Section 8 Company]\nRegistration Number: [Update with official number]\nPlace of Registration: [City, State, Country]"
+  },
+  {
+    "objectID": "transparency.html#legal-and-registration",
+    "href": "transparency.html#legal-and-registration",
+    "title": "Transparency",
+    "section": "",
+    "text": "Legal Status: Registered Non-Governmental Organization\nRegistration Act: [Section 8 Company]\nRegistration Number: [Update with official number]\nPlace of Registration: [City, State, Country]"
+  },
+  {
+    "objectID": "transparency.html#governance",
+    "href": "transparency.html#governance",
+    "title": "Transparency",
+    "section": "Governance",
+    "text": "Governance\n\nGoverning Board: [Update with names/roles]\nDirector: Dr. [Name]\nAdvisory Support: [Update with advisors/experts]"
+  },
+  {
+    "objectID": "transparency.html#financial-transparency",
+    "href": "transparency.html#financial-transparency",
+    "title": "Transparency",
+    "section": "Financial Transparency",
+    "text": "Financial Transparency\n\nAnnual Reports: [Upload and link PDF files]\nFinancial Statements: [Upload and link PDF files]\nUtilization Summary: [Program-wise spending summary]"
+  },
+  {
+    "objectID": "transparency.html#policies",
+    "href": "transparency.html#policies",
+    "title": "Transparency",
+    "section": "Policies",
+    "text": "Policies\n\nSafeguarding Policy\nData Privacy and Ethics Policy\nConflict of Interest Policy\nDonation Acceptance Policy"
+  },
+  {
+    "objectID": "transparency.html#donor-and-partner-information",
+    "href": "transparency.html#donor-and-partner-information",
+    "title": "Transparency",
+    "section": "Donor and Partner Information",
+    "text": "Donor and Partner Information\nWe maintain transparent reporting and due-diligence alignment with institutional and individual supporters.\nFor donation and partnership inquiries, visit Contact."
+  },
+  {
     "objectID": "public_health_data_analaysis.html",
     "href": "public_health_data_analaysis.html",
-    "title": "AI-assisted Data Cleaning Workflow",
+    "title": "Legacy Technical Draft (Archived)",
     "section": "",
-    "text": "This site documents a reproducible, AI-assisted workflow for public health data analysis with R.\n\n\n\nAI-assisted code generation\nData cleaning and validation, Variable labeling and reference categories\nExporting data for R, SPSS, and Stata\n\n\n⚠️ This is a template document.\n\n\n\n\n\n\n\n\nR is the core statistical computing environment used for data cleaning and analysis.\nVisit the Comprehensive R Archive Network (CRAN): https://cran.r-project.org\nDownload and install R for your operating system:\nWindows\nmacOS\nLinux\nAccept default installation settings.\nAfter installation, verify R by opening it and running:\n\nversion\n\n\n\n\nRStudio is an integrated development environment (IDE) that makes working with R scripts, projects, and Quarto documents easier.\nDownload RStudio Desktop (Free version): https://posit.co/download/rstudio-desktop/\nInstall RStudio after R is installed.\nOpen RStudio and confirm it detects your R installation.\n\n\n\nRun the following once inside RStudio:\n\ninstall.packages(c(\n  \"dplyr\",\n  \"janitor\",\n  \"skimr\",\n  \"jsonlite\",\n  \"ellmer\",\n  \"haven\",\n  \"labelled\",\n  \"rio\",\n  \"ollama\"\n))\n\nInstalling a Local LLM (Offline & Hospital-Safe)\nFor environments where cloud-based AI tools are restricted (e.g., hospitals, government institutions), a local large language model (LLM) can be used. This workflow supports Ollama, which runs entirely offline.\n\n\n\nDownload Ollama from: https://ollama.com\nInstall Ollama for your operating system (Windows / macOS / Linux).\nAfter installation, verify Ollama is running by opening a terminal and typing:\nollama –version\n\n\n\nGemma is a lightweight, open-source model suitable for structured code generation tasks.\nIn your system terminal, run:\n\nollama run codegemma\n\n(You may also use larger variants if system resources permit.)\nVerify Ollama + Gemma in R\nOnce Ollama is running in the background, test the connection from R:\n\nlibrary(ellmer)\nlibrary(ollama)\n\nmodel &lt;- chat_ollama(\n  model = \"codegemma\"\n)\n\nchat(model, \"Respond with: Ollama is working\")\n\nIf successful, the model will return a short confirmation message.\n\n\n\n\n\n© Epipulse\nThis work is licensed under a\nCreative Commons Attribution 4.0 International (CC BY 4.0) licence.\nYou are free to share and adapt this material with appropriate attribution.\n\n\n\nCC BY 4.0"
-  },
-  {
-    "objectID": "public_health_data_analaysis.html#welcome",
-    "href": "public_health_data_analaysis.html#welcome",
-    "title": "AI-assisted Data Cleaning Workflow",
-    "section": "",
-    "text": "This site documents a reproducible, AI-assisted workflow for public health data analysis with R.\n\n\n\nAI-assisted code generation\nData cleaning and validation, Variable labeling and reference categories\nExporting data for R, SPSS, and Stata\n\n\n⚠️ This is a template document."
-  },
-  {
-    "objectID": "public_health_data_analaysis.html#setting-up",
-    "href": "public_health_data_analaysis.html#setting-up",
-    "title": "AI-assisted Data Cleaning Workflow",
-    "section": "",
-    "text": "R is the core statistical computing environment used for data cleaning and analysis.\nVisit the Comprehensive R Archive Network (CRAN): https://cran.r-project.org\nDownload and install R for your operating system:\nWindows\nmacOS\nLinux\nAccept default installation settings.\nAfter installation, verify R by opening it and running:\n\nversion\n\n\n\n\nRStudio is an integrated development environment (IDE) that makes working with R scripts, projects, and Quarto documents easier.\nDownload RStudio Desktop (Free version): https://posit.co/download/rstudio-desktop/\nInstall RStudio after R is installed.\nOpen RStudio and confirm it detects your R installation.\n\n\n\nRun the following once inside RStudio:\n\ninstall.packages(c(\n  \"dplyr\",\n  \"janitor\",\n  \"skimr\",\n  \"jsonlite\",\n  \"ellmer\",\n  \"haven\",\n  \"labelled\",\n  \"rio\",\n  \"ollama\"\n))\n\nInstalling a Local LLM (Offline & Hospital-Safe)\nFor environments where cloud-based AI tools are restricted (e.g., hospitals, government institutions), a local large language model (LLM) can be used. This workflow supports Ollama, which runs entirely offline.\n\n\n\nDownload Ollama from: https://ollama.com\nInstall Ollama for your operating system (Windows / macOS / Linux).\nAfter installation, verify Ollama is running by opening a terminal and typing:\nollama –version\n\n\n\nGemma is a lightweight, open-source model suitable for structured code generation tasks.\nIn your system terminal, run:\n\nollama run codegemma\n\n(You may also use larger variants if system resources permit.)\nVerify Ollama + Gemma in R\nOnce Ollama is running in the background, test the connection from R:\n\nlibrary(ellmer)\nlibrary(ollama)\n\nmodel &lt;- chat_ollama(\n  model = \"codegemma\"\n)\n\nchat(model, \"Respond with: Ollama is working\")\n\nIf successful, the model will return a short confirmation message."
-  },
-  {
-    "objectID": "public_health_data_analaysis.html#licence",
-    "href": "public_health_data_analaysis.html#licence",
-    "title": "AI-assisted Data Cleaning Workflow",
-    "section": "",
-    "text": "© Epipulse\nThis work is licensed under a\nCreative Commons Attribution 4.0 International (CC BY 4.0) licence.\nYou are free to share and adapt this material with appropriate attribution.\n\n\n\nCC BY 4.0"
-  },
-  {
-    "objectID": "public_health_data_analaysis.html#ai-data-cleaning",
-    "href": "public_health_data_analaysis.html#ai-data-cleaning",
-    "title": "AI-assisted Data Cleaning Workflow",
-    "section": "2.1 AI data cleaning",
-    "text": "2.1 AI data cleaning\n\n2.1.1 Statement to be added in methodology\n“AI-assisted code generation was used for data cleaning, with all scripts reviewed and executed by the investigators.”\nAlways de-identify before sending to AI\n\n\n2.1.2 Load and summary for AI\n\nlibrary(dplyr)\nlibrary(janitor)\nlibrary(skimr)\nlibrary(jsonlite)\n\ndf &lt;- read.csv(\"data.csv\", stringsAsFactors = FALSE)\ndf &lt;- clean_names(df)\n\ndata_summary &lt;- list(\n  structure = str(df),\n  missing_pct = round(colMeans(is.na(df)) * 100, 2),\n  unique_character_values = df |&gt; \n    select(where(is.character)) |&gt; \n    summarise(across(everything(), ~ paste(unique(.), collapse = \", \"))),\n  numeric_ranges = df |&gt; \n    select(where(is.numeric)) |&gt; \n    summarise(across(everything(), ~ paste(range(., na.rm = TRUE), collapse = \"–\")))\n)\n\nsummary_text &lt;- toJSON(data_summary, pretty = TRUE)"
-  },
-  {
-    "objectID": "public_health_data_analaysis.html#setup-model-and-api-key",
-    "href": "public_health_data_analaysis.html#setup-model-and-api-key",
-    "title": "AI-assisted Data Cleaning Workflow",
-    "section": "2.2 Setup model and api key",
-    "text": "2.2 Setup model and api key\n\n2.2.1 OpenAI\n\nSSys.setenv(OPENAI_API_KEY = \"paste_api_key\")\n\nlibrary(ellmer)\n\nai_generate_cleaning_code &lt;- function(summary_text, model) {\n\n  prompt &lt;- paste0(\n    \"You are a public health data analyst.\\n\\n\",\n    \"INSTRUCTIONS:\\n\",\n    \"- Generate ONLY executable R code\\n\",\n    \"- No explanations outside code\\n\",\n    \"- Do NOT load libraries\\n\",\n    \"- Do NOT delete rows\\n\",\n    \"- Do NOT impute values\\n\",\n    \"- Do NOT change outcome definitions\\n\",\n    \"- Include comments in the R code\\n\\n\",\n    \"TASKS:\\n\",\n    \"- Trim whitespace in character variables\\n\",\n    \"- Standardize categorical labels\\n\",\n    \"- Convert variables to appropriate types\\n\",\n    \"- Flag impossible numeric values\\n\",\n    \"- Create missingness flags (not imputation)\\n\\n\",\n    \"DATA SUMMARY:\\n\",\n    summary_text\n  )\n\n  response &lt;- model$chat(prompt)\n  response$content\n}\n\nresponse &lt;- chat_openai(\n  model = \"gpt-4.1-mini\",\n  params = list(temperature = 0.1)\n)$chat(prompt)\n\ncleaning_code &lt;- response$content\n\ncat(cleaning_code)\n\n\n\n2.2.2 Local LLM (offline, hospital-safe)\nNo need API for local llm\n\nlibrary(ollamar)\nlibrary(jsonlite)\n\nai_generate_cleaning_code &lt;- function(summary_text,\n                                      model_name = \"codegemma\") {\n  \n  messages &lt;- list(\n    list(\n      role = \"user\",\n      content = paste0(\n        \"INSTRUCTIONS:\n- Generate ONLY executable R code\n- No explanations outside code\n- Do NOT load libraries\n- Do NOT delete rows\n- Do NOT impute values\n- Do NOT change outcome definitions\n- Include comments in the R code\n\nTASKS:\n- Trim whitespace in character variables\n- Standardize categorical labels\n- Convert variables to appropriate types\n- Flag impossible numeric values\n- Create missingness flags (not imputation)\n\nDATA SUMMARY:\n\", summary_text\n      )\n    )\n  )\n  \n  resp &lt;- ollamar::chat(\n    model = model_name,\n    messages = messages\n  )\n  \n  json &lt;- jsonlite::fromJSON(rawToChar(resp$body))\n  code &lt;- json$message$content\n  \n  if (is.null(code) || code == \"\") {\n    stop(\"Model returned empty content\")\n  }\n\n  code &lt;- gsub(\"^```[rR]?\\\\s*|```$\", \"\", code)\n  \n  code\n}\n\ncleaning_code &lt;- ai_generate_cleaning_code(summary_text)\n\ncat(cleaning_code)\n\n\n\n2.2.3 Execute after Review\n\neval(parse(text = cleaning_code))"
-  },
-  {
-    "objectID": "public_health_data_analaysis.html#ai-data-typing-labels-reference-categories",
-    "href": "public_health_data_analaysis.html#ai-data-typing-labels-reference-categories",
-    "title": "AI-assisted Data Cleaning Workflow",
-    "section": "2.3 AI data typing + labels + reference categories",
-    "text": "2.3 AI data typing + labels + reference categories\nMENTION THIS IN METHODS (recommended)\n“AI-assisted code generation was used to standardize variable types, labels, and reference categories. All code was reviewed and executed by the investigators.”\n\n2.3.1 Load function\n\nlibrary(ollamar)\nlibrary(jsonlite)\n\nai_generate_typing_and_labels_code &lt;- function(summary_text,\n                                               model_name = \"codegemma\") {\n  \n  prompt &lt;- paste0(\n\"You are a senior public health biostatistician and R instructor.\n\nTASK:\nGenerate ONLY executable R code (no explanations outside code).\n\nAUDIENCE:\nPublic health beginners (MBBS / MPH / MD Community Medicine).\n\nREQUIREMENTS:\n1. Ensure correct data types:\n   - numeric → as.numeric\n   - categorical → factor\n2. Add VARIABLE LABELS (column descriptions)\n3. Add VALUE LABELS for categorical variables\n4. Explicitly set REFERENCE CATEGORIES using relevel()\n5. Comment clearly why each reference category is chosen\n6. Do NOT delete rows\n7. Do NOT impute missing values\n8. Do NOT load libraries\n9. Assume dataframe name is `df`\n\nREFERENCE CATEGORY RULES:\n- Sex → reference = \\\"Male\\\"\n- Binary exposure → reference = \\\"No\\\" / \\\"Unexposed\\\"\n- Education → lowest level\n- Socioeconomic status → lowest class\n- Outcome variables → DO NOT relevel\n\nOUTPUT:\nReturn ONLY R code with clear comments.\n\nDATA SUMMARY:\n\", summary_text\n  )\n  \n  messages &lt;- list(\n    list(role = \"user\", content = prompt)\n  )\n  \n  resp &lt;- ollamar::chat(\n    model = model_name,\n    messages = messages\n  )\n  \n  json &lt;- jsonlite::fromJSON(rawToChar(resp$body))\n  code &lt;- json$message$content\n  \n  if (is.null(code) || code == \"\") {\n    stop(\"Model returned empty content\")\n  }\n  \n  # Strip markdown fences if present\n  code &lt;- gsub(\"^```[rR]?\\\\s*|```$\", \"\", code)\n  \n  code\n}\n\n\n\n2.3.2 Generate the code\n\ntyping_label_code &lt;- ai_generate_typing_and_labels_code(summary_text)\n\ncat(typing_label_code)\n\n\n\n2.3.3 Execute code AFTER review\n\neval(parse(text = typing_label_code))"
-  },
-  {
-    "objectID": "public_health_data_analaysis.html#data-inspection",
-    "href": "public_health_data_analaysis.html#data-inspection",
-    "title": "AI-assisted Data Cleaning Workflow",
-    "section": "3.1 Data inspection",
-    "text": "3.1 Data inspection\n\n3.1.1 Load libraries\n\nlibrary(dplyr)\nlibrary(janitor)\nlibrary(skimr)\n\n\n\n3.1.2 Load data\n\ndf &lt;- read.csv(\"data.csv\", stringsAsFactors = FALSE)\n\n\n\n3.1.3 Inspect\n\ndim(df); names(df); str(df); summary(df)\n\n\n\n3.1.4 Clean names\n\ndf &lt;- clean_names(df)\n\n\n\n3.1.5 Explore\n\nskim(df)\n\n\n\n3.1.6 Unique values\n\ndf |&gt; select(where(is.character)) |&gt; lapply(unique)\n\n\n\n3.1.7 Missingness\n\ncolMeans(is.na(df)) * 100\n\n\n\n3.1.8 Validate\n\ntable(df$sex)\nrange(df$age, na.rm = TRUE)"
-  },
-  {
-    "objectID": "public_health_data_analaysis.html#data-typing-labels-reference-categories-sample",
-    "href": "public_health_data_analaysis.html#data-typing-labels-reference-categories-sample",
-    "title": "AI-assisted Data Cleaning Workflow",
-    "section": "3.2 Data typing + labels + reference categories (Sample)",
-    "text": "3.2 Data typing + labels + reference categories (Sample)\n\n# Ensure age is numeric\ndf &lt;- df |&gt;\n  mutate(age = as.numeric(age))\n\n# Convert sex to factor and set reference category\n# Reference = Male (standard epidemiologic practice)\ndf &lt;- df |&gt;\n  mutate(\n    sex = factor(sex, levels = c(\"Male\", \"Female\")),\n    sex = relevel(sex, ref = \"Male\")\n  )\n\n# Convert smoking status to factor\n# Reference = No (unexposed group)\ndf &lt;- df |&gt;\n  mutate(\n    smoking = factor(smoking, levels = c(\"No\", \"Yes\")),\n    smoking = relevel(smoking, ref = \"No\")\n  )\n\n# Education level (reference = lowest education)\ndf &lt;- df |&gt;\n  mutate(\n    education = factor(\n      education,\n      levels = c(\"No formal education\", \"Primary\", \"Secondary\", \"Higher\")\n    ),\n    education = relevel(education, ref = \"No formal education\")\n  )\n\n# Add variable labels (for tables and reports)\nattr(df$age, \"label\") &lt;- \"Age in completed years\"\nattr(df$sex, \"label\") &lt;- \"Sex of the participant\"\nattr(df$smoking, \"label\") &lt;- \"Current smoking status\"\nattr(df$education, \"label\") &lt;- \"Highest educational attainment\""
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "Epi-Pulse is a public health–focused non-governmental organization dedicated to strengthening population health through epidemiological intelligence, community engagement, and evidence-based interventions. We work at the intersection of research, policy, and practice to translate data into meaningful public health action.\nRooted in the principles of equity, prevention, and scientific rigor, Epi-Pulse aims to respond to emerging and persistent public health challenges with speed, integrity, and impact.\n\n\n\n\nTo build healthier, resilient, and equitable communities by transforming epidemiological evidence into sustainable public health action.\n\n\n\n\n\nTo generate and translate high-quality public health evidence for informed decision-making\nTo strengthen community-based prevention and health promotion initiatives\nTo support public health systems through research, training, and technical assistance\nTo promote equity, ethics, and One Health approaches in public health practice\n\n\n\n\n\nEpi-Pulse aims to:\n\nConduct epidemiological and public health research addressing priority health issues\nSupport disease surveillance, outbreak investigation, and health systems strengthening\nPromote preventive, promotive, and primary health care interventions\nBuild capacity among students, health professionals, and community stakeholders\nAdvocate for evidence-based public health policies and ethical research practices\nIntegrate One Health, environmental, and occupational health perspectives into public health action\n\n\n\n\n\nOur work spans multiple domains of public health, including:\n\nHealth Education & Capacity Building Training programs, workshops, student mentorship, and public health advocacy\nNon-Communicable Diseases (NCDs) Research and interventions related to diabetes, hypertension, nutrition, and lifestyle diseases\nMaternal, Child & Adolescent Health Community-based programs, nutrition assessments, and school health initiatives\nEnvironmental & Occupational Health Impact of air quality, workplace exposures, and climate factors on health\nOne Health & Emerging Infections Integrated approaches linking human, animal, and environmental health\nEpidemiology & Surveillance Disease surveillance, outbreak investigations, and data-driven risk assessments\n\n\n\n\n\nEpi-Pulse was conceptualized in [Year] and formally established in [Month, Year] in response to the growing need for agile, evidence-driven public health organizations in India.\n\n\n\n\n\nLegal Status: Registered Non-Governmental Organization\nRegistration Act: [Section 8 Company]\nRegistration Number: [To be updated]\nPlace of Registration: [City, State, Country]\n\n\n\n\n\n\n\nDr. [Name] Qualifications: [MBBS / MD / MPH / PhD – as applicable] Expertise: Public Health, Epidemiology, [Key areas]\nThe Director provides strategic leadership, oversees research and programs, and represents Epi-Pulse in academic, governmental, and community platforms.\n\n\n\n\nEpi-Pulse is supported by a multidisciplinary team of public health professionals, researchers, clinicians, and community advocates.\nCore Team Includes:\n\nEpidemiologists\nPublic Health Researchers\nMedical Professionals\nData Analysts & GIS Specialists\nField Coordinators & Program Officers\n\n(Individual member profiles can be added as separate pages if needed.)\n\n\n\n\n\n\nScientific Integrity – Evidence before opinion\nEquity & Ethics – Health for all, without discrimination\nCollaboration – Partnerships across sectors and disciplines\nCommunity Engagement – People-centered public health\nImpact Orientation – Research that leads to action\n\n\n\n\n\nAt Epi-Pulse, we believe that timely data, ethical research, and community-driven solutions are the heartbeat of effective public health. We are committed to strengthening health systems, empowering communities, and shaping healthier futures."
-  },
-  {
-    "objectID": "index.html#who-we-are",
-    "href": "index.html#who-we-are",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "Epi-Pulse is a public health–focused non-governmental organization dedicated to strengthening population health through epidemiological intelligence, community engagement, and evidence-based interventions. We work at the intersection of research, policy, and practice to translate data into meaningful public health action.\nRooted in the principles of equity, prevention, and scientific rigor, Epi-Pulse aims to respond to emerging and persistent public health challenges with speed, integrity, and impact."
-  },
-  {
-    "objectID": "index.html#vision",
-    "href": "index.html#vision",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "To build healthier, resilient, and equitable communities by transforming epidemiological evidence into sustainable public health action."
-  },
-  {
-    "objectID": "index.html#mission",
-    "href": "index.html#mission",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "To generate and translate high-quality public health evidence for informed decision-making\nTo strengthen community-based prevention and health promotion initiatives\nTo support public health systems through research, training, and technical assistance\nTo promote equity, ethics, and One Health approaches in public health practice"
-  },
-  {
-    "objectID": "index.html#aims-objectives",
-    "href": "index.html#aims-objectives",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "Epi-Pulse aims to:\n\nConduct epidemiological and public health research addressing priority health issues\nSupport disease surveillance, outbreak investigation, and health systems strengthening\nPromote preventive, promotive, and primary health care interventions\nBuild capacity among students, health professionals, and community stakeholders\nAdvocate for evidence-based public health policies and ethical research practices\nIntegrate One Health, environmental, and occupational health perspectives into public health action"
-  },
-  {
-    "objectID": "index.html#scope-of-work",
-    "href": "index.html#scope-of-work",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "Our work spans multiple domains of public health, including:\n\nHealth Education & Capacity Building Training programs, workshops, student mentorship, and public health advocacy\nNon-Communicable Diseases (NCDs) Research and interventions related to diabetes, hypertension, nutrition, and lifestyle diseases\nMaternal, Child & Adolescent Health Community-based programs, nutrition assessments, and school health initiatives\nEnvironmental & Occupational Health Impact of air quality, workplace exposures, and climate factors on health\nOne Health & Emerging Infections Integrated approaches linking human, animal, and environmental health\nEpidemiology & Surveillance Disease surveillance, outbreak investigations, and data-driven risk assessments"
-  },
-  {
-    "objectID": "index.html#when-we-started",
-    "href": "index.html#when-we-started",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "Epi-Pulse was conceptualized in [Year] and formally established in [Month, Year] in response to the growing need for agile, evidence-driven public health organizations in India."
-  },
-  {
-    "objectID": "index.html#registration-details",
-    "href": "index.html#registration-details",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "Legal Status: Registered Non-Governmental Organization\nRegistration Act: [Section 8 Company]\nRegistration Number: [To be updated]\nPlace of Registration: [City, State, Country]"
-  },
-  {
-    "objectID": "index.html#leadership-governance",
-    "href": "index.html#leadership-governance",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "Dr. [Name] Qualifications: [MBBS / MD / MPH / PhD – as applicable] Expertise: Public Health, Epidemiology, [Key areas]\nThe Director provides strategic leadership, oversees research and programs, and represents Epi-Pulse in academic, governmental, and community platforms.\n\n\n\n\nEpi-Pulse is supported by a multidisciplinary team of public health professionals, researchers, clinicians, and community advocates.\nCore Team Includes:\n\nEpidemiologists\nPublic Health Researchers\nMedical Professionals\nData Analysts & GIS Specialists\nField Coordinators & Program Officers\n\n(Individual member profiles can be added as separate pages if needed.)"
-  },
-  {
-    "objectID": "index.html#our-values",
-    "href": "index.html#our-values",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "Scientific Integrity – Evidence before opinion\nEquity & Ethics – Health for all, without discrimination\nCollaboration – Partnerships across sectors and disciplines\nCommunity Engagement – People-centered public health\nImpact Orientation – Research that leads to action"
-  },
-  {
-    "objectID": "index.html#our-commitment",
-    "href": "index.html#our-commitment",
-    "title": "Epipulse Public Health Data Analysis",
-    "section": "",
-    "text": "At Epi-Pulse, we believe that timely data, ethical research, and community-driven solutions are the heartbeat of effective public health. We are committed to strengthening health systems, empowering communities, and shaping healthier futures."
-  },
-  {
-    "objectID": "community.html",
-    "href": "community.html",
-    "title": "Community",
-    "section": "",
-    "text": "This space supports discussion on public health research, data analysis, and capacity building.\n\n\n\n\n📌 Welcome & community guidelines\n\n📊 Public health data analysis discussions\n\n🤖 AI-assisted epidemiology workflows\n\n🎓 Student & early-career questions\n\nScroll below to participate in ongoing discussions.\n\n\n\n\n\nJoin EpiPulse Community Discussions →"
-  },
-  {
-    "objectID": "community.html#start-here-featured-topics",
-    "href": "community.html#start-here-featured-topics",
-    "title": "Community",
-    "section": "",
-    "text": "📌 Welcome & community guidelines\n\n📊 Public health data analysis discussions\n\n🤖 AI-assisted epidemiology workflows\n\n🎓 Student & early-career questions\n\nScroll below to participate in ongoing discussions."
-  },
-  {
-    "objectID": "community.html#discussion-board",
-    "href": "community.html#discussion-board",
-    "title": "Community",
-    "section": "",
-    "text": "Join EpiPulse Community Discussions →"
+    "text": "This page has been archived and replaced by the updated resource page: Public Health Data Analysis Resources"
   },
   {
     "objectID": "LICENSE.html",
     "href": "LICENSE.html",
-    "title": "1 License",
+    "title": "License",
     "section": "",
     "text": "Creative Commons Attribution 4.0 International (CC BY 4.0)\nThis work is licensed under the Creative Commons Attribution 4.0 International License.\n\n\n\n\nShare — copy and redistribute the material in any medium or format\n\nAdapt — remix, transform, and build upon the material for any purpose, even commercially\n\n\n\n\n\n\nAttribution — You must give appropriate credit to Epipulse NGO, provide a link to the license, and indicate if changes were made.\n\n\n\n\n\nhttps://creativecommons.org/licenses/by/4.0/"
   },
   {
     "objectID": "LICENSE.html#you-are-free-to",
     "href": "LICENSE.html#you-are-free-to",
-    "title": "1 License",
+    "title": "License",
     "section": "",
     "text": "Share — copy and redistribute the material in any medium or format\n\nAdapt — remix, transform, and build upon the material for any purpose, even commercially"
   },
   {
     "objectID": "LICENSE.html#under-the-following-terms",
     "href": "LICENSE.html#under-the-following-terms",
-    "title": "1 License",
+    "title": "License",
     "section": "",
     "text": "Attribution — You must give appropriate credit to Epipulse NGO, provide a link to the license, and indicate if changes were made."
   },
   {
     "objectID": "LICENSE.html#license-details",
     "href": "LICENSE.html#license-details",
-    "title": "1 License",
+    "title": "License",
     "section": "",
     "text": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "objectID": "impact.html",
+    "href": "impact.html",
+    "title": "Impact",
+    "section": "",
+    "text": "People reached through community health initiatives\n\n\n\nProjects delivered with local stakeholders\n\n\n\nDistrict-level partnerships\n\n\n\nTrainees supported in practical public health methods"
+  },
+  {
+    "objectID": "impact.html#impact-snapshot",
+    "href": "impact.html#impact-snapshot",
+    "title": "Impact",
+    "section": "",
+    "text": "People reached through community health initiatives\n\n\n\nProjects delivered with local stakeholders\n\n\n\nDistrict-level partnerships\n\n\n\nTrainees supported in practical public health methods"
+  },
+  {
+    "objectID": "impact.html#program-outcomes",
+    "href": "impact.html#program-outcomes",
+    "title": "Impact",
+    "section": "Program Outcomes",
+    "text": "Program Outcomes\n\nStrengthened surveillance and reporting pathways\nEarlier risk identification in local settings\nImproved quality of public health data for decision-making\nExpanded local workforce confidence in epidemiology tools"
+  },
+  {
+    "objectID": "impact.html#field-stories",
+    "href": "impact.html#field-stories",
+    "title": "Impact",
+    "section": "Field Stories",
+    "text": "Field Stories\n\nDistrict Surveillance Strengthening\nA district team moved from fragmented records to structured surveillance reporting, reducing reporting delays and improving response coordination.\n\n\nTraining-to-Practice Model\nStudent and early-career cohorts adopted reproducible workflows and applied them in operational public health projects."
+  },
+  {
+    "objectID": "impact.html#annual-reporting",
+    "href": "impact.html#annual-reporting",
+    "title": "Impact",
+    "section": "Annual Reporting",
+    "text": "Annual Reporting\nFor governance, legal, and reporting documents, see Transparency."
+  },
+  {
+    "objectID": "community.html",
+    "href": "community.html",
+    "title": "Community",
+    "section": "",
+    "text": "This space supports discussion on public health research, data analysis, and capacity building.\n\n\n\nWelcome and community guidelines\nPublic health data analysis discussions\nAI-assisted epidemiology workflows\nStudent and early-career questions\n\n\n\n\n\nBe respectful and evidence-focused\nAvoid sharing identifiable or sensitive data\nCite sources where possible\nKeep discussions practical and reproducible\n\n\n\n\n\nJoin EpiPulse Community Discussions"
+  },
+  {
+    "objectID": "community.html#start-here",
+    "href": "community.html#start-here",
+    "title": "Community",
+    "section": "",
+    "text": "Welcome and community guidelines\nPublic health data analysis discussions\nAI-assisted epidemiology workflows\nStudent and early-career questions"
+  },
+  {
+    "objectID": "community.html#community-norms",
+    "href": "community.html#community-norms",
+    "title": "Community",
+    "section": "",
+    "text": "Be respectful and evidence-focused\nAvoid sharing identifiable or sensitive data\nCite sources where possible\nKeep discussions practical and reproducible"
+  },
+  {
+    "objectID": "community.html#discussion-board",
+    "href": "community.html#discussion-board",
+    "title": "Community",
+    "section": "",
+    "text": "Join EpiPulse Community Discussions"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About EpiPulse",
+    "section": "",
+    "text": "EpiPulse is a public health non-governmental organization focused on translating evidence into action. We support communities and institutions through epidemiological intelligence, program implementation, and applied training."
+  },
+  {
+    "objectID": "about.html#who-we-are",
+    "href": "about.html#who-we-are",
+    "title": "About EpiPulse",
+    "section": "",
+    "text": "EpiPulse is a public health non-governmental organization focused on translating evidence into action. We support communities and institutions through epidemiological intelligence, program implementation, and applied training."
+  },
+  {
+    "objectID": "about.html#vision",
+    "href": "about.html#vision",
+    "title": "About EpiPulse",
+    "section": "Vision",
+    "text": "Vision\nTo build healthier, resilient, and equitable communities by transforming public health evidence into sustainable action."
+  },
+  {
+    "objectID": "about.html#mission",
+    "href": "about.html#mission",
+    "title": "About EpiPulse",
+    "section": "Mission",
+    "text": "Mission\n\nGenerate and translate high-quality public health evidence for informed decisions\nStrengthen community-based prevention and health promotion\nSupport health systems through research, training, and technical assistance\nPromote equity, ethics, and One Health approaches in practice"
+  },
+  {
+    "objectID": "about.html#values",
+    "href": "about.html#values",
+    "title": "About EpiPulse",
+    "section": "Values",
+    "text": "Values\n\nScientific integrity\nEquity and ethics\nCollaboration\nCommunity engagement\nImpact orientation"
+  },
+  {
+    "objectID": "about.html#leadership-and-governance",
+    "href": "about.html#leadership-and-governance",
+    "title": "About EpiPulse",
+    "section": "Leadership and Governance",
+    "text": "Leadership and Governance\n\nDirector\nDr. [Name]\nQualifications: [MBBS/MD/MPH/PhD]\nExpertise: Public Health, Epidemiology, [Key areas]\n\n\nCore Team\nEpidemiologists, public health researchers, medical professionals, data analysts, GIS specialists, and field coordinators."
+  },
+  {
+    "objectID": "about.html#organizational-background",
+    "href": "about.html#organizational-background",
+    "title": "About EpiPulse",
+    "section": "Organizational Background",
+    "text": "Organizational Background\n\nConceptualized: [Year]\nEstablished: [Month, Year]\nCountry Focus: India\n\nFor legal and reporting details, visit Transparency."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact and Get Involved",
+    "section": "",
+    "text": "General inquiries: [info@epipulse.org]\nPrograms: [programs@epipulse.org]\nMedia: [media@epipulse.org]"
+  },
+  {
+    "objectID": "contact.html#contact",
+    "href": "contact.html#contact",
+    "title": "Contact and Get Involved",
+    "section": "",
+    "text": "General inquiries: [info@epipulse.org]\nPrograms: [programs@epipulse.org]\nMedia: [media@epipulse.org]"
+  },
+  {
+    "objectID": "contact.html#volunteer",
+    "href": "contact.html#volunteer",
+    "title": "Contact and Get Involved",
+    "section": "Volunteer",
+    "text": "Volunteer\nWe welcome students, public health professionals, and technical contributors.\nSend: - Short profile - Area of interest - Availability\nEmail: [volunteer@epipulse.org]"
+  },
+  {
+    "objectID": "contact.html#partner",
+    "href": "contact.html#partner",
+    "title": "Contact and Get Involved",
+    "section": "Partner With Us",
+    "text": "Partner With Us\nFor collaborations with institutions, local governments, and implementation partners:\nEmail: [partnerships@epipulse.org]\nInclude: - Organization profile - Project geography - Proposed collaboration scope"
+  },
+  {
+    "objectID": "contact.html#donate",
+    "href": "contact.html#donate",
+    "title": "Contact and Get Involved",
+    "section": "Donate",
+    "text": "Donate\nYour support helps us expand evidence-based public health action.\n\nOne-time contribution\nMonthly contribution\nInstitutional support\n\nDonation support contact: [donate@epipulse.org]"
+  },
+  {
+    "objectID": "contact.html#community-discussion",
+    "href": "contact.html#community-discussion",
+    "title": "Contact and Get Involved",
+    "section": "Community Discussion",
+    "text": "Community Discussion\nJoin our open discussion space on the Community page."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EpiPulse",
+    "section": "",
+    "text": "EpiPulse is a public health NGO working at the intersection of epidemiology, community engagement, and implementation science. We turn health data into practical action for stronger and more equitable communities.\nDonate Now Get Involved"
+  },
+  {
+    "objectID": "index.html#at-a-glance",
+    "href": "index.html#at-a-glance",
+    "title": "EpiPulse",
+    "section": "At a Glance",
+    "text": "At a Glance\n\n\n32\nActive districts engaged\n\n\n58\nField projects completed\n\n\n14,500+\nCommunity members reached\n\n\n120+\nProfessionals and students trained"
+  },
+  {
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "EpiPulse",
+    "section": "What We Do",
+    "text": "What We Do\n\n\nEpidemiology and Surveillance\nData-driven surveillance support, outbreak analytics, and actionable dashboards for local decision-makers.\n\n\nNon-Communicable Disease Prevention\nCommunity interventions for diabetes, hypertension, nutrition, and behavior-risk reduction.\n\n\nMaternal, Child, and Adolescent Health\nField research and implementation support for life-course health and school/community prevention.\n\n\nCapacity Building\nWorkshops, mentoring, and reproducible data workflows for students, researchers, and frontline teams."
+  },
+  {
+    "objectID": "index.html#why-partners-work-with-epipulse",
+    "href": "index.html#why-partners-work-with-epipulse",
+    "title": "EpiPulse",
+    "section": "Why Partners Work With EpiPulse",
+    "text": "Why Partners Work With EpiPulse\nWe combine rigorous methods with practical implementation. Our model supports governments, institutions, and communities with:\n\nFast evidence synthesis for decision-making\nEthical and equity-centered public health practice\nCross-disciplinary teams (epidemiology, clinical, analytics, field operations)\nTransparent documentation and reproducible methods"
+  },
+  {
+    "objectID": "index.html#stories-from-the-field",
+    "href": "index.html#stories-from-the-field",
+    "title": "EpiPulse",
+    "section": "Stories From the Field",
+    "text": "Stories From the Field\n\n“EpiPulse helped our district team move from raw records to a clear action plan in weeks, not months.” Local Program Partner\n\n\n“The mentorship and tools made our resident training program immediately more practical.” Academic Collaborator"
+  },
+  {
+    "objectID": "index.html#work-with-us",
+    "href": "index.html#work-with-us",
+    "title": "EpiPulse",
+    "section": "Work With Us",
+    "text": "Work With Us\n\nPartner on a Program\nVolunteer as a Student or Professional\nSupport Through Donations\nRead Our Transparency Commitments"
+  },
+  {
+    "objectID": "programs.html",
+    "href": "programs.html",
+    "title": "Programs",
+    "section": "",
+    "text": "Disease surveillance design, outbreak support, risk assessment, and rapid analytics for action.\n\n\n\nResearch and interventions on hypertension, diabetes, nutrition, and lifestyle-risk reduction.\n\n\n\nCommunity programs, nutrition assessment, school health, and implementation support.\n\n\n\nAssessment of climate, workplace exposure, and environmental determinants of health.\n\n\n\nIntegrated human-animal-environment public health approaches for emerging threats.\n\n\n\nTraining, mentorship, and workforce support for students and public health professionals."
+  },
+  {
+    "objectID": "programs.html#program-areas",
+    "href": "programs.html#program-areas",
+    "title": "Programs",
+    "section": "",
+    "text": "Disease surveillance design, outbreak support, risk assessment, and rapid analytics for action.\n\n\n\nResearch and interventions on hypertension, diabetes, nutrition, and lifestyle-risk reduction.\n\n\n\nCommunity programs, nutrition assessment, school health, and implementation support.\n\n\n\nAssessment of climate, workplace exposure, and environmental determinants of health.\n\n\n\nIntegrated human-animal-environment public health approaches for emerging threats.\n\n\n\nTraining, mentorship, and workforce support for students and public health professionals."
+  },
+  {
+    "objectID": "programs.html#how-we-work",
+    "href": "programs.html#how-we-work",
+    "title": "Programs",
+    "section": "How We Work",
+    "text": "How We Work\n\nAssess local context and public health priorities\nCo-design interventions with community and institutional partners\nImplement with clear monitoring indicators\nMeasure outcomes and continuously improve"
+  },
+  {
+    "objectID": "programs.html#partner-with-us",
+    "href": "programs.html#partner-with-us",
+    "title": "Programs",
+    "section": "Partner With Us",
+    "text": "Partner With Us\nFor collaborations, grants, and institutional partnerships, visit Contact."
+  },
+  {
+    "objectID": "public_health_data_analysis.html",
+    "href": "public_health_data_analysis.html",
+    "title": "Public Health Data Analysis Resources",
+    "section": "",
+    "text": "This page curates learning resources for reproducible and ethics-aware public health data workflows."
+  },
+  {
+    "objectID": "public_health_data_analysis.html#resource-hub",
+    "href": "public_health_data_analysis.html#resource-hub",
+    "title": "Public Health Data Analysis Resources",
+    "section": "",
+    "text": "This page curates learning resources for reproducible and ethics-aware public health data workflows."
+  },
+  {
+    "objectID": "public_health_data_analysis.html#what-you-can-use",
+    "href": "public_health_data_analysis.html#what-you-can-use",
+    "title": "Public Health Data Analysis Resources",
+    "section": "What You Can Use",
+    "text": "What You Can Use\n\nAI-assisted data cleaning workflow templates\nData typing and labeling guidance\nExport pathways for R, SPSS, and Stata\nBeginner-friendly implementation notes for public health teams"
+  },
+  {
+    "objectID": "public_health_data_analysis.html#recommended-use-path",
+    "href": "public_health_data_analysis.html#recommended-use-path",
+    "title": "Public Health Data Analysis Resources",
+    "section": "Recommended Use Path",
+    "text": "Recommended Use Path\n\nPrepare de-identified datasets\nUse structured templates for cleaning and validation\nReview all AI-assisted code before execution\nDocument assumptions and decisions\nExport reproducible outputs with data dictionaries"
+  },
+  {
+    "objectID": "public_health_data_analysis.html#technical-draft-archive",
+    "href": "public_health_data_analysis.html#technical-draft-archive",
+    "title": "Public Health Data Analysis Resources",
+    "section": "Technical Draft Archive",
+    "text": "Technical Draft Archive\nThe earlier long-form draft remains available at: Legacy technical page"
+  },
+  {
+    "objectID": "public_health_data_analysis.html#community-support",
+    "href": "public_health_data_analysis.html#community-support",
+    "title": "Public Health Data Analysis Resources",
+    "section": "Community Support",
+    "text": "Community Support\nYou can ask implementation questions in Community."
   }
 ]

@@ -1,0 +1,51 @@
+---
+title: "Programs"
+format:
+  html:
+    toc: true
+---
+
+## Program Areas
+
+:::{.card-grid}
+::: {.info-card}
+### Epidemiology and Surveillance
+Disease surveillance design, outbreak support, risk assessment, and rapid analytics for action.
+:::
+
+::: {.info-card}
+### Non-Communicable Disease Prevention
+Research and interventions on hypertension, diabetes, nutrition, and lifestyle-risk reduction.
+:::
+
+::: {.info-card}
+### Maternal, Child, and Adolescent Health
+Community programs, nutrition assessment, school health, and implementation support.
+:::
+
+::: {.info-card}
+### Environmental and Occupational Health
+Assessment of climate, workplace exposure, and environmental determinants of health.
+:::
+
+::: {.info-card}
+### One Health and Emerging Infections
+Integrated human-animal-environment public health approaches for emerging threats.
+:::
+
+::: {.info-card}
+### Education and Capacity Building
+Training, mentorship, and workforce support for students and public health professionals.
+:::
+:::
+
+## How We Work
+
+1. Assess local context and public health priorities
+2. Co-design interventions with community and institutional partners
+3. Implement with clear monitoring indicators
+4. Measure outcomes and continuously improve
+
+## Partner With Us
+
+For collaborations, grants, and institutional partnerships, visit [Contact](contact.qmd#partner).

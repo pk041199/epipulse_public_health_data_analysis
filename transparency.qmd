@@ -1,0 +1,38 @@
+---
+title: "Transparency"
+format:
+  html:
+    toc: true
+---
+
+## Legal and Registration
+
+- Legal Status: Registered Non-Governmental Organization
+- Registration Act: [Section 8 Company]
+- Registration Number: [Update with official number]
+- Place of Registration: [City, State, Country]
+
+## Governance
+
+- Governing Board: [Update with names/roles]
+- Director: Dr. [Name]
+- Advisory Support: [Update with advisors/experts]
+
+## Financial Transparency
+
+- Annual Reports: [Upload and link PDF files]
+- Financial Statements: [Upload and link PDF files]
+- Utilization Summary: [Program-wise spending summary]
+
+## Policies
+
+- Safeguarding Policy
+- Data Privacy and Ethics Policy
+- Conflict of Interest Policy
+- Donation Acceptance Policy
+
+## Donor and Partner Information
+
+We maintain transparent reporting and due-diligence alignment with institutional and individual supporters.
+
+For donation and partnership inquiries, visit [Contact](contact.qmd).

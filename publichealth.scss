@@ -1,48 +1,54 @@
 /*-- scss:defaults --*/
-/* ---- Public Health NGO Theme ---- */
+/* EpiPulse NGO Website Theme */
 
-/* Brand colors */
-$primary: #0b6e6b;
-$secondary: #083c5d;
-$success: #6bbf59;
-$info: #5bc0de;
+$primary: #0d5c63;
+$secondary: #124559;
+$success: #4f8a10;
+$info: #2f6f8f;
+$light: #f4f8f9;
+$dark: #0f2d36;
 
-/* Typography */
-$font-family-sans-serif: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-
+$font-family-sans-serif: "Source Sans Pro", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$headings-font-family: "Merriweather", Georgia, "Times New Roman", serif;
 
 /*-- scss:rules --*/
 
-/* Body */
+:root {
+  --ep-surface: #ffffff;
+  --ep-border: #d7e5e8;
+  --ep-muted: #5b6f76;
+}
+
 body {
-  background-color: #f8f9fa;
+  background:
+    radial-gradient(circle at 100% 0%, #e6f3f4 0%, rgba(230, 243, 244, 0) 40%),
+    radial-gradient(circle at 0% 100%, #e8f0ef 0%, rgba(232, 240, 239, 0) 35%),
+    #f7fbfc;
+  color: #1b2d33;
   line-height: 1.7;
 }
 
-/* Headings */
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: $secondary;
-  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
-/* Navbar */
 .navbar {
-  font-weight: 500;
+  font-weight: 600;
+  backdrop-filter: blur(8px);
 }
-/* Active navbar link */
+
 .navbar-nav .nav-link.active {
-  color: #ffffff !important;
+  color: #fff !important;
   background-color: $primary;
-  border-radius: 0.4rem;
+  border-radius: 0.45rem;
 }
 
-/* Hover effect for navbar links */
 .navbar-nav .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  border-radius: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-radius: 0.45rem;
 }
 
-/* Links */
 a {
   color: $primary;
 }
@@ -51,15 +57,82 @@ a:hover {
   color: darken($primary, 10%);
 }
 
-/* Callouts (Quarto boxes) */
+.hero {
+  margin: 1.5rem 0 2rem;
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  color: #ffffff;
+  background:
+    linear-gradient(130deg, rgba(13, 92, 99, 0.96) 0%, rgba(18, 69, 89, 0.94) 55%, rgba(47, 111, 143, 0.9) 100%);
+  box-shadow: 0 12px 28px rgba(10, 41, 48, 0.22);
+}
+
+.hero h1 {
+  color: #ffffff;
+}
+
+.hero .btn {
+  margin-top: 0.8rem;
+}
+
+.metric-grid,
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.metric-card,
+.info-card {
+  background: var(--ep-surface);
+  border: 1px solid var(--ep-border);
+  border-radius: 0.85rem;
+  padding: 1rem 1rem 0.9rem;
+  box-shadow: 0 8px 18px rgba(16, 52, 61, 0.08);
+}
+
+.metric-card h3,
+.metric-card p,
+.info-card h3 {
+  margin-bottom: 0.35rem;
+}
+
+.metric-card h3 {
+  color: $primary;
+  font-size: 1.8rem;
+}
+
+.info-card h3 {
+  font-size: 1.15rem;
+}
+
+.quarto-title-banner {
+  background: linear-gradient(120deg, #f0f7f7 0%, #e4f0f2 100%);
+}
+
 .callout-note {
   border-left-color: $primary;
 }
 
 .callout-warning {
-  border-left-color: #d9534f;
+  border-left-color: #ba3b46;
 }
 
 .callout-tip {
   border-left-color: $success;
+}
+
+.page-footer {
+  border-top: 1px solid var(--ep-border);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 1.6rem 1.2rem;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
 }

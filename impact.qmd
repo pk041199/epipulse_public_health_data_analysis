@@ -1,0 +1,51 @@
+---
+title: "Impact"
+format:
+  html:
+    toc: true
+---
+
+## Impact Snapshot
+
+:::{.metric-grid}
+::: {.metric-card}
+### 14,500+
+People reached through community health initiatives
+:::
+
+::: {.metric-card}
+### 58
+Projects delivered with local stakeholders
+:::
+
+::: {.metric-card}
+### 32
+District-level partnerships
+:::
+
+::: {.metric-card}
+### 120+
+Trainees supported in practical public health methods
+:::
+:::
+
+## Program Outcomes
+
+- Strengthened surveillance and reporting pathways
+- Earlier risk identification in local settings
+- Improved quality of public health data for decision-making
+- Expanded local workforce confidence in epidemiology tools
+
+## Field Stories
+
+### District Surveillance Strengthening
+
+A district team moved from fragmented records to structured surveillance reporting, reducing reporting delays and improving response coordination.
+
+### Training-to-Practice Model
+
+Student and early-career cohorts adopted reproducible workflows and applied them in operational public health projects.
+
+## Annual Reporting
+
+For governance, legal, and reporting documents, see [Transparency](transparency.qmd).

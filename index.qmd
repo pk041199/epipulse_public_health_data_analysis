@@ -1,125 +1,90 @@
 ---
-title: "Epipulse Public Health Data Analysis"
+title: "EpiPulse"
 execute:
   eval: false
 format:
   html:
-    toc: true
-    toc-depth: 3       
-    toc-location: left
-    number-sections: true
+    toc: false
 editor: visual
 ---
 
-# **Epi-Pulse – Advancing Public Health Through Evidence & Action**
+:::{.hero}
+# EpiPulse: Advancing Public Health Through Evidence and Action
 
-## **Who We Are**
+EpiPulse is a public health NGO working at the intersection of epidemiology, community engagement, and implementation science. We turn health data into practical action for stronger and more equitable communities.
 
-**Epi-Pulse** is a public health–focused non-governmental organization dedicated to strengthening population health through epidemiological intelligence, community engagement, and evidence-based interventions. We work at the intersection of research, policy, and practice to translate data into meaningful public health action.
+<a class="btn btn-primary btn-lg me-2" href="contact.qmd#donate">Donate Now</a>
+<a class="btn btn-outline-light btn-lg" href="contact.qmd#volunteer">Get Involved</a>
+:::
 
-Rooted in the principles of equity, prevention, and scientific rigor, Epi-Pulse aims to respond to emerging and persistent public health challenges with speed, integrity, and impact.
+## At a Glance
 
-------------------------------------------------------------------------
+:::{.metric-grid}
+::: {.metric-card}
+### 32
+Active districts engaged
+:::
 
-## **Vision**
+::: {.metric-card}
+### 58
+Field projects completed
+:::
 
-To build healthier, resilient, and equitable communities by transforming epidemiological evidence into sustainable public health action.
+::: {.metric-card}
+### 14,500+
+Community members reached
+:::
 
-------------------------------------------------------------------------
+::: {.metric-card}
+### 120+
+Professionals and students trained
+:::
+:::
 
-## **Mission**
+## What We Do
 
--   To generate and translate high-quality public health evidence for informed decision-making
--   To strengthen community-based prevention and health promotion initiatives
--   To support public health systems through research, training, and technical assistance
--   To promote equity, ethics, and One Health approaches in public health practice
+:::{.card-grid}
+::: {.info-card}
+### Epidemiology and Surveillance
+Data-driven surveillance support, outbreak analytics, and actionable dashboards for local decision-makers.
+:::
 
-------------------------------------------------------------------------
+::: {.info-card}
+### Non-Communicable Disease Prevention
+Community interventions for diabetes, hypertension, nutrition, and behavior-risk reduction.
+:::
 
-## **Aims & Objectives**
+::: {.info-card}
+### Maternal, Child, and Adolescent Health
+Field research and implementation support for life-course health and school/community prevention.
+:::
 
-Epi-Pulse aims to:
+::: {.info-card}
+### Capacity Building
+Workshops, mentoring, and reproducible data workflows for students, researchers, and frontline teams.
+:::
+:::
 
-1.  Conduct epidemiological and public health research addressing priority health issues
-2.  Support disease surveillance, outbreak investigation, and health systems strengthening
-3.  Promote preventive, promotive, and primary health care interventions
-4.  Build capacity among students, health professionals, and community stakeholders
-5.  Advocate for evidence-based public health policies and ethical research practices
-6.  Integrate One Health, environmental, and occupational health perspectives into public health action
+## Why Partners Work With EpiPulse
 
-------------------------------------------------------------------------
+We combine rigorous methods with practical implementation. Our model supports governments, institutions, and communities with:
 
-## **Scope of Work**
+- Fast evidence synthesis for decision-making
+- Ethical and equity-centered public health practice
+- Cross-disciplinary teams (epidemiology, clinical, analytics, field operations)
+- Transparent documentation and reproducible methods
 
-Our work spans multiple domains of public health, including:
+## Stories From the Field
 
--   **Health Education & Capacity Building** Training programs, workshops, student mentorship, and public health advocacy
+> "EpiPulse helped our district team move from raw records to a clear action plan in weeks, not months."
+> Local Program Partner
 
--   **Non-Communicable Diseases (NCDs)** Research and interventions related to diabetes, hypertension, nutrition, and lifestyle diseases
+> "The mentorship and tools made our resident training program immediately more practical."
+> Academic Collaborator
 
--   **Maternal, Child & Adolescent Health** Community-based programs, nutrition assessments, and school health initiatives
+## Work With Us
 
--   **Environmental & Occupational Health** Impact of air quality, workplace exposures, and climate factors on health
-
--   **One Health & Emerging Infections** Integrated approaches linking human, animal, and environmental health
-
--   **Epidemiology & Surveillance** Disease surveillance, outbreak investigations, and data-driven risk assessments
-
-------------------------------------------------------------------------
-
-## **When We Started**
-
-Epi-Pulse was conceptualized in **\[Year\]** and formally established in **\[Month, Year\]** in response to the growing need for agile, evidence-driven public health organizations in India.
-
-------------------------------------------------------------------------
-
-## **Registration Details**
-
--   **Legal Status:** Registered Non-Governmental Organization
--   **Registration Act:** \[Section 8 Company\]
--   **Registration Number:** \[To be updated\]
--   **Place of Registration:** \[City, State, Country\]
-
-------------------------------------------------------------------------
-
-## **Leadership & Governance**
-
-### **Director**
-
-**Dr. \[Name\]** Qualifications: \[MBBS / MD / MPH / PhD – as applicable\] Expertise: Public Health, Epidemiology, \[Key areas\]
-
-The Director provides strategic leadership, oversees research and programs, and represents Epi-Pulse in academic, governmental, and community platforms.
-
-------------------------------------------------------------------------
-
-### **Core Members**
-
-Epi-Pulse is supported by a multidisciplinary team of public health professionals, researchers, clinicians, and community advocates.
-
-**Core Team Includes:**
-
--   Epidemiologists
--   Public Health Researchers
--   Medical Professionals
--   Data Analysts & GIS Specialists
--   Field Coordinators & Program Officers
-
-*(Individual member profiles can be added as separate pages if needed.)*
-
-------------------------------------------------------------------------
-
-## **Our Values**
-
--   **Scientific Integrity** – Evidence before opinion
--   **Equity & Ethics** – Health for all, without discrimination
--   **Collaboration** – Partnerships across sectors and disciplines
--   **Community Engagement** – People-centered public health
--   **Impact Orientation** – Research that leads to action
-
-------------------------------------------------------------------------
-
-## **Our Commitment**
-
-At Epi-Pulse, we believe that timely data, ethical research, and community-driven solutions are the heartbeat of effective public health. We are committed to strengthening health systems, empowering communities, and shaping healthier futures.
-
-------------------------------------------------------------------------
+- [Partner on a Program](contact.qmd#partner)
+- [Volunteer as a Student or Professional](contact.qmd#volunteer)
+- [Support Through Donations](contact.qmd#donate)
+- [Read Our Transparency Commitments](transparency.qmd)

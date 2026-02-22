@@ -1,0 +1,48 @@
+---
+title: "Contact and Get Involved"
+format:
+  html:
+    toc: true
+---
+
+## Contact
+
+- General inquiries: [info@epipulse.org]
+- Programs: [programs@epipulse.org]
+- Media: [media@epipulse.org]
+
+## Volunteer {#volunteer}
+
+We welcome students, public health professionals, and technical contributors.
+
+Send:
+- Short profile
+- Area of interest
+- Availability
+
+Email: [volunteer@epipulse.org]
+
+## Partner With Us {#partner}
+
+For collaborations with institutions, local governments, and implementation partners:
+
+Email: [partnerships@epipulse.org]
+
+Include:
+- Organization profile
+- Project geography
+- Proposed collaboration scope
+
+## Donate {#donate}
+
+Your support helps us expand evidence-based public health action.
+
+- One-time contribution
+- Monthly contribution
+- Institutional support
+
+Donation support contact: [donate@epipulse.org]
+
+## Community Discussion
+
+Join our open discussion space on the [Community](community.qmd) page.

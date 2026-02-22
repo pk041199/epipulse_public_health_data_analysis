@@ -1,0 +1,34 @@
+---
+title: "Public Health Data Analysis Resources"
+format:
+  html:
+    toc: true
+---
+
+## Resource Hub
+
+This page curates learning resources for reproducible and ethics-aware public health data workflows.
+
+## What You Can Use
+
+- AI-assisted data cleaning workflow templates
+- Data typing and labeling guidance
+- Export pathways for R, SPSS, and Stata
+- Beginner-friendly implementation notes for public health teams
+
+## Recommended Use Path
+
+1. Prepare de-identified datasets
+2. Use structured templates for cleaning and validation
+3. Review all AI-assisted code before execution
+4. Document assumptions and decisions
+5. Export reproducible outputs with data dictionaries
+
+## Technical Draft Archive
+
+The earlier long-form draft remains available at:
+[Legacy technical page](public_health_data_analaysis.qmd)
+
+## Community Support
+
+You can ask implementation questions in [Community](community.qmd).
