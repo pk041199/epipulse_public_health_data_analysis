@@ -18,13 +18,15 @@ website:
         text: Impact
       - href: public_health_data_analysis.qmd
         text: Resources
+      - href: ai_with_r.qmd
+        text: AI With R
       - href: community.qmd
         text: Community
       - href: contact.qmd
         text: Contact
     right:
-      - href: contact.qmd#donate
-        text: Donate
+      - href: transparency.qmd#donation-and-payment-status
+        text: Support Us
   page-footer:
     left: "EpiPulse | Evidence to Action in Public Health"
     right:

@@ -28,22 +28,13 @@ To build healthier, resilient, and equitable communities by transforming public 
 - Community engagement
 - Impact orientation
 
-## Leadership and Governance
+## Governance Note
 
-### Director
-
-Dr. [Name]  
-Qualifications: [MBBS/MD/MPH/PhD]  
-Expertise: Public Health, Epidemiology, [Key areas]
-
-### Core Team
-
-Epidemiologists, public health researchers, medical professionals, data analysts, GIS specialists, and field coordinators.
+Member and director details are currently maintained in official filings and project documentation, and are not listed on this page for now.
 
 ## Organizational Background
 
-- Conceptualized: [Year]
-- Established: [Month, Year]
+- Legal and operational milestones will be published after incorporation and commencement are formally completed.
 - Country Focus: India
 
 For legal and reporting details, visit [Transparency](transparency.qmd).

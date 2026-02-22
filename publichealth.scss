@@ -92,6 +92,47 @@ a:hover {
   box-shadow: 0 8px 18px rgba(16, 52, 61, 0.08);
 }
 
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.team-card {
+  background: var(--ep-surface);
+  border: 1px solid var(--ep-border);
+  border-radius: 0.85rem;
+  padding: 1rem;
+  box-shadow: 0 8px 18px rgba(16, 52, 61, 0.08);
+}
+
+.team-card h3 {
+  margin-bottom: 0.6rem;
+  color: $primary;
+}
+
+.payment-box {
+  background: #f9fcfc;
+  border: 1px solid var(--ep-border);
+  border-radius: 0.9rem;
+  padding: 1rem 1rem 0.8rem;
+  box-shadow: 0 8px 18px rgba(16, 52, 61, 0.08);
+  margin: 0.8rem 0 1.2rem;
+}
+
+.payment-box h3 {
+  color: $primary;
+}
+
+.payment-qr {
+  max-width: 220px;
+  width: 100%;
+  border-radius: 0.6rem;
+  border: 1px solid #d4e4e8;
+  margin-top: 0.4rem;
+}
+
 .metric-card h3,
 .metric-card p,
 .info-card h3 {

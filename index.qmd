@@ -13,7 +13,7 @@ editor: visual
 
 EpiPulse is a public health NGO working at the intersection of epidemiology, community engagement, and implementation science. We turn health data into practical action for stronger and more equitable communities.
 
-<a class="btn btn-primary btn-lg me-2" href="contact.qmd#donate">Donate Now</a>
+<a class="btn btn-primary btn-lg me-2" href="transparency.qmd#donation-and-payment-status">Support Us</a>
 <a class="btn btn-outline-light btn-lg" href="contact.qmd#volunteer">Get Involved</a>
 :::
 
@@ -21,23 +21,23 @@ EpiPulse is a public health NGO working at the intersection of epidemiology, com
 
 :::{.metric-grid}
 ::: {.metric-card}
-### 32
-Active districts engaged
+### Baseline
+Current-year validated metrics will be published after our first reporting cycle.
 :::
 
 ::: {.metric-card}
-### 58
-Field projects completed
+### Ongoing
+Program and training updates are published in rolling quarterly summaries.
 :::
 
 ::: {.metric-card}
-### 14,500+
-Community members reached
+### Transparent
+Only audited and verified numbers are shown on this website.
 :::
 
 ::: {.metric-card}
-### 120+
-Professionals and students trained
+### Reported
+See detailed indicators on the Impact and Transparency pages.
 :::
 :::
 
@@ -74,17 +74,13 @@ We combine rigorous methods with practical implementation. Our model supports go
 - Cross-disciplinary teams (epidemiology, clinical, analytics, field operations)
 - Transparent documentation and reproducible methods
 
-## Stories From the Field
+## Field Updates
 
-> "EpiPulse helped our district team move from raw records to a clear action plan in weeks, not months."
-> Local Program Partner
-
-> "The mentorship and tools made our resident training program immediately more practical."
-> Academic Collaborator
+Case stories and partner testimonials will be published after programs are operational and consented narratives are available.
 
 ## Work With Us
 
 - [Partner on a Program](contact.qmd#partner)
 - [Volunteer as a Student or Professional](contact.qmd#volunteer)
-- [Support Through Donations](contact.qmd#donate)
+- [Support and Donation Status](transparency.qmd#donation-and-payment-status)
 - [Read Our Transparency Commitments](transparency.qmd)

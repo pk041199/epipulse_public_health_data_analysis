@@ -5,34 +5,108 @@ format:
     toc: true
 ---
 
-## Legal and Registration
+## Current Status
 
-- Legal Status: Registered Non-Governmental Organization
-- Registration Act: [Section 8 Company]
-- Registration Number: [Update with official number]
-- Place of Registration: [City, State, Country]
+EpiPulse is in an early setup phase. Public programs, audited impact numbers, and live donation channels are being prepared and will be published only after formal activation.
 
-## Governance
+## Legal Identity
 
-- Governing Board: [Update with names/roles]
-- Director: Dr. [Name]
-- Advisory Support: [Update with advisors/experts]
+- Entity Type: Section 8 Company (Not-for-Profit)
+- Governing Law: Companies Act, 2013 (India)
+- Name: EPIPULSE
+- Registered Office State: [To be inserted]
+- CIN/Registration Number: [To be inserted]
 
-## Financial Transparency
+## Memorandum of Association (MOA): Core Object Areas
 
-- Annual Reports: [Upload and link PDF files]
-- Financial Statements: [Upload and link PDF files]
-- Utilization Summary: [Program-wise spending summary]
+### 1) Research, Evidence, and Community Implementation
 
-## Policies
+- Public health and epidemiology research
+- Implementation and operational research
+- Evidence synthesis and policy translation
+- Field-based public health innovation
 
-- Safeguarding Policy
-- Data Privacy and Ethics Policy
-- Conflict of Interest Policy
-- Donation Acceptance Policy
+### 2) Research Support and Capacity Building
 
-## Donor and Partner Information
+- Protocol and study design support
+- Biostatistics and data services
+- Manuscript and publication support
+- Training, workshops, fellowships, internships
 
-We maintain transparent reporting and due-diligence alignment with institutional and individual supporters.
+### 3) Public Health Programs and CSR Implementation
 
-For donation and partnership inquiries, visit [Contact](contact.qmd).
+- Program design and execution
+- Health promotion and prevention activities
+- Collaborations with government, academia, NGOs, and private partners
+
+### Incidental/Ancillary Objects
+
+- National and international collaboration
+- Receiving lawful grants, donations, and CSR funds
+- Publishing reports and educational materials
+- Conducting conferences and technical events
+
+## Articles of Association (AOA): Governance Framework
+
+### Membership
+
+- Initial members are MOA subscribers
+- New members require unanimous existing-member approval plus Board approval
+- No open or automatic membership
+
+### Board and Governance
+
+- Minimum two directors; up to fifteen as per law
+- Board manages operations under MOA/AOA
+- Director removal by special resolution
+
+### Founder/President Framework
+
+- Founder status is recognized as conceptual origin
+- President role is governance-advisory, not automatic Board voting authority
+- No automatic financial privilege from founder/president role
+
+### Divisional Structure (Operational)
+
+Planned internal divisions include:
+
+- Research and Evidence
+- Public Health Implementation
+- Collaboration and Partnerships
+- Accounts and Legal Compliance
+- Software and Systems
+- Education and Fellowship
+- Monitoring, Evaluation, Impact, and Ethics
+- Grants, Funding, and Resource Mobilization
+
+## Application of Income and Winding Up
+
+- Income and property are applied only toward company objects
+- No dividend/bonus/profit distribution to members
+- On dissolution, assets transfer to a similar Section 8 entity, not members
+
+## Financial and Reporting Status
+
+- Annual reports: To be published after first reporting cycle
+- Audited statements: To be published after first statutory audit
+- Program utilization summaries: To be published after operations begin
+
+## Donation and Payment Status
+
+:::{.payment-box}
+### Donations Are Not Live Yet
+
+Official bank/UPI/QR payment details are intentionally not published until activation and compliance checks are complete.
+
+When ready, this section will include:
+
+- Account Name
+- Bank Name
+- Account Number
+- IFSC/SWIFT
+- UPI ID
+- Official QR
+- Donation confirmation contact
+:::
+
+For partnership and volunteering, visit [Contact](contact.qmd).

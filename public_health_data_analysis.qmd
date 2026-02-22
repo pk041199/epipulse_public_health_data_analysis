@@ -9,12 +9,23 @@ format:
 
 This page curates learning resources for reproducible and ethics-aware public health data workflows.
 
-## What You Can Use
+## Current Featured Resources
 
-- AI-assisted data cleaning workflow templates
-- Data typing and labeling guidance
-- Export pathways for R, SPSS, and Stata
-- Beginner-friendly implementation notes for public health teams
+- [AI-assisted Data Cleaning Workflow](ai_with_r.qmd)
+  End-to-end R workflow for AI-assisted cleaning, labeling, and export.
+
+- [Community](community.qmd)
+  Discussion space for implementation questions and peer support.
+
+- [Transparency](transparency.qmd)
+  Legal framework and current operational status.
+
+## Upcoming Resource Tracks
+
+- Research protocol templates
+- Data governance and ethics templates
+- Monitoring and evaluation toolkits
+- Grant and CSR collaboration documentation
 
 ## Recommended Use Path
 
@@ -26,9 +37,11 @@ This page curates learning resources for reproducible and ethics-aware public he
 
 ## Technical Draft Archive
 
-The earlier long-form draft remains available at:
+The earlier long-form draft is available at:
 [Legacy technical page](public_health_data_analaysis.qmd)
 
 ## Community Support
 
 You can ask implementation questions in [Community](community.qmd).
+
+For the complete implementation workflow, use [AI-assisted Data Cleaning Workflow](ai_with_r.qmd).

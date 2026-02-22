@@ -9,42 +9,40 @@ format:
 
 :::{.metric-grid}
 ::: {.metric-card}
-### 14,500+
-People reached through community health initiatives
+### Baseline in progress
+Impact numbers will be published after verification and internal review.
 :::
 
 ::: {.metric-card}
-### 58
-Projects delivered with local stakeholders
+### Reporting cycle
+Quarterly and annual impact summaries will be published here.
 :::
 
 ::: {.metric-card}
-### 32
-District-level partnerships
+### Data quality first
+We only publish metrics supported by validated source records.
 :::
 
 ::: {.metric-card}
-### 120+
-Trainees supported in practical public health methods
+### Accountability
+Program indicators and utilization details will align with transparency reports.
 :::
 :::
 
 ## Program Outcomes
 
-- Strengthened surveillance and reporting pathways
-- Earlier risk identification in local settings
-- Improved quality of public health data for decision-making
-- Expanded local workforce confidence in epidemiology tools
+Current outcomes will be added after the first full monitoring and evaluation cycle. This page will then include:
+
+- Verified reach and service indicators
+- District-wise implementation summaries
+- Training completion and competency indicators
+- Year-over-year trend comparisons
 
 ## Field Stories
 
-### District Surveillance Strengthening
+### Story section
 
-A district team moved from fragmented records to structured surveillance reporting, reducing reporting delays and improving response coordination.
-
-### Training-to-Practice Model
-
-Student and early-career cohorts adopted reproducible workflows and applied them in operational public health projects.
+Field stories and case studies will be added once participant consent and review steps are completed.
 
 ## Annual Reporting
 

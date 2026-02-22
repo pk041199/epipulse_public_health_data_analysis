@@ -35,13 +35,11 @@ Include:
 
 ## Donate {#donate}
 
-Your support helps us expand evidence-based public health action.
+Donation channels are currently being finalized and are not live yet.
 
-- One-time contribution
-- Monthly contribution
-- Institutional support
+Official activation and payment details will be announced on the [Transparency](transparency.qmd) page under "Donation and Payment Status".
 
-Donation support contact: [donate@epipulse.org]
+Volunteer onboarding and donor support are handled through separate processes and separate contact channels.
 
 ## Community Discussion
 
