@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Track, reschedule, or cancel your EpiPulse healthcare appointment. View appointment status and consultation details.">
+
+<title>Manage Your Appointments – EpiPulse</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d873eaa0364290031e20d2fc285699e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">EpiPulse</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./programs.html"> 
+<span class="menu-text">Programs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./services.html"> 
+<span class="menu-text">Services</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-appointments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Appointments</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-appointments">    
+        <li>
+    <a class="dropdown-item" href="./book_appointment.qmd">
+ <span class="dropdown-text">Book Appointment</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./appointments.html">
+ <span class="dropdown-text">Manage Appointments</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./online_consultations.html">
+ <span class="dropdown-text">Online Consultations</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./caregrid.html"> 
+<span class="menu-text">CareGrid App</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./impact.html"> 
+<span class="menu-text">Impact</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./public_health_calendar.html"> 
+<span class="menu-text">Health Calendar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./volunteer.html"> 
+<span class="menu-text">Volunteer</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="./public_health_data_analysis.html">
+ <span class="dropdown-text">Resource Hub</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ai_with_r.html">
+ <span class="dropdown-text">AI-assisted Data Cleaning Workflow</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources.html">
+ <span class="dropdown-text">Health Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./srma_tutorial.html">
+ <span class="dropdown-text">SRMA Tutorial</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./railway_setup.html">
+ <span class="dropdown-text">Railway Deployment Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./public_health_data_analaysis.html">
+ <span class="dropdown-text">Legacy Technical Draft</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./community.html"> 
+<span class="menu-text">Community</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./transparency.html#donation-and-payment-status"> 
+<span class="menu-text">Support Us</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#manage-your-appointments" id="toc-manage-your-appointments" class="nav-link active" data-scroll-target="#manage-your-appointments">Manage Your Appointments</a>
+  <ul class="collapse">
+  <li><a href="#check-your-appointment-status" id="toc-check-your-appointment-status" class="nav-link" data-scroll-target="#check-your-appointment-status">Check Your Appointment Status</a>
+  <ul class="collapse">
+  <li><a href="#method-1-email-confirmation" id="toc-method-1-email-confirmation" class="nav-link" data-scroll-target="#method-1-email-confirmation">Method 1: Email Confirmation</a></li>
+  <li><a href="#method-2-sms-confirmation" id="toc-method-2-sms-confirmation" class="nav-link" data-scroll-target="#method-2-sms-confirmation">Method 2: SMS Confirmation</a></li>
+  <li><a href="#method-3-contact-us" id="toc-method-3-contact-us" class="nav-link" data-scroll-target="#method-3-contact-us">Method 3: Contact Us</a></li>
+  </ul></li>
+  <li><a href="#your-appointment-information" id="toc-your-appointment-information" class="nav-link" data-scroll-target="#your-appointment-information">Your Appointment Information</a></li>
+  <li><a href="#reschedule-your-appointment" id="toc-reschedule-your-appointment" class="nav-link" data-scroll-target="#reschedule-your-appointment">Reschedule Your Appointment</a>
+  <ul class="collapse">
+  <li><a href="#rescheduling-policy" id="toc-rescheduling-policy" class="nav-link" data-scroll-target="#rescheduling-policy">Rescheduling Policy</a></li>
+  <li><a href="#how-to-reschedule" id="toc-how-to-reschedule" class="nav-link" data-scroll-target="#how-to-reschedule">How to Reschedule</a></li>
+  </ul></li>
+  <li><a href="#cancel-your-appointment" id="toc-cancel-your-appointment" class="nav-link" data-scroll-target="#cancel-your-appointment">Cancel Your Appointment</a>
+  <ul class="collapse">
+  <li><a href="#cancellation-policy" id="toc-cancellation-policy" class="nav-link" data-scroll-target="#cancellation-policy">Cancellation Policy</a></li>
+  <li><a href="#how-to-cancel" id="toc-how-to-cancel" class="nav-link" data-scroll-target="#how-to-cancel">How to Cancel</a></li>
+  </ul></li>
+  <li><a href="#no-show-policy" id="toc-no-show-policy" class="nav-link" data-scroll-target="#no-show-policy">No-Show Policy</a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-no-show" id="toc-what-is-a-no-show" class="nav-link" data-scroll-target="#what-is-a-no-show">What is a “No-Show”?</a></li>
+  <li><a href="#no-show-consequences" id="toc-no-show-consequences" class="nav-link" data-scroll-target="#no-show-consequences">No-Show Consequences</a></li>
+  <li><a href="#avoid-no-shows" id="toc-avoid-no-shows" class="nav-link" data-scroll-target="#avoid-no-shows">Avoid No-Shows</a></li>
+  </ul></li>
+  <li><a href="#appointment-status-explained" id="toc-appointment-status-explained" class="nav-link" data-scroll-target="#appointment-status-explained">Appointment Status Explained</a>
+  <ul class="collapse">
+  <li><a href="#status-types" id="toc-status-types" class="nav-link" data-scroll-target="#status-types">Status Types</a></li>
+  </ul></li>
+  <li><a href="#appointment-reminders" id="toc-appointment-reminders" class="nav-link" data-scroll-target="#appointment-reminders">Appointment Reminders</a>
+  <ul class="collapse">
+  <li><a href="#email-reminders" id="toc-email-reminders" class="nav-link" data-scroll-target="#email-reminders">Email Reminders</a></li>
+  <li><a href="#sms-reminders" id="toc-sms-reminders" class="nav-link" data-scroll-target="#sms-reminders">SMS Reminders</a></li>
+  <li><a href="#set-your-own-reminders" id="toc-set-your-own-reminders" class="nav-link" data-scroll-target="#set-your-own-reminders">Set Your Own Reminders</a></li>
+  </ul></li>
+  <li><a href="#track-multiple-appointments" id="toc-track-multiple-appointments" class="nav-link" data-scroll-target="#track-multiple-appointments">Track Multiple Appointments</a>
+  <ul class="collapse">
+  <li><a href="#view-all-appointments" id="toc-view-all-appointments" class="nav-link" data-scroll-target="#view-all-appointments">View All Appointments</a></li>
+  <li><a href="#appointment-dashboard-coming-soon" id="toc-appointment-dashboard-coming-soon" class="nav-link" data-scroll-target="#appointment-dashboard-coming-soon">Appointment Dashboard (Coming Soon)</a></li>
+  </ul></li>
+  <li><a href="#prescription-medical-records" id="toc-prescription-medical-records" class="nav-link" data-scroll-target="#prescription-medical-records">Prescription &amp; Medical Records</a>
+  <ul class="collapse">
+  <li><a href="#after-your-appointment" id="toc-after-your-appointment" class="nav-link" data-scroll-target="#after-your-appointment">After Your Appointment</a></li>
+  <li><a href="#request-medical-records" id="toc-request-medical-records" class="nav-link" data-scroll-target="#request-medical-records">Request Medical Records</a></li>
+  </ul></li>
+  <li><a href="#payment-billing" id="toc-payment-billing" class="nav-link" data-scroll-target="#payment-billing">Payment &amp; Billing</a>
+  <ul class="collapse">
+  <li><a href="#accepted-payment-methods" id="toc-accepted-payment-methods" class="nav-link" data-scroll-target="#accepted-payment-methods">Accepted Payment Methods</a></li>
+  <li><a href="#billing-process" id="toc-billing-process" class="nav-link" data-scroll-target="#billing-process">Billing Process</a></li>
+  <li><a href="#refund-policy" id="toc-refund-policy" class="nav-link" data-scroll-target="#refund-policy">Refund Policy</a></li>
+  </ul></li>
+  <li><a href="#special-situations" id="toc-special-situations" class="nav-link" data-scroll-target="#special-situations">Special Situations</a>
+  <ul class="collapse">
+  <li><a href="#for-first-time-patients" id="toc-for-first-time-patients" class="nav-link" data-scroll-target="#for-first-time-patients">For First-Time Patients</a></li>
+  <li><a href="#for-emergency-cases" id="toc-for-emergency-cases" class="nav-link" data-scroll-target="#for-emergency-cases">For Emergency Cases</a></li>
+  <li><a href="#for-follow-up-consultations" id="toc-for-follow-up-consultations" class="nav-link" data-scroll-target="#for-follow-up-consultations">For Follow-up Consultations</a></li>
+  <li><a href="#for-corporategroup-bookings" id="toc-for-corporategroup-bookings" class="nav-link" data-scroll-target="#for-corporategroup-bookings">For Corporate/Group Bookings</a></li>
+  </ul></li>
+  <li><a href="#frequently-asked-questions" id="toc-frequently-asked-questions" class="nav-link" data-scroll-target="#frequently-asked-questions">Frequently Asked Questions</a></li>
+  <li><a href="#contact-support" id="toc-contact-support" class="nav-link" data-scroll-target="#contact-support">Contact &amp; Support</a></li>
+  <li><a href="#ready-to-book" id="toc-ready-to-book" class="nav-link" data-scroll-target="#ready-to-book">Ready to Book?</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Manage Your Appointments</h1>
+</div>
+
+<div>
+  <div class="description">
+    Track, reschedule, or cancel your EpiPulse healthcare appointment. View appointment status and consultation details.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="manage-your-appointments" class="level1">
+<h1>Manage Your Appointments</h1>
+<p>Track your healthcare appointments with EpiPulse. Check status, reschedule, or get support for your bookings.</p>
+<section id="check-your-appointment-status" class="level2">
+<h2 class="anchored" data-anchor-id="check-your-appointment-status">Check Your Appointment Status</h2>
+<p>To view your appointment details, use one of these methods:</p>
+<section id="method-1-email-confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="method-1-email-confirmation">Method 1: Email Confirmation</h3>
+<ul>
+<li>Look for your appointment confirmation email</li>
+<li>Contains all appointment details</li>
+<li>Shows Google Meet link</li>
+<li>Includes appointment ID</li>
+</ul>
+</section>
+<section id="method-2-sms-confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="method-2-sms-confirmation">Method 2: SMS Confirmation</h3>
+<ul>
+<li>Check SMS sent to your registered phone number</li>
+<li>Contains appointment date, time, and doctor name</li>
+<li>Has Meet link or code</li>
+</ul>
+</section>
+<section id="method-3-contact-us" class="level3">
+<h3 class="anchored" data-anchor-id="method-3-contact-us">Method 3: Contact Us</h3>
+<ul>
+<li><strong>Email</strong>: appointments@epipulse.org</li>
+<li><strong>Phone</strong>: [Your phone number]</li>
+<li><strong>WhatsApp</strong>: [Your WhatsApp number]</li>
+<li><strong>Hours</strong>: 9 AM - 6 PM, Monday to Saturday</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="your-appointment-information" class="level2">
+<h2 class="anchored" data-anchor-id="your-appointment-information">Your Appointment Information</h2>
+<p>When you book with us, you’ll receive:</p>
+<pre><code>═══════════════════════════════════
+     APPOINTMENT CONFIRMATION
+═══════════════════════════════════
+
+Appointment ID: EPP-2024-001234
+Patient Name: [Your Name]
+Registered Phone: [Your Phone]
+Registered Email: [Your Email]
+
+SERVICE DETAILS
+Service Type: General OPD
+Doctor: Dr. [Doctor Name]
+Consultation Fee: ₹200
+
+APPOINTMENT SCHEDULE
+Date: [Appointment Date]
+Time: [Time Slot]
+Duration: 30 minutes
+Location: Online (Google Meet)
+
+GOOGLE MEET DETAILS
+Meeting Link: https://meet.google.com/xxx-xxxx-xxx
+Meeting Code: [Code]
+Password: [If required]
+
+BEFORE YOUR APPOINTMENT
+- Test your internet connection
+- Prepare any medical documents
+- Join 5-10 minutes early
+- Ensure private, quiet space
+
+IMPORTANT REMINDERS
+- Cancellation: Up to 24 hours before
+- No-show policy applies
+- Digital prescription will be emailed
+- Keep this confirmation safe
+
+═══════════════════════════════════</code></pre>
+<hr>
+</section>
+<section id="reschedule-your-appointment" class="level2">
+<h2 class="anchored" data-anchor-id="reschedule-your-appointment">Reschedule Your Appointment</h2>
+<section id="rescheduling-policy" class="level3">
+<h3 class="anchored" data-anchor-id="rescheduling-policy">Rescheduling Policy</h3>
+<ul>
+<li>✅ <strong>Can reschedule</strong>: Up to 24 hours before appointment</li>
+<li>❌ <strong>Cannot reschedule</strong>: Less than 24 hours before appointment</li>
+<li>⏰ <strong>Notice required</strong>: 24 hours in advance</li>
+</ul>
+</section>
+<section id="how-to-reschedule" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-reschedule">How to Reschedule</h3>
+<section id="step-1-contact-us" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-contact-us">Step 1: Contact Us</h4>
+<p>Send your request within 24 hours of your appointment:</p>
+<p><strong>Option A: Email</strong></p>
+<pre><code>To: appointments@epipulse.org
+Subject: Reschedule Appointment - [Your Appointment ID]
+
+Dear EpiPulse Team,
+I would like to reschedule my appointment.
+
+Current Appointment:
+- Appointment ID: [From your confirmation]
+- Date: [Current date]
+- Time: [Current time]
+- Doctor: [Doctor name]
+
+Preferred New Date: [Your preference]
+Preferred New Time: [Your preference]
+Reason (Optional): [Why you're rescheduling]
+
+Contact Details:
+- Name: [Your name]
+- Phone: [Your phone]
+- Email: [Your email]
+
+Thank you,
+[Your Name]</code></pre>
+<p><strong>Option B: Phone/WhatsApp</strong> - Call: [Your phone number] - WhatsApp: [Your WhatsApp number] - Say: “I want to reschedule my appointment” (ID: [Your ID]) - Provide new preferred dates/times</p>
+<p><strong>Option C: Online Form</strong> <a href="https://forms.google.com/YOUR_FORM_ID">Reschedule Request Form</a></p>
+</section>
+<section id="step-2-confirmation" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-confirmation">Step 2: Confirmation</h4>
+<ul>
+<li>You’ll receive confirmation of new appointment</li>
+<li>New Google Meet link will be sent</li>
+<li>Update calendar with new date/time</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="cancel-your-appointment" class="level2">
+<h2 class="anchored" data-anchor-id="cancel-your-appointment">Cancel Your Appointment</h2>
+<section id="cancellation-policy" class="level3">
+<h3 class="anchored" data-anchor-id="cancellation-policy">Cancellation Policy</h3>
+<ul>
+<li>✅ <strong>Can cancel</strong>: Up to 24 hours before appointment</li>
+<li>❌ <strong>Cannot cancel</strong>: Less than 24 hours before appointment</li>
+<li>⚠️ <strong>Repeated cancellations</strong>: May result in booking restrictions</li>
+</ul>
+</section>
+<section id="how-to-cancel" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-cancel">How to Cancel</h3>
+<section id="step-1-notify-us" class="level4">
+<h4 class="anchored" data-anchor-id="step-1-notify-us">Step 1: Notify Us</h4>
+<p><strong>Email:</strong></p>
+<pre><code>To: appointments@epipulse.org
+Subject: Cancel Appointment - [Your Appointment ID]
+
+I would like to cancel my appointment.
+Appointment ID: [Your ID]
+Date: [Appointment date]
+Reason (Optional): [Your reason]
+
+Thank you,
+[Your Name]
+[Your Phone]</code></pre>
+<p><strong>Phone/WhatsApp:</strong> - Call or message: [Your phone number] - Say: “I want to cancel my appointment” - Mention your Appointment ID</p>
+</section>
+<section id="step-2-confirmation-1" class="level4">
+<h4 class="anchored" data-anchor-id="step-2-confirmation-1">Step 2: Confirmation</h4>
+<ul>
+<li>You’ll receive cancellation confirmation</li>
+<li>No charge if cancelled within 24 hours</li>
+<li>You can rebook anytime</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="no-show-policy" class="level2">
+<h2 class="anchored" data-anchor-id="no-show-policy">No-Show Policy</h2>
+<section id="what-is-a-no-show" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-no-show">What is a “No-Show”?</h3>
+<ul>
+<li>Booking an appointment but not joining the meeting</li>
+<li>Not informing us of cancellation</li>
+<li>Failure to join within 15 minutes of scheduled time</li>
+</ul>
+</section>
+<section id="no-show-consequences" class="level3">
+<h3 class="anchored" data-anchor-id="no-show-consequences">No-Show Consequences</h3>
+<p><strong>First No-Show:</strong> - ⚠️ Warning email sent - Contact to discuss issues - Opportunity to explain</p>
+<p><strong>Second No-Show:</strong> - 🚫 Booking privileges suspended for 30 days - Must contact us to resume booking</p>
+<p><strong>Third No-Show:</strong> - ⛔ Account may be restricted - Must speak with management to reinstate</p>
+</section>
+<section id="avoid-no-shows" class="level3">
+<h3 class="anchored" data-anchor-id="avoid-no-shows">Avoid No-Shows</h3>
+<ul>
+<li>✅ Mark appointment on your calendar</li>
+<li>✅ Set reminder 1 day before</li>
+<li>✅ Set reminder 1 hour before</li>
+<li>✅ Test internet morning of appointment</li>
+<li>✅ Complete all preparations before time</li>
+<li>✅ Notify us 24+ hours in advance if you need to cancel</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="appointment-status-explained" class="level2">
+<h2 class="anchored" data-anchor-id="appointment-status-explained">Appointment Status Explained</h2>
+<section id="status-types" class="level3">
+<h3 class="anchored" data-anchor-id="status-types">Status Types</h3>
+<p><strong>PENDING</strong> 🟡 - Your appointment request received - Awaiting final confirmation - We’ll contact you within 24 hours - <strong>Action</strong>: Confirm you can attend</p>
+<p><strong>CONFIRMED</strong> 🟢 - Appointment is confirmed - You have the Google Meet link - Doctor is assigned - <strong>Action</strong>: Prepare and join on time</p>
+<p><strong>IN PROGRESS</strong> 🔵 - Consultation is happening now - Doctor is online and waiting - Join the Google Meet meeting - <strong>Action</strong>: Click the Meet link</p>
+<p><strong>COMPLETED</strong> ✅ - Consultation finished - Prescription sent via email - Consultation notes forwarded - <strong>Action</strong>: Follow medical advice</p>
+<p><strong>CANCELLED</strong> ❌ - Appointment was cancelled - No charge if cancelled 24hrs before - You can rebook anytime - <strong>Action</strong>: Book new appointment</p>
+<p><strong>NO-SHOW</strong> 🚫 - You didn’t join the meeting - Doctor waited but consultation didn’t happen - May affect future bookings - <strong>Action</strong>: Contact us to explain</p>
+<hr>
+</section>
+</section>
+<section id="appointment-reminders" class="level2">
+<h2 class="anchored" data-anchor-id="appointment-reminders">Appointment Reminders</h2>
+<section id="email-reminders" class="level3">
+<h3 class="anchored" data-anchor-id="email-reminders">Email Reminders</h3>
+<p>We send: - <strong>7 days before</strong>: Appointment reminder with details - <strong>1 day before</strong>: Final confirmation with Meet link - <strong>30 minutes before</strong>: Join reminder with link - <strong>After appointment</strong>: Follow-up with prescription</p>
+</section>
+<section id="sms-reminders" class="level3">
+<h3 class="anchored" data-anchor-id="sms-reminders">SMS Reminders</h3>
+<ul>
+<li><strong>1 day before</strong>: Text with appointment time</li>
+<li><strong>1 hour before</strong>: Text with Meet link</li>
+<li><strong>After appointment</strong>: Prescription delivery notification</li>
+</ul>
+</section>
+<section id="set-your-own-reminders" class="level3">
+<h3 class="anchored" data-anchor-id="set-your-own-reminders">Set Your Own Reminders</h3>
+<p><strong>Google Calendar:</strong> 1. Add appointment to your calendar 2. Set reminder 1 day before 3. Set reminder 30 minutes before 4. Sync across devices</p>
+<p><strong>Phone Alarm:</strong> 1. Create alarm on day of appointment 2. Set 1 hour before appointment time 3. Set description with Meet link</p>
+<hr>
+</section>
+</section>
+<section id="track-multiple-appointments" class="level2">
+<h2 class="anchored" data-anchor-id="track-multiple-appointments">Track Multiple Appointments</h2>
+<p>If you have multiple upcoming appointments:</p>
+<section id="view-all-appointments" class="level3">
+<h3 class="anchored" data-anchor-id="view-all-appointments">View All Appointments</h3>
+<ul>
+<li>Email: appointments@epipulse.org with subject “View my appointments”</li>
+<li>Phone/WhatsApp: Call and ask for your appointment list</li>
+<li>Include your phone number and email for quick lookup</li>
+</ul>
+</section>
+<section id="appointment-dashboard-coming-soon" class="level3">
+<h3 class="anchored" data-anchor-id="appointment-dashboard-coming-soon">Appointment Dashboard (Coming Soon)</h3>
+<ul>
+<li>Login to patient portal</li>
+<li>View all past and upcoming appointments</li>
+<li>Download prescriptions and reports</li>
+<li>Message doctors directly</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="prescription-medical-records" class="level2">
+<h2 class="anchored" data-anchor-id="prescription-medical-records">Prescription &amp; Medical Records</h2>
+<section id="after-your-appointment" class="level3">
+<h3 class="anchored" data-anchor-id="after-your-appointment">After Your Appointment</h3>
+<p><strong>You’ll Receive:</strong> 1. <strong>Digital Prescription</strong> (via email) - Within 1 hour of consultation - Legally valid in India - Can be printed or show on phone</p>
+<ol start="2" type="1">
+<li><strong>Consultation Notes</strong> (via email)
+<ul>
+<li>Summary of consultation</li>
+<li>Diagnosis and treatment plan</li>
+<li>Follow-up instructions</li>
+</ul></li>
+<li><strong>Medical Records</strong> (archived)
+<ul>
+<li>Stored securely</li>
+<li>Accessible for future consultations</li>
+<li>Shareable with other doctors if needed</li>
+</ul></li>
+</ol>
+</section>
+<section id="request-medical-records" class="level3">
+<h3 class="anchored" data-anchor-id="request-medical-records">Request Medical Records</h3>
+<ul>
+<li>Email: records@epipulse.org</li>
+<li>Include your full name and phone number</li>
+<li>Specify which records you need</li>
+<li>Records provided within 24-48 hours</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="payment-billing" class="level2">
+<h2 class="anchored" data-anchor-id="payment-billing">Payment &amp; Billing</h2>
+<section id="accepted-payment-methods" class="level3">
+<h3 class="anchored" data-anchor-id="accepted-payment-methods">Accepted Payment Methods</h3>
+<ul>
+<li>Cash payment at center (if applicable)</li>
+<li>Bank transfer (account details provided)</li>
+<li>Digital payment (UPI - if available)</li>
+</ul>
+</section>
+<section id="billing-process" class="level3">
+<h3 class="anchored" data-anchor-id="billing-process">Billing Process</h3>
+<ol type="1">
+<li><strong>Before Appointment</strong>: Fee confirmed (non-refundable if cancelled &lt;24hrs)</li>
+<li><strong>After Booking</strong>: Invoice/receipt sent</li>
+<li><strong>At Consultation</strong>: Doctor confirms fee in meeting</li>
+<li><strong>After Appointment</strong>: Receipt and summary sent</li>
+</ol>
+</section>
+<section id="refund-policy" class="level3">
+<h3 class="anchored" data-anchor-id="refund-policy">Refund Policy</h3>
+<ul>
+<li>✅ Full refund if cancelled 24+ hours before</li>
+<li>❌ No refund if cancelled &lt;24 hours or no-show</li>
+<li>⏱️ Refund processed within 5-7 business days</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="special-situations" class="level2">
+<h2 class="anchored" data-anchor-id="special-situations">Special Situations</h2>
+<section id="for-first-time-patients" class="level3">
+<h3 class="anchored" data-anchor-id="for-first-time-patients">For First-Time Patients</h3>
+<ul>
+<li>Need to fill detailed health form</li>
+<li>May take 10-15 minutes extra for orientation</li>
+<li>Book accordingly with extra time</li>
+</ul>
+</section>
+<section id="for-emergency-cases" class="level3">
+<h3 class="anchored" data-anchor-id="for-emergency-cases">For Emergency Cases</h3>
+<ul>
+<li><strong>DO NOT</strong> use appointment system</li>
+<li><strong>Call immediately</strong>: 108 (NDMA Emergency)</li>
+<li>Go to nearest hospital</li>
+<li>Telemedicine is not for emergencies</li>
+</ul>
+</section>
+<section id="for-follow-up-consultations" class="level3">
+<h3 class="anchored" data-anchor-id="for-follow-up-consultations">For Follow-up Consultations</h3>
+<ul>
+<li>Same doctor recommended for continuity</li>
+<li>Can request same doctor during booking</li>
+<li>Previous records reviewed automatically</li>
+</ul>
+</section>
+<section id="for-corporategroup-bookings" class="level3">
+<h3 class="anchored" data-anchor-id="for-corporategroup-bookings">For Corporate/Group Bookings</h3>
+<ul>
+<li>Bulk appointment discounts available</li>
+<li>Contact: corporate@epipulse.org</li>
+<li>Minimum 10 people required</li>
+<li>Special time slots available</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="frequently-asked-questions" class="level2">
+<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently Asked Questions</h2>
+<p><strong>Q: Can I book multiple appointments at once?</strong> A: Yes, use the booking form multiple times or contact us for bulk booking.</p>
+<p><strong>Q: Can someone else attend my appointment?</strong> A: Family can be present, but consultation code is confidential to you.</p>
+<p><strong>Q: What if I’m late to join?</strong> A: Join within 15 minutes. After that, slot considered no-show.</p>
+<p><strong>Q: Can I reschedule multiple times?</strong> A: Yes, if done within 24 hours of each appointment.</p>
+<p><strong>Q: What if the doctor doesn’t show up?</strong> A: We’ll contact you within 15 minutes to reschedule. No charge.</p>
+<p><strong>Q: Can I get consultation in my language?</strong> A: Request during booking. Availability depends on doctor.</p>
+<p><strong>Q: Is my health information confidential?</strong> A: Yes, 100% confidential. Follows medical privacy laws.</p>
+<p><strong>Q: Can I share my appointment link with family?</strong> A: Not recommended. Your appointment is personal and confidential.</p>
+<hr>
+</section>
+<section id="contact-support" class="level2">
+<h2 class="anchored" data-anchor-id="contact-support">Contact &amp; Support</h2>
+<p><strong>Appointment Queries:</strong> - Email: appointments@epipulse.org - Phone: [Your phone number] - WhatsApp: [Your WhatsApp number] - Hours: 9 AM - 6 PM, Monday to Saturday</p>
+<p><strong>Medical Emergencies:</strong> - Call 108 (NDMA) - Go to nearest hospital - Do not wait for telemedicine appointment</p>
+<p><strong>Feedback &amp; Complaints:</strong> - Email: feedback@epipulse.org - We value your feedback - Complaints addressed within 48 hours</p>
+<hr>
+</section>
+<section id="ready-to-book" class="level2">
+<h2 class="anchored" data-anchor-id="ready-to-book">Ready to Book?</h2>
+<p><a href="book_appointment.qmd"><strong>Book Your Appointment</strong></a></p>
+<p><a href="./online_consultations.html"><strong>Join Your Consultation</strong></a></p>
+<hr>
+<p><strong>Your appointment management made simple. Your health, our priority.</strong></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>EpiPulse | Evidence to Action in Public Health</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./transparency.html">
+<p>Transparency</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./community.html">
+<p>Community</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./contact.html">
+<p>Contact</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
