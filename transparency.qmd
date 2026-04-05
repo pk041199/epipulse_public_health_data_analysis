@@ -91,22 +91,4 @@ Planned internal divisions include:
 - Audited statements: To be published after first statutory audit
 - Program utilization summaries: To be published after operations begin
 
-## Donation and Payment Status
-
-:::{.payment-box}
-### Donations Are Not Live Yet
-
-Official bank/UPI/QR payment details are intentionally not published until activation and compliance checks are complete.
-
-When ready, this section will include:
-
-- Account Name
-- Bank Name
-- Account Number
-- IFSC/SWIFT
-- UPI ID
-- Official QR
-- Donation confirmation contact
-:::
-
 For partnership and volunteering, visit [Contact](contact.qmd).

@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="View, reschedule, or cancel your EpiPulse appointments.">
 
-<title>Manage Your Appointments – EpiPulse</title>
+<title>Manage Appointments – EpiPulse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,14 +94,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About Us</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./programs.html"> 
-<span class="menu-text">Programs</span></a>
+        <li>
+    <a class="dropdown-item" href="./programs.html">
+ <span class="dropdown-text">Programs</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./impact.html">
+ <span class="dropdown-text">Impact</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Services</span>
@@ -128,27 +138,12 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./education_capacity_service.html">
  <span class="dropdown-text">Education &amp; Capacity Building</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-appointments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Appointments</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-appointments">    
         <li>
-    <a class="dropdown-item" href="https://epipulse-appointments-production.up.railway.app/">
+    <a class="dropdown-item" href="./book_appointment.html">
  <span class="dropdown-text">Book Appointment</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./impact.html"> 
-<span class="menu-text">Impact</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./volunteer.html"> 
-<span class="menu-text">Volunteer</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Resources</span>
@@ -188,20 +183,29 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./community.html"> 
-<span class="menu-text">Community</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-community" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Community</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-community">    
+        <li>
+    <a class="dropdown-item" href="./volunteer.html">
+ <span class="dropdown-text">Volunteer</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+        <li>
+    <a class="dropdown-item" href="./community.html">
+ <span class="dropdown-text">Community</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./transparency.html#donation-and-payment-status"> 
-<span class="menu-text">Support Us</span></a>
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./support_us.html">
+ <span class="dropdown-text">Support Us</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -218,10 +222,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#manage-your-appointments" id="toc-manage-your-appointments" class="nav-link active" data-scroll-target="#manage-your-appointments">Manage Your Appointments</a>
+  <li><a href="#appointment-management" id="toc-appointment-management" class="nav-link active" data-scroll-target="#appointment-management">Appointment Management</a>
   <ul class="collapse">
-  <li><a href="#view-or-manage-your-appointment" id="toc-view-or-manage-your-appointment" class="nav-link" data-scroll-target="#view-or-manage-your-appointment">View or Manage Your Appointment</a></li>
-  <li><a href="#appointment-support" id="toc-appointment-support" class="nav-link" data-scroll-target="#appointment-support">Appointment Support</a></li>
   <li><a href="#no-show-policy" id="toc-no-show-policy" class="nav-link" data-scroll-target="#no-show-policy">No-Show Policy</a>
   <ul class="collapse">
   <li><a href="#what-is-a-no-show" id="toc-what-is-a-no-show" class="nav-link" data-scroll-target="#what-is-a-no-show">What is a “No-Show”?</a></li>
@@ -273,14 +275,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Manage Your Appointments</h1>
+<h1 class="title">Manage Appointments</h1>
 </div>
 
-<div>
-  <div class="description">
-    View, reschedule, or cancel your EpiPulse appointments.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -295,24 +292,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="manage-your-appointments" class="level1">
-<h1>Manage Your Appointments</h1>
-<section id="view-or-manage-your-appointment" class="level3">
-<h3 class="anchored" data-anchor-id="view-or-manage-your-appointment">View or Manage Your Appointment</h3>
-<p>To check your appointment status, reschedule, or cancel:</p>
-<p><strong><a href="https://epipulse-appointments.railway.app/">Go to Appointment Management</a></strong></p>
-<hr>
-</section>
-<section id="appointment-support" class="level2">
-<h2 class="anchored" data-anchor-id="appointment-support">Appointment Support</h2>
-<p>If you need help with your appointment:</p>
-<ul>
-<li><strong>Email</strong>: appointments@epipulse.org</li>
-<li><strong>Phone</strong>: [Your Contact Number]</li>
-<li><strong>WhatsApp</strong>: [Your WhatsApp Number]</li>
-</ul>
-<hr>
-<p><strong>For booking a new appointment:</strong> <a href="./book_appointment.html">Book Appointment</a> - Appointment ID: [From your confirmation] - Date: [Current date] - Time: [Current time] - Doctor: [Doctor name]</p>
+<section id="appointment-management" class="level1">
+<h1>Appointment Management</h1>
+<p>For managing your appointments, please visit our main appointments page.</p>
+<p><strong><a href="./book_appointment.html">Go to Appointments</a></strong> - Appointment ID: [From your confirmation] - Date: [Current date] - Time: [Current time] - Doctor: [Doctor name]</p>
 <p>Preferred New Date: [Your preference] Preferred New Time: [Your preference] Reason (Optional): [Why you’re rescheduling]</p>
 <p>Contact Details: - Name: [Your name] - Phone: [Your phone] - Email: [Your email]</p>
 <p>Thank you, [Your Name]</p>
@@ -356,7 +339,6 @@ ul.task-list li input[type="checkbox"] {
 <li>You can rebook anytime</li>
 </ul>
 <hr>
-</section>
 </section>
 <section id="no-show-policy" class="level2">
 <h2 class="anchored" data-anchor-id="no-show-policy">No-Show Policy</h2>
@@ -989,13 +971,8 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./community.html">
-<p>Community</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
-<p>Contact</p>
+    <a class="nav-link" href="./support_us.html">
+<p>Support Us</p>
 </a>
   </li>  
 </ul>

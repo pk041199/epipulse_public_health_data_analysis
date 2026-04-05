@@ -1,62 +1,140 @@
 ---
-title: "Book Your Appointment"
-description: "Schedule a consultation with EpiPulse professionals through our secure online booking system."
+title: "Appointments & Consultations"
+description: "Book healthcare appointments and online consultations with EpiPulse professionals."
 ---
 
-# Book Your Appointment
+# Appointments & Consultations
 
-Schedule a consultation with EpiPulse professionals through our online booking platform.
+Schedule healthcare appointments and online consultations with EpiPulse professionals through our secure booking system.
 
-## Quick Booking Guide
+## Book Your Appointment
 
-### To Schedule Your Appointment:
+Access our comprehensive appointment booking system for all healthcare services.
 
-1. **Click the Booking Link** below
-2. **Select Your Service** - Choose the type of consultation you need
-3. **Pick Your Time** - Browse available slots
-4. **Confirm Details** - Enter your information
-5. **Get Confirmation** - Receive details via email/SMS
-
-[**Open Appointment Booking System**](https://epipulse-appointments.railway.app/)
+**[📅 Open Appointment Booking System](https://epipulse-appointments-production.up.railway.app/)**
 
 ---
 
-## What to Expect
+## What We Offer
 
-### Before Your Appointment
-- Receive appointment confirmation with date, time, and provider details
-- Get Google Meet link if it's an online consultation
-- Choose a quiet, private space for your consultation
-- Have any relevant medical documents ready
+### General Healthcare Services
+- **Primary Care Consultations** - General health check-ups and common illness management
+- **Specialist Consultations** - NCD care, maternal health, pediatric care, and more
+- **Preventive Care** - Health screenings and wellness consultations
+- **Online Consultations** - Secure video consultations via Google Meet
 
-### During Your Appointment
-- Connect on time via the provided link (for online consultations)
-- Discuss your health concerns with the professional
-- Receive guidance and recommendations
-- Ask clarifying questions
-
-### After Your Appointment
-- Receive digital prescription/recommendations via email
-- Get follow-up instructions
-- Get referrals if needed
-- Appointment summary and notes
+### Service Categories
+- General OPD consultations
+- NCD (Non-Communicable Diseases) management
+- Maternal and child health services
+- Mental health and deaddiction support
+- Health education and counseling
 
 ---
 
-## Common Questions
+## How Appointments Work
 
-**Can I reschedule or cancel?**  
-Yes, up to 24 hours before your appointment time. Contact us or use the booking system.
+### Step 1: Book Online
+- Visit our booking system
+- Select your preferred service and time slot
+- Provide your contact and health information
+- Receive instant confirmation
 
-**What if it's an online consultation?**  
-You'll receive a Google Meet link. Join at your scheduled time from any device with internet.
+### Step 2: Prepare for Your Visit
+- Get appointment details via email/SMS
+- For online consultations: Receive Google Meet link
+- Prepare any relevant medical documents
+- Ensure stable internet connection (for online visits)
 
-**Will my information be kept private?**  
-Yes, all consultations are confidential and secure.
+### Step 3: Consultation
+- Join at scheduled time
+- Discuss health concerns with healthcare professional
+- Receive personalized advice and recommendations
+- Ask questions and get clarifications
 
-**Need Help?**  
-Contact: appointments@epipulse.org
+### Step 4: Follow-up
+- Receive digital prescription via email
+- Get follow-up instructions and referrals
+- Access consultation summary and notes
 
 ---
 
-**[Start Booking Now](https://epipulse-appointments.railway.app/)**
+## Online Consultation Details
+
+### Technology Requirements
+- **Device**: Computer, tablet, or smartphone
+- **Internet**: Minimum 2 Mbps stable connection
+- **Browser**: Chrome, Safari, Firefox, or Edge (latest version)
+- **Permissions**: Camera and microphone access
+
+### Before Your Online Consultation
+- Test your internet connection and device
+- Find a quiet, private space
+- Ensure adequate lighting
+- Have medical documents ready
+- Join 5-10 minutes early
+
+### During Your Consultation
+- Connect via secure Google Meet link
+- Professional video consultation
+- Confidential and secure communication
+- Real-time health guidance
+
+---
+
+## Appointment Policies
+
+### Scheduling
+- **Advance Booking**: Book up to 30 days in advance
+- **Same-day**: Limited slots available
+- **Emergency**: Contact directly for urgent needs
+
+### Rescheduling & Cancellation
+- **Free Cancellation**: Up to 24 hours before appointment
+- **Rescheduling**: Contact us or use booking system
+- **No-show Policy**: Late cancellation fees may apply
+
+### Fees & Payment
+- **Consultation Fees**: ₹200 - ₹500 (varies by service)
+- **Payment Methods**: UPI, cards, bank transfer, cash
+- **Insurance**: Check with your provider for coverage
+
+---
+
+## Contact & Support
+
+### For Appointment Help
+- **Email**: appointments@epipulse.org
+- **Phone**: [Your contact number]
+- **WhatsApp**: [Your WhatsApp number]
+- **Hours**: Monday-Saturday, 9 AM - 6 PM
+
+### Technical Support
+- **Online Consultation Issues**: Check browser compatibility
+- **Booking System Problems**: Refresh page or clear cache
+- **Connectivity Issues**: Ensure stable internet connection
+
+---
+
+## Frequently Asked Questions
+
+**How do I book an appointment?**  
+Click the booking link above and follow the online process.
+
+**What if I need to reschedule?**  
+Contact us up to 24 hours before your appointment.
+
+**Are online consultations secure?**  
+Yes, we use encrypted Google Meet for all online consultations.
+
+**Do I need to prepare anything?**  
+Have your medical history and current symptoms ready.
+
+**What languages are supported?**  
+English, Hindi, and regional languages as available.
+
+---
+
+**[Start Booking Your Appointment Now](https://epipulse-appointments-production.up.railway.app/)**
+
+*All consultations are confidential and follow medical privacy standards.*

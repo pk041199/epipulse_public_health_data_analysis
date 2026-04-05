@@ -1,0 +1,47 @@
+---
+title: "Support Us"
+format:
+  html:
+    toc: true
+---
+
+## Support EpiPulse
+
+Your support helps us advance evidence-based public health initiatives in India and beyond. We are committed to transparency and accountability in all our operations.
+
+## Current Status
+
+EpiPulse is in an early setup phase. Public programs, audited impact numbers, and live donation channels are being prepared and will be published only after formal activation.
+
+## Donation and Payment Status
+
+:::{.payment-box}
+### Donations Are Not Live Yet
+
+Official bank/UPI/QR payment details are intentionally not published until activation and compliance checks are complete.
+
+When ready, this section will include:
+
+- Account Name
+- Bank Name
+- Account Number
+- IFSC/SWIFT
+- UPI ID
+- Official QR
+- Donation confirmation contact
+:::
+
+## Ways to Support
+
+### 1. Volunteer Your Expertise
+Join our community of public health professionals. Visit our [Volunteer](volunteer.qmd) page to learn about opportunities.
+
+### 2. Partnership Opportunities
+Organizations interested in collaboration can reach out through our [Contact](contact.qmd) page.
+
+### 3. Stay Connected
+Follow our work and join our [Community](community.qmd) for updates and discussions.
+
+## Transparency and Accountability
+
+We maintain full transparency in our operations. Visit our [Transparency](transparency.qmd) page to learn about our governance, legal structure, and future reporting plans.

@@ -10,10 +10,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
-      - href: programs.qmd
-        text: Programs
+      - text: About
+        menu:
+          - href: about.qmd
+            text: About Us
+          - href: programs.qmd
+            text: Programs
+          - href: impact.qmd
+            text: Impact
       - text: Services
         menu:
           - href: health_data_analysis_service.qmd
@@ -26,14 +30,8 @@ website:
             text: Environmental & Occupational Health
           - href: education_capacity_service.qmd
             text: Education & Capacity Building
-      - text: Appointments
-        menu:
-          - href: https://epipulse-appointments-production.up.railway.app/
+          - href: book_appointment.qmd
             text: Book Appointment
-      - href: impact.qmd
-        text: Impact
-      - href: volunteer.qmd
-        text: Volunteer
       - text: Resources
         menu:
           - href: caregrid.qmd
@@ -52,22 +50,23 @@ website:
             text: SRMA Tutorial
           - href: railway_setup.qmd
             text: Technical Documentation
-      - href: community.qmd
-        text: Community
-      - href: contact.qmd
-        text: Contact
-    right:
-      - href: transparency.qmd#donation-and-payment-status
-        text: Support Us
+      - text: Community
+        menu:
+          - href: volunteer.qmd
+            text: Volunteer
+          - href: community.qmd
+            text: Community
+          - href: contact.qmd
+            text: Contact
+          - href: support_us.qmd
+            text: Support Us
   page-footer:
     left: "EpiPulse | Evidence to Action in Public Health"
     right:
       - href: transparency.qmd
         text: Transparency
-      - href: community.qmd
-        text: Community
-      - href: contact.qmd
-        text: Contact
+      - href: support_us.qmd
+        text: Support Us
 
 format:
   html:

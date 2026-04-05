@@ -1,53 +1,13 @@
 ---
-title: "Online Consultations via Google Meet"
-description: "EpiPulse online healthcare consultations through secure Google Meet video conferencing."
+title: "Online Consultations"
+redirect: "book_appointment.qmd"
 ---
 
-# Online Consultations via Google Meet
+# Online Consultations
 
-EpiPulse provides secure, accessible healthcare consultations through Google Meet, allowing you to connect with healthcare professionals from home.
+For booking online consultations, please visit our appointments page.
 
-## How Online Consultations Work
-
-### Before Your Consultation
-- Ensure you have a stable internet connection
-- Find a quiet, private space
-- Have any relevant medical documents/reports ready
-- Join 5-10 minutes before the scheduled time
-
-### During Your Consultation
-- You'll connect via a secure Google Meet video link
-- Discuss your health concerns with your healthcare provider
-- Ask questions and get personalized guidance
-- Receive recommendations and next steps
-
-### After Your Consultation
-- Get a digital prescription via email
-- Receive follow-up instructions
-- Get any referrals if needed
-- Have your consultation summary for reference
-
----
-
-## Getting Started
-
-**To book an online consultation:**
-
-[**Book Your Appointment**](book_appointment.qmd)
-
----
-
-## Technology Setup
-
-### Minimum Requirements
-- Device: Computer, tablet, or smartphone
-- Internet: Minimum 2 Mbps connection
-- Browser: Chrome, Safari, Firefox, or Edge (latest version)
-- Permissions: Camera and microphone access
-
-### No Special Software Needed
-- Google Meet works directly in your web browser
-- No need to install additional applications
+**[Book Online Consultation](book_appointment.qmd)**
 - Works on Windows, Mac, iOS, and Android
 
 ---

@@ -94,14 +94,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About Us</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./programs.html"> 
-<span class="menu-text">Programs</span></a>
+        <li>
+    <a class="dropdown-item" href="./programs.html">
+ <span class="dropdown-text">Programs</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./impact.html">
+ <span class="dropdown-text">Impact</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Services</span>
@@ -127,27 +138,12 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./education_capacity_service.html">
  <span class="dropdown-text">Education &amp; Capacity Building</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-appointments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Appointments</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-appointments">    
         <li>
-    <a class="dropdown-item" href="https://epipulse-appointments-production.up.railway.app/">
+    <a class="dropdown-item" href="./book_appointment.html">
  <span class="dropdown-text">Book Appointment</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./impact.html"> 
-<span class="menu-text">Impact</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./volunteer.html"> 
-<span class="menu-text">Volunteer</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Resources</span>
@@ -187,20 +183,29 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="./community.html" aria-current="page"> 
-<span class="menu-text">Community</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-community" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Community</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-community">    
+        <li>
+    <a class="dropdown-item" href="./volunteer.html">
+ <span class="dropdown-text">Volunteer</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+        <li>
+    <a class="dropdown-item" href="./community.html">
+ <span class="dropdown-text">Community</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./transparency.html#donation-and-payment-status"> 
-<span class="menu-text">Support Us</span></a>
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./support_us.html">
+ <span class="dropdown-text">Support Us</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -697,13 +702,8 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./community.html">
-<p>Community</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
-<p>Contact</p>
+    <a class="nav-link" href="./support_us.html">
+<p>Support Us</p>
 </a>
   </li>  
 </ul>

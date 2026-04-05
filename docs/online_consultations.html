@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="EpiPulse online healthcare consultations through secure Google Meet video conferencing.">
 
-<title>Online Consultations via Google Meet – EpiPulse</title>
+<title>Online Consultations – EpiPulse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,14 +94,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About Us</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./programs.html"> 
-<span class="menu-text">Programs</span></a>
+        <li>
+    <a class="dropdown-item" href="./programs.html">
+ <span class="dropdown-text">Programs</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./impact.html">
+ <span class="dropdown-text">Impact</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Services</span>
@@ -128,27 +138,12 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./education_capacity_service.html">
  <span class="dropdown-text">Education &amp; Capacity Building</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-appointments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Appointments</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-appointments">    
         <li>
-    <a class="dropdown-item" href="https://epipulse-appointments-production.up.railway.app/">
+    <a class="dropdown-item" href="./book_appointment.html">
  <span class="dropdown-text">Book Appointment</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./impact.html"> 
-<span class="menu-text">Impact</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./volunteer.html"> 
-<span class="menu-text">Volunteer</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Resources</span>
@@ -188,20 +183,29 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./community.html"> 
-<span class="menu-text">Community</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-community" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Community</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-community">    
+        <li>
+    <a class="dropdown-item" href="./volunteer.html">
+ <span class="dropdown-text">Volunteer</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+        <li>
+    <a class="dropdown-item" href="./community.html">
+ <span class="dropdown-text">Community</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./transparency.html#donation-and-payment-status"> 
-<span class="menu-text">Support Us</span></a>
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./support_us.html">
+ <span class="dropdown-text">Support Us</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -218,20 +222,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#online-consultations-via-google-meet" id="toc-online-consultations-via-google-meet" class="nav-link active" data-scroll-target="#online-consultations-via-google-meet">Online Consultations via Google Meet</a>
+  <li><a href="#online-consultations" id="toc-online-consultations" class="nav-link active" data-scroll-target="#online-consultations">Online Consultations</a>
   <ul class="collapse">
-  <li><a href="#how-online-consultations-work" id="toc-how-online-consultations-work" class="nav-link" data-scroll-target="#how-online-consultations-work">How Online Consultations Work</a>
-  <ul class="collapse">
-  <li><a href="#before-your-consultation" id="toc-before-your-consultation" class="nav-link" data-scroll-target="#before-your-consultation">Before Your Consultation</a></li>
-  <li><a href="#during-your-consultation" id="toc-during-your-consultation" class="nav-link" data-scroll-target="#during-your-consultation">During Your Consultation</a></li>
-  <li><a href="#after-your-consultation" id="toc-after-your-consultation" class="nav-link" data-scroll-target="#after-your-consultation">After Your Consultation</a></li>
-  </ul></li>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
-  <li><a href="#technology-setup" id="toc-technology-setup" class="nav-link" data-scroll-target="#technology-setup">Technology Setup</a>
-  <ul class="collapse">
-  <li><a href="#minimum-requirements" id="toc-minimum-requirements" class="nav-link" data-scroll-target="#minimum-requirements">Minimum Requirements</a></li>
-  <li><a href="#no-special-software-needed" id="toc-no-special-software-needed" class="nav-link" data-scroll-target="#no-special-software-needed">No Special Software Needed</a></li>
-  </ul></li>
   <li><a href="#support" id="toc-support" class="nav-link" data-scroll-target="#support">Support</a>
   <ul class="collapse">
   <li><a href="#supported-devices" id="toc-supported-devices" class="nav-link" data-scroll-target="#supported-devices">Supported Devices</a></li>
@@ -241,7 +233,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#for-better-consultation" id="toc-for-better-consultation" class="nav-link" data-scroll-target="#for-better-consultation">For Better Consultation</a></li>
   </ul></li>
-  <li><a href="#before-your-consultation-1" id="toc-before-your-consultation-1" class="nav-link" data-scroll-target="#before-your-consultation-1">Before Your Consultation</a>
+  <li><a href="#before-your-consultation" id="toc-before-your-consultation" class="nav-link" data-scroll-target="#before-your-consultation">Before Your Consultation</a>
   <ul class="collapse">
   <li><a href="#checklist" id="toc-checklist" class="nav-link" data-scroll-target="#checklist">Checklist</a></li>
   <li><a href="#internet-speed-test" id="toc-internet-speed-test" class="nav-link" data-scroll-target="#internet-speed-test">Internet Speed Test</a></li>
@@ -272,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#policy" id="toc-policy" class="nav-link" data-scroll-target="#policy">Policy</a></li>
   <li><a href="#how-to-cancelreschedule" id="toc-how-to-cancelreschedule" class="nav-link" data-scroll-target="#how-to-cancelreschedule">How to Cancel/Reschedule</a></li>
   </ul></li>
-  <li><a href="#after-your-consultation-1" id="toc-after-your-consultation-1" class="nav-link" data-scroll-target="#after-your-consultation-1">After Your Consultation</a>
+  <li><a href="#after-your-consultation" id="toc-after-your-consultation" class="nav-link" data-scroll-target="#after-your-consultation">After Your Consultation</a>
   <ul class="collapse">
   <li><a href="#follow-up-steps" id="toc-follow-up-steps" class="nav-link" data-scroll-target="#follow-up-steps">Follow-up Steps</a></li>
   </ul></li>
@@ -288,14 +280,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Online Consultations via Google Meet</h1>
+<h1 class="title">Online Consultations</h1>
 </div>
 
-<div>
-  <div class="description">
-    EpiPulse online healthcare consultations through secure Google Meet video conferencing.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -310,67 +297,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="online-consultations-via-google-meet" class="level1">
-<h1>Online Consultations via Google Meet</h1>
-<p>EpiPulse provides secure, accessible healthcare consultations through Google Meet, allowing you to connect with healthcare professionals from home.</p>
-<section id="how-online-consultations-work" class="level2">
-<h2 class="anchored" data-anchor-id="how-online-consultations-work">How Online Consultations Work</h2>
-<section id="before-your-consultation" class="level3">
-<h3 class="anchored" data-anchor-id="before-your-consultation">Before Your Consultation</h3>
-<ul>
-<li>Ensure you have a stable internet connection</li>
-<li>Find a quiet, private space</li>
-<li>Have any relevant medical documents/reports ready</li>
-<li>Join 5-10 minutes before the scheduled time</li>
-</ul>
-</section>
-<section id="during-your-consultation" class="level3">
-<h3 class="anchored" data-anchor-id="during-your-consultation">During Your Consultation</h3>
-<ul>
-<li>You’ll connect via a secure Google Meet video link</li>
-<li>Discuss your health concerns with your healthcare provider</li>
-<li>Ask questions and get personalized guidance</li>
-<li>Receive recommendations and next steps</li>
-</ul>
-</section>
-<section id="after-your-consultation" class="level3">
-<h3 class="anchored" data-anchor-id="after-your-consultation">After Your Consultation</h3>
-<ul>
-<li>Get a digital prescription via email</li>
-<li>Receive follow-up instructions</li>
-<li>Get any referrals if needed</li>
-<li>Have your consultation summary for reference</li>
-</ul>
+<section id="online-consultations" class="level1">
+<h1>Online Consultations</h1>
+<p>For booking online consultations, please visit our appointments page.</p>
+<p><strong><a href="./book_appointment.html">Book Online Consultation</a></strong> - Works on Windows, Mac, iOS, and Android</p>
 <hr>
-</section>
-</section>
-<section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p><strong>To book an online consultation:</strong></p>
-<p><a href="./book_appointment.html"><strong>Book Your Appointment</strong></a></p>
-<hr>
-</section>
-<section id="technology-setup" class="level2">
-<h2 class="anchored" data-anchor-id="technology-setup">Technology Setup</h2>
-<section id="minimum-requirements" class="level3">
-<h3 class="anchored" data-anchor-id="minimum-requirements">Minimum Requirements</h3>
-<ul>
-<li>Device: Computer, tablet, or smartphone</li>
-<li>Internet: Minimum 2 Mbps connection</li>
-<li>Browser: Chrome, Safari, Firefox, or Edge (latest version)</li>
-<li>Permissions: Camera and microphone access</li>
-</ul>
-</section>
-<section id="no-special-software-needed" class="level3">
-<h3 class="anchored" data-anchor-id="no-special-software-needed">No Special Software Needed</h3>
-<ul>
-<li>Google Meet works directly in your web browser</li>
-<li>No need to install additional applications</li>
-<li>Works on Windows, Mac, iOS, and Android</li>
-</ul>
-<hr>
-</section>
-</section>
 <section id="support" class="level2">
 <h2 class="anchored" data-anchor-id="support">Support</h2>
 <p><strong>Having trouble joining your consultation?</strong></p>
@@ -451,8 +382,8 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 </section>
-<section id="before-your-consultation-1" class="level2">
-<h2 class="anchored" data-anchor-id="before-your-consultation-1">Before Your Consultation</h2>
+<section id="before-your-consultation" class="level2">
+<h2 class="anchored" data-anchor-id="before-your-consultation">Before Your Consultation</h2>
 <section id="checklist" class="level3">
 <h3 class="anchored" data-anchor-id="checklist">Checklist</h3>
 <ul class="task-list">
@@ -588,8 +519,8 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 </section>
-<section id="after-your-consultation-1" class="level2">
-<h2 class="anchored" data-anchor-id="after-your-consultation-1">After Your Consultation</h2>
+<section id="after-your-consultation" class="level2">
+<h2 class="anchored" data-anchor-id="after-your-consultation">After Your Consultation</h2>
 <section id="follow-up-steps" class="level3">
 <h3 class="anchored" data-anchor-id="follow-up-steps">Follow-up Steps</h3>
 <ol type="1">
@@ -1076,13 +1007,8 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./community.html">
-<p>Community</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
-<p>Contact</p>
+    <a class="nav-link" href="./support_us.html">
+<p>Support Us</p>
 </a>
   </li>  
 </ul>

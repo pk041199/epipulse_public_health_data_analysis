@@ -1,29 +1,13 @@
 ---
-title: "Manage Your Appointments"
-description: "View, reschedule, or cancel your EpiPulse appointments."
+title: "Manage Appointments"
+redirect: "book_appointment.qmd"
 ---
 
-# Manage Your Appointments
+# Appointment Management
 
-### View or Manage Your Appointment
+For managing your appointments, please visit our main appointments page.
 
-To check your appointment status, reschedule, or cancel:
-
-**[Go to Appointment Management](https://epipulse-appointments.railway.app/)**
-
----
-
-## Appointment Support
-
-If you need help with your appointment:
-
-- **Email**: appointments@epipulse.org
-- **Phone**: [Your Contact Number]
-- **WhatsApp**: [Your WhatsApp Number]
-
----
-
-**For booking a new appointment:** [Book Appointment](book_appointment.qmd)
+**[Go to Appointments](book_appointment.qmd)**
 - Appointment ID: [From your confirmation]
 - Date: [Current date]
 - Time: [Current time]
