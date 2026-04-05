@@ -1,0 +1,222 @@
+---
+title: "Volunteer with EpiPulse"
+description: "Join our team of dedicated volunteers making a difference in public health. Learn about volunteer opportunities, roles, and how to get involved."
+---
+
+# Volunteer with EpiPulse
+
+EpiPulse is a public health initiative committed to evidence-based action. We rely on passionate volunteers to help us achieve our mission of improving health outcomes through education, research, and community engagement.
+
+## Why Volunteer with Us?
+
+- **Make a Real Impact**: Contribute to meaningful public health projects that directly benefit communities
+- **Skill Development**: Gain experience in public health, research, communication, and project management
+- **Networking**: Connect with like-minded professionals and experts in the field
+- **Flexible Commitment**: Choose roles that fit your schedule and interests
+- **Recognition**: Get certificates and public acknowledgment for your contributions
+
+## Current Volunteer Opportunities
+
+We have several volunteer positions available. Each role has specific requirements, expectations, and benefits. Please review the details below and apply if you meet the eligibility criteria.
+
+### 1. Content Creator
+
+**Role Description**: Create educational content, blog posts, social media materials, and resources for our website and platforms.
+
+**Expectations**:
+- Produce 2-4 pieces of content per month
+- Research and fact-check information
+- Collaborate with the team on content strategy
+- Meet deadlines and quality standards
+
+**Benefits**:
+- Writing portfolio development
+- Public health knowledge enhancement
+- Byline credits on published work
+- Certificate of contribution
+
+**Eligibility Criteria**:
+- Strong writing and communication skills
+- Interest in public health topics
+- Access to computer and internet
+- Basic knowledge of public health concepts (preferred)
+
+### 2. Idea Contributor & Strategist
+
+**Role Description**: Provide innovative ideas for projects, campaigns, and initiatives. Help develop strategies for program implementation.
+
+**Expectations**:
+- Attend monthly brainstorming sessions
+- Submit 1-2 ideas per month
+- Participate in strategy discussions
+- Help refine and implement selected ideas
+
+**Benefits**:
+- Strategic thinking skills development
+- Leadership experience
+- Networking with team members
+- Certificate of contribution
+
+**Eligibility Criteria**:
+- Creative thinking and problem-solving skills
+- Interest in public health innovation
+- Good communication skills
+- Experience in project planning (preferred)
+
+### 3. Activity Coordinator
+
+**Role Description**: Organize and conduct community health activities, workshops, and awareness campaigns.
+
+**Expectations**:
+- Plan and execute 1-2 activities per quarter
+- Coordinate with local partners and stakeholders
+- Manage logistics and participant engagement
+- Report on activity outcomes
+
+**Benefits**:
+- Event management experience
+- Community engagement skills
+- Leadership opportunities
+- Certificate of contribution
+
+**Eligibility Criteria**:
+- Organizational and coordination skills
+- Experience with community work (preferred)
+- Good interpersonal skills
+- Access to local resources/networks
+
+### 4. IEC Materials Developer
+
+**Role Description**: Design and create Information, Education, and Communication (IEC) materials including posters, infographics, videos, and presentations.
+
+**Expectations**:
+- Create 2-3 IEC materials per month
+- Use design software (Canva, Adobe Suite, etc.)
+- Ensure materials are culturally appropriate and accessible
+- Collaborate with content creators and health experts
+
+**Benefits**:
+- Graphic design and multimedia skills
+- Portfolio development
+- Creative expression opportunities
+- Certificate of contribution
+
+**Eligibility Criteria**:
+- Basic design skills or willingness to learn
+- Access to design software
+- Understanding of health communication principles
+- Attention to detail
+
+### 5. Online OPD Consultant
+
+**Role Description**: Provide online consultations for patients through our telehealth platform. Guide patients on public health issues and basic medical advice.
+
+**Expectations**:
+- Conduct 4-8 consultation sessions per week
+- Maintain detailed consultation logs
+- Follow ethical guidelines and privacy standards
+- Refer complex cases to appropriate specialists
+
+**Benefits**:
+- Clinical experience and skill enhancement
+- Professional development in telehealth
+- Networking with healthcare professionals
+- Certificate of contribution and CME credits (if applicable)
+
+**Eligibility Criteria**:
+- Qualified healthcare professional (MBBS, Nursing, etc.)
+- Valid medical license
+- Experience in patient consultation
+- Comfortable with digital tools and online platforms
+
+### 6. OPD Channel Manager
+
+**Role Description**: Manage online OPD appointments, coordinate consultation schedules, and maintain patient records.
+
+**Expectations**:
+- Schedule and manage appointments
+- Coordinate with consultants and patients
+- Maintain accurate logs and records
+- Handle technical issues with the platform
+
+**Benefits**:
+- Administrative and coordination skills
+- Experience in healthcare management
+- Understanding of telehealth operations
+- Certificate of contribution
+
+**Eligibility Criteria**:
+- Strong organizational skills
+- Experience with scheduling software
+- Good communication skills
+- Basic understanding of healthcare processes
+
+## Online OPD Platform
+
+We're launching our online OPD service using Google Meet for video consultations. Here's how it works:
+
+### For Patients:
+1. **Book Appointment**: Use our online booking system to schedule a consultation
+2. **Receive Link**: Get a personalized Google Meet link via email/SMS
+3. **Join Consultation**: Connect at the scheduled time for your virtual appointment
+4. **Get Prescription**: Receive digital prescriptions and follow-up instructions
+
+### For Consultants:
+1. **Check Schedule**: View your assigned consultation slots
+2. **Join Meeting**: Use the provided Google Meet link
+3. **Consult**: Provide professional medical advice
+4. **Document**: Maintain detailed consultation logs
+
+### Technical Setup:
+- We're using a dedicated Google account for NGO activities
+- Google Meet links are embedded in our website for seamless access
+- Appointments are managed through an integrated calendar system
+
+## Prescription Management
+
+For digital prescriptions, we recommend the following approach:
+
+### Option 1: Digital Prescription Templates
+- Use standardized templates in Google Docs or Microsoft Word
+- Include patient details, diagnosis, medications, and instructions
+- Email prescriptions to patients with digital signatures
+
+### Option 2: Prescription Software Integration
+- Consider free/open-source prescription software
+- Integrate with our website for direct prescription generation
+- Ensure compliance with local medical regulations
+
+### Option 3: Partner with Telemedicine Platforms
+- Explore partnerships with established telemedicine services
+- Use their prescription management systems
+- Maintain data privacy and security
+
+We're currently evaluating the best option that complies with Indian medical regulations and our NGO's capabilities.
+
+## How to Apply
+
+Interested in volunteering? Here's how to get started:
+
+1. **Review Opportunities**: Read the role descriptions above
+2. **Prepare Application**: Send us your resume/CV and a brief cover letter
+3. **Contact Us**: Email volunteer@epipulse.org with your application
+4. **Interview**: We'll schedule a quick chat to discuss your interests
+5. **Orientation**: Join our volunteer orientation session
+6. **Get Started**: Begin contributing to our mission!
+
+## Volunteer Guidelines
+
+- **Commitment**: We expect consistent participation based on your agreed schedule
+- **Confidentiality**: All patient and organizational information must be kept confidential
+- **Ethics**: Follow ethical guidelines in all interactions
+- **Communication**: Regular updates and feedback are essential
+- **Professionalism**: Maintain professional conduct in all volunteer activities
+
+## Contact Information
+
+For volunteer inquiries:
+- Email: volunteer@epipulse.org
+- Phone: [Contact number]
+- Website: [Contact form link]
+
+Join us in making a difference in public health! Your skills and passion can help transform communities and save lives.

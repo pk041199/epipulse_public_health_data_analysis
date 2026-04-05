@@ -18,12 +18,16 @@ website:
         text: CareGrid App
       - href: impact.qmd
         text: Impact
+      - href: volunteer.qmd
+        text: Volunteer
       - text: Resources
         menu:
           - href: public_health_data_analysis.qmd
             text: Resource Hub
           - href: ai_with_r.qmd
             text: AI-assisted Data Cleaning Workflow
+          - href: srma_tutorial.qmd
+            text: SRMA Tutorial
           - href: public_health_data_analaysis.qmd
             text: Legacy Technical Draft
       - href: community.qmd

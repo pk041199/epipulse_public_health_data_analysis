@@ -1,0 +1,357 @@
+---
+title: "Systematic Review and Meta-Analysis (SRMA) Tutorial"
+description: "A step-by-step guide to conducting systematic reviews and meta-analyses in public health, with R code examples."
+---
+
+# Systematic Review and Meta-Analysis (SRMA) Tutorial
+
+This tutorial provides a comprehensive, step-by-step guide to conducting systematic reviews and meta-analyses (SRMA) in public health research. It follows the methodology outlined in the [Cochrane Handbook for Systematic Reviews of Interventions](https://training.cochrane.org/handbook).
+
+Systematic reviews involve a rigorous, transparent process to identify, evaluate, and synthesize all relevant studies on a particular topic. Meta-analysis is the statistical combination of results from multiple studies to provide a more precise estimate of effect.
+
+## Prerequisites
+
+Before starting, ensure you have R and RStudio installed. You'll need the following packages:
+
+```r
+install.packages(c("revtools", "dplyr", "stringr", "metagear", "meta", "metafor", "PRISMAstatement"))
+```
+
+# ================================
+# 1. Define Research Question and Protocol
+# ================================
+
+The first step is to clearly define your research question using the PICO framework:
+- **P**: Population
+- **I**: Intervention
+- **C**: Comparison
+- **O**: Outcome
+
+Develop a protocol that outlines your methods in advance to minimize bias.
+
+**R Code Example:**
+
+```r
+# Define PICO elements
+pico <- list(
+  population = "Adults with type 2 diabetes",
+  intervention = "Metformin therapy",
+  comparison = "Placebo or no treatment",
+  outcome = "HbA1c reduction"
+)
+
+# Print protocol summary
+cat("Research Question:\n")
+cat("In", pico$population, ", does", pico$intervention, "compared to", pico$comparison, "result in", pico$outcome, "?\n")
+```
+
+# ================================
+# 2. Develop Search Strategy
+# ================================
+
+Create a comprehensive search strategy for multiple databases (PubMed, Cochrane, Web of Science, etc.). Use Boolean operators and controlled vocabulary.
+
+**R Code Example:**
+
+```r
+library(dplyr)
+
+# Define search terms
+search_terms <- list(
+  population = c("diabetes mellitus, type 2", "type 2 diabetes"),
+  intervention = c("metformin", "glucophage"),
+  outcome = c("glycated hemoglobin", "HbA1c")
+)
+
+# Create search string
+create_search_string <- function(terms) {
+  paste(sapply(terms, function(x) paste0("(", paste(x, collapse = " OR "), ")")), collapse = " AND ")
+}
+
+search_string <- create_search_string(search_terms)
+cat("PubMed Search String:\n", search_string, "\n")
+```
+
+# ================================
+# 3. Import and Deduplicate References
+# ================================
+
+Import references from multiple sources and remove duplicates.
+
+**R Code Example:**
+
+```r
+library(revtools)
+library(dplyr)
+
+# Import RIS files from different databases
+pubmed_refs <- read_bibliography("pubmed_results.ris") %>% as.data.frame()
+cochrane_refs <- read_bibliography("cochrane_results.ris") %>% as.data.frame()
+
+# Combine all references
+all_refs <- bind_rows(pubmed_refs, cochrane_refs)
+
+# Find and remove duplicates
+deduped_refs <- find_duplicates(all_refs, match_variable = "title", group_variable = "source")
+
+cat("Original references:", nrow(all_refs), "\n")
+cat("After deduplication:", nrow(deduped_refs), "\n")
+```
+
+# ================================
+# 4. Screen Titles and Abstracts
+# ================================
+
+Use screening tools to assess eligibility based on titles and abstracts.
+
+**R Code Example:**
+
+```r
+library(metagear)
+
+# Create screening dataset
+screening_data <- data.frame(
+  title = deduped_refs$title,
+  abstract = deduped_refs$abstract,
+  stringsAsFactors = FALSE
+)
+
+# Launch abstract screener (interactive)
+# Note: This opens an interactive interface
+# abstract_screener(screening_data, title_column = "title", abstract_column = "abstract")
+
+# For demonstration, simulate screening results
+set.seed(123)
+screening_data$include <- sample(c(TRUE, FALSE), nrow(screening_data), prob = c(0.2, 0.8), replace = TRUE)
+
+included_abstracts <- screening_data %>% filter(include)
+cat("Studies included after abstract screening:", nrow(included_abstracts), "\n")
+```
+
+# ================================
+# 5. Full-Text Review
+# ================================
+
+Retrieve and review full texts of potentially eligible studies.
+
+**R Code Example:**
+
+```r
+# Assuming you have full-text PDFs in a directory
+full_text_dir <- "full_texts/"
+
+# List available PDFs
+pdf_files <- list.files(full_text_dir, pattern = "*.pdf", full.names = TRUE)
+
+# Simulate full-text screening results
+set.seed(456)
+full_text_data <- included_abstracts
+full_text_data$full_text_include <- sample(c(TRUE, FALSE), nrow(full_text_data), prob = c(0.8, 0.2), replace = TRUE)
+
+included_studies <- full_text_data %>% filter(full_text_include)
+cat("Studies included after full-text review:", nrow(included_studies), "\n")
+```
+
+# ================================
+# 6. Data Extraction
+# ================================
+
+Extract relevant data from included studies using standardized forms.
+
+**R Code Example:**
+
+```r
+# Create data extraction template
+extraction_template <- data.frame(
+  study_id = character(),
+  author_year = character(),
+  study_design = character(),
+  sample_size = numeric(),
+  intervention_mean = numeric(),
+  intervention_sd = numeric(),
+  control_mean = numeric(),
+  control_sd = numeric(),
+  stringsAsFactors = FALSE
+)
+
+# Simulate data extraction for included studies
+set.seed(789)
+extracted_data <- data.frame(
+  study_id = 1:nrow(included_studies),
+  author_year = paste("Author", 1:nrow(included_studies), "2020"),
+  study_design = sample(c("RCT", "Cohort", "Case-control"), nrow(included_studies), replace = TRUE),
+  sample_size = sample(50:200, nrow(included_studies), replace = TRUE),
+  intervention_mean = rnorm(nrow(included_studies), mean = -1.5, sd = 0.5),
+  intervention_sd = runif(nrow(included_studies), 0.5, 1.5),
+  control_mean = rnorm(nrow(included_studies), mean = -0.5, sd = 0.3),
+  control_sd = runif(nrow(included_studies), 0.3, 1.0)
+)
+
+print(head(extracted_data))
+```
+
+# ================================
+# 7. Risk of Bias Assessment
+# ================================
+
+Assess the risk of bias in included studies using tools like Cochrane's RoB 2.0.
+
+**R Code Example:**
+
+```r
+# Simulate risk of bias assessment
+bias_domains <- c("randomization", "allocation_concealment", "blinding", "incomplete_outcome", "selective_reporting")
+
+set.seed(101)
+bias_assessment <- data.frame(
+  study_id = extracted_data$study_id,
+  matrix(sample(c("Low", "High", "Unclear"), 
+                nrow(extracted_data) * length(bias_domains), 
+                replace = TRUE), 
+         nrow = nrow(extracted_data), 
+         dimnames = list(NULL, bias_domains))
+)
+
+# Calculate overall risk of bias
+bias_assessment$overall_bias <- apply(bias_assessment[, bias_domains], 1, 
+                                      function(x) ifelse(any(x == "High"), "High", 
+                                                         ifelse(any(x == "Unclear"), "Unclear", "Low")))
+
+print(table(bias_assessment$overall_bias))
+```
+
+# ================================
+# 8. Meta-Analysis
+# ================================
+
+Perform statistical synthesis of the results.
+
+**R Code Example:**
+
+```r
+library(meta)
+library(metafor)
+
+# Calculate effect sizes (mean difference)
+es_data <- escalc(measure = "MD", 
+                  m1i = extracted_data$intervention_mean, 
+                  sd1i = extracted_data$intervention_sd, 
+                  n1i = extracted_data$sample_size / 2,  # Assuming equal groups
+                  m2i = extracted_data$control_mean, 
+                  sd2i = extracted_data$control_sd, 
+                  n2i = extracted_data$sample_size / 2)
+
+# Fit random-effects model
+meta_model <- rma(yi = es_data$yi, vi = es_data$vi, method = "REML")
+
+# Print results
+summary(meta_model)
+
+# Create forest plot
+forest(meta_model, 
+       xlab = "Mean Difference in HbA1c", 
+       main = "Meta-Analysis of Metformin vs Control")
+```
+
+# ================================
+# 9. Assess Heterogeneity and Subgroup Analyses
+# ================================
+
+Investigate sources of heterogeneity and perform subgroup analyses.
+
+**R Code Example:**
+
+```r
+# Test for heterogeneity
+cat("Heterogeneity test:\n")
+cat("Q =", meta_model$QE, ", p =", meta_model$QEp, "\n")
+cat("I² =", meta_model$I2, "%\n")
+
+# Subgroup analysis by study design
+subgroup_model <- rma(yi = es_data$yi, vi = es_data$vi, 
+                      mods = ~ extracted_data$study_design, method = "REML")
+
+summary(subgroup_model)
+```
+
+# ================================
+# 10. Assess Publication Bias
+# ================================
+
+Check for publication bias using funnel plots and statistical tests.
+
+**R Code Example:**
+
+```r
+# Funnel plot
+funnel(meta_model, main = "Funnel Plot")
+
+# Egger's test for asymmetry
+regtest(meta_model)
+```
+
+# ================================
+# 11. Generate PRISMA Flow Diagram
+# ================================
+
+Create a PRISMA flow diagram to document the review process.
+
+**R Code Example:**
+
+```r
+library(PRISMAstatement)
+
+# Define PRISMA data
+prisma_data <- data.frame(
+  identification = c(records_identified = nrow(all_refs)),
+  screening = c(records_screened = nrow(deduped_refs), 
+                records_excluded = nrow(deduped_refs) - nrow(included_abstracts)),
+  eligibility = c(full_text_assessed = nrow(included_abstracts),
+                  full_text_excluded = nrow(included_abstracts) - nrow(included_studies),
+                  reasons_excluded = "Not meeting inclusion criteria"),
+  included = c(studies_included = nrow(included_studies))
+)
+
+# Generate PRISMA diagram
+prisma_diagram <- prisma(prisma_data)
+plot(prisma_diagram)
+```
+
+# ================================
+# 12. Report Results and Conclusions
+# ================================
+
+Compile all findings into a comprehensive report following PRISMA guidelines.
+
+**R Code Example:**
+
+```r
+# Generate summary statistics
+summary_stats <- data.frame(
+  total_studies = nrow(included_studies),
+  total_participants = sum(extracted_data$sample_size),
+  pooled_effect = meta_model$beta[,1],
+  ci_lower = meta_model$ci.lb,
+  ci_upper = meta_model$ci.ub,
+  heterogeneity_i2 = meta_model$I2,
+  publication_bias_p = regtest(meta_model)$pval
+)
+
+print(summary_stats)
+
+# Save results
+write.csv(extracted_data, "extracted_data.csv", row.names = FALSE)
+write.csv(bias_assessment, "bias_assessment.csv", row.names = FALSE)
+save(meta_model, file = "meta_analysis_model.RData")
+```
+
+## Additional Resources
+
+- [Cochrane Handbook for Systematic Reviews of Interventions](https://training.cochrane.org/handbook)
+- [PRISMA Statement](http://prisma-statement.org/)
+- [ROBIS Tool for assessing risk of bias in systematic reviews](https://www.bristol.ac.uk/population-health-sciences/centres/cresyda/centres-of-excellence/robis/)
+- R packages: `meta`, `metafor`, `revtools`, `metagear`, `PRISMAstatement`
+
+## Notes
+
+This tutorial provides a simplified overview. In practice, each step requires careful consideration and expertise. Always consult with methodologists and follow the latest guidelines. The R code examples are illustrative and may need adaptation for your specific research question and data.
