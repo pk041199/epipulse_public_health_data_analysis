@@ -1,0 +1,79 @@
+---
+title: "EpiPulse Journal"
+description: "Open access public health journal for medical students and emerging public health professionals."
+execute:
+  eval: false
+format:
+  html:
+    toc: true
+    number-sections: false
+---
+
+# EpiPulse Journal of Public Health and Medical Student Research
+
+EpiPulse Journal is an open access academic journal dedicated to public health, epidemiology, medical education, and applied research for medical students and early-career practitioners.
+
+## Journal name and identity
+
+- **Journal title**: *EpiPulse Journal of Public Health and Medical Student Research*
+- **Platform**: Open Journal Systems (OJS)
+- **Access**: openly available to authors, reviewers, editors, and readers
+- **Link**: [Open the journal platform](../epipulse-journal/)
+
+## Scope and aims
+
+EpiPulse Journal publishes original work that advances the evidence base for public health practice, policy, and education with a strong focus on:
+
+- Medical student research and case studies
+- Public health systems strengthening
+- Health equity, prevention, and community engagement
+- Implementation science and data-driven decision making
+- Health education, training, and capacity building
+
+### Aims
+
+1. Support medical students and early-career researchers to publish rigorous, peer-reviewed work.
+2. Promote open access knowledge that strengthens public health practice.
+3. Showcase applied research and student-led innovation for health systems.
+4. Build a transparent, ethical editorial process with strong academic oversight.
+
+## Article sections
+
+The journal is organized into clearly defined sections so authors and reviewers can connect with the right audience:
+
+- **Student Research** — empirical studies, pilot projects, and exploratory analyses.
+- **Case Reports & Practice** — real-world public health interventions, outbreak responses, and clinical-community case studies.
+- **Education & Training** — medical education, curriculum innovation, simulation, and learning science.
+- **Policy & Systems** — health systems, governance, policy analysis, and equity-focused action.
+- **Data & Innovation** — applied data science, health informatics, monitoring, evaluation, and digital health.
+
+## Editorial and review roles
+
+EpiPulse Journal uses a full editorial workflow to support quality and transparency:
+
+- **Editor-in-Chief**
+- **Section editors**
+- **Peer reviewers**
+- **Copyeditor / proofreader**
+- **Layout editor / typesetter**
+- **Journal manager / administrator**
+- **Technical support**
+
+This role set mirrors existing OJS workflows and prepares the journal for academic peer review and publication.
+
+## Publication model
+
+- Open access publishing with free online access to readers
+- Transparent peer review and author guidance
+- Clear ethical standards and editorial accountability
+- Support for medical student authors and early-stage researchers
+
+## Get started
+
+To explore the journal, submit work, or participate in review:
+
+- Open the journal platform: [EpiPulse Journal Portal](../epipulse-journal/)
+- Review the journal scope and author guidelines on the platform
+- Contact the EpiPulse team through [Contact](contact.qmd)
+
+> The EpiPulse Journal is built as a complementary academic publishing channel for the EpiPulse platform, focused on public health research, medical education, and evidence-based practice.
